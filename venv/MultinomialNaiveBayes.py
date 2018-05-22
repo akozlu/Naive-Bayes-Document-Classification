@@ -58,10 +58,8 @@ def get_tokens_from_category(category):
 
         stop_words = stopwords.words('english')  # filter out tokens that are stop words.
         words = [w for w in words if (w not in stop_words and len(w) != 1)]
-        # words = [lemmatizer.lemmatize(w) for w in words]
+      
         wnpos = lambda e: ('a' if e[0].lower() == 'j' else e[0].lower()) if e[0].lower() in ['n', 'r', 'v'] else 'n'
-        # words = [lemmatizer.lemmatize(w, pos=wnpos(pos_tag(w)[0][1])) for w in words if
-        #    (((pos_tag(w)[0][1])[0]) in ['J', 'N', 'R', 'V'])]
 
         V.append(words)
 
