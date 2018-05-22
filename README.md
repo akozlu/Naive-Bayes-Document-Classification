@@ -10,6 +10,7 @@ Implementation of several text classification systems using the naive Bayes algo
 | EM Supervised Learning (BinaryMultinomialNaiveBayes.py) | I used semi supervised learning to do document classification. The underlying algorithm I use is Naive Bayes with the B-BOW representation | 
 | Filtering Technique for EM  | top-k: Filter the top-k instances and augment them to the labeled data | 
 | Filtering Technique for EM | Threshold: Set  a  threshold.   Augment  those  instances  to  the  labeled  data  Thewithconfidence higher than this threshold| 
-| Filtering Technique for EM | Threshold: Set  a  threshold.   Augment  those  instances  to  the  labeled  data  Thewithconfidence higher than this threshold| 
-I initialized the EM algorithm with different percentages of the training data (%5, %10, %50). The parameter is denoted as **P**
+
+I initialized  EM algorithm with different percentages of the training data (%5, %10, %50). The parameter is denoted as **P**
+
 The training and testing accuracies and comparison of various representations can be found in the report. 
