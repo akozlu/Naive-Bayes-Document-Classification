@@ -1,0 +1,9 @@
+
+One of the rules for a permanent swap file is that it must be contiguous
+(non-fragmented) space.  I suspect that is more responsible for the
+difference than the amount of free disk, in your case.
+
+
+It depends on what you are running.  We had to increase our swap
+file (I think it is now 20MB) when some applications couldn't
+run without *everything* else closed.

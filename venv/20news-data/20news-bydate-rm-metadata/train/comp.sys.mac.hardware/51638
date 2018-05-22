@@ -1,0 +1,11 @@
+
+
+
+Dynamic RAM is not based on flip-flops; there's basically a single
+transistor and capacitor to store each bit!  Static RAM is based on
+flip-flops, and is much more expensive and much less dense.  And
+neither has any parts that "move", if electrons and thermal expansion
+are ignored...
+
+
+Chris

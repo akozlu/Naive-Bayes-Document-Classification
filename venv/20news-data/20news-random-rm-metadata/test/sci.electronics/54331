@@ -1,0 +1,13 @@
+
+Pretty high frequency for one chip...
+
+
+Yes and no. I would use the FM transmitter chip from Motorola (Linear and  
+Interface Databook), a stable cristal oscillator and a mixer (e.g. SBL-1 from  
+mini circuits lab). Everything is done in the FM chip and then mixed up with  
+the oscillator frequency. Just have a look at the ARRL Handbook. There are lots  
+of ideas in there about oscillators and mixing. I don't think, there are single  
+chip designs for such high frequencies yet.
+
+
+Cheers   Robert HB9NBY

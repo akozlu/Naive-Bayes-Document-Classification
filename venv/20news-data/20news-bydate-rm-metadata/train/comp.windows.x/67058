@@ -1,0 +1,5 @@
+Does XDM work with DECnet? I have an Ultrix machine running both TCP/IP
+and DECnet. I have a number of X-terminals hanging off the Ultrix host also
+running TCP/IP and DECnet. Presently I am using XDM for the login procedure
+on the X-terminals using TCP/IP. Since XDM is basically just an X-windows
+client, shouldn't I be able to run XDM on the DECnet protocol tower as well?

@@ -1,0 +1,10 @@
+
+Please don't misuse newsgroup hierarchy names as distributions.
+
+
+
+Yes, but it's not an attribute of the window; it's an attribute of the
+GC used to do the drawing.  Set the subwindow-mode to IncludeInferiors
+rather than the default ClipByChildren.
+
+					der Mouse

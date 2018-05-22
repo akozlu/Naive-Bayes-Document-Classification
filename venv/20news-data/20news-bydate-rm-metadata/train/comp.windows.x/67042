@@ -1,0 +1,17 @@
+
+Glad to hear that it's working for you!
+
+I couldn't find it on "export".  However, Simon Leinen
+<simon@liasun6.epfl.ch> has added an Imakefile and an Athena
+version, and made it available for FTP in the file
+liasun3.epfl.ch:/pub/X/contrib/xrpc.tar.z.  (Note the ".z"
+suffix; you'll need GNU gzip -- also on liasun3 in /pub/gnu --
+to uncompress it.)  
+
+If this doesn't work, send me a note and I'd be happy to mail you
+a copy; but you probably won't get it until the start of May --
+I'm on holidays as of tomorrow! :-)
+
+-- 
+Martin Janzen  janzen@mprgate.mpr.ca (134.87.131.13)
+MPR Teltech Ltd.  8999 Nelson Way  Burnaby, BC, CANADA  V5A 4B5

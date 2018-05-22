@@ -1,0 +1,8 @@
+
+Well, first you work out how much cold gas you need, then make the
+tanks big enough.
+
+Working out how much cold gas is another problem, depending on
+vehicle configuration, flight duration, thruster Isp (which couples
+into storage pressure, which may be a factor in selecting tank
+wall thickness etc.)

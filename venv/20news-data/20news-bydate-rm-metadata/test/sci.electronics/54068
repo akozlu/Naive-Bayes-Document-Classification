@@ -1,0 +1,12 @@
+
+
+
+I once wrote such a program (in BBC basic...) It was very crude, and took
+around 5 seconds to do an exhaustive search (with a small amount of 
+intelligence), and told you the best combination >Rq and the best below Rq.
+
+If you want to write one, just store the prefered values in an array, and
+then search the solution space using three nested loops. I'm sure you
+could knock this up in an hour.
+
+Christopher

@@ -1,0 +1,3 @@
+Using the usersub stuff in perl, you can incorporate things like curses for
+use in perl.  I was wondering if anyone had done this with X (preferably
+Motif), and if so, where I could get the source for it?

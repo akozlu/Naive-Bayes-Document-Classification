@@ -1,0 +1,10 @@
+
+The VL-IDE Adapter can be much faster then the normal IDE, it depends on the
+drive you use and the board you use. I am using a NoName VL-IDE I/O Contr.
+it is tested under coretest with 2.000 kb/s using a cheap Seagate 3196 and nearly
+4000 kb/s using a WD-Caviar 2340, you have figure out the jumper setting on the
+controller to get reliable diskaccess, fastest setting gets 4600 kb/s under Coretest
+but does not work reliable. You have to shadow the adapter BIOS to get the fast
+speed. I haven´t used a VL-IDE-Cache controller yet, but it might speed up twice.
+
+						dieter

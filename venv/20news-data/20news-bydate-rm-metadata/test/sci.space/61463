@@ -1,0 +1,12 @@
+
+If you're doing large-scale satellite servicing, being able to do it in
+a pressurized hangar makes considerable sense.  The question is whether
+anyone is going to be doing large-scale satellite servicing in the near
+future, to the point of justifying development of such a thing.
+
+
+You'd almost certainly use air.  Given that you have to pressurize with
+*something*, safety considerations strongly suggest making it breathable
+(even if the servicing crew is using oxygen masks for normal breathing,
+to avoid needing a ventilation system, it's nice if the hangar atmosphere
+is breathable in a pinch -- it makes mask functioning much less critical).

@@ -1,0 +1,11 @@
+10). 
+
+  A 256K DRAM chip is a 256 kilobit chip whereas a 256K SIMM is a 256
+kilobyte memory module. The SIMM is a PCB with a 30 pin connector edge
+and on the SIMM are 8 256 kilobit DRAM chips (making the total memory 256
+KBytes.
+ 
+  You are correct assuming that SIMMs will not fit into a LaserWriter.
+Apple printers either require 64 pin SIMMs like those in the Mac IIfx or
+special memory chips. Contact your Apple dealer to find out exactly what
+kind of chips you need.

@@ -1,0 +1,20 @@
+
+Not according to the NEC nor the CEC, as explained in the electrical wiring 
+FAQ, which I posted here separately.  Note the material under the headings
+
+
+and
+
+
+Of course, as they said -- "Local codes may vary". 
+
+
+I'm not sure about this.  If the ground connections on the outlets are
+connected to anything, they should be connected to a wire that runs back to the
+main panel, where it is bonded to the neutral connector and to the house ground
+rod.  A connection to a local earth ground would not necessarily meet one of
+the goals of the ground wire, which is that if a short develops from hot
+to the ground wire, enough current would flow to trip the breaker.  
+
+Hmmm.  How are those orange "isolated ground" outlets (often used in
+computer rooms) wired?  

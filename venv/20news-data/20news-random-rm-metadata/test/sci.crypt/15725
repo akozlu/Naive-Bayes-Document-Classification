@@ -1,0 +1,10 @@
+
+Reasonably fancy.
+
+Standard "voice" circuits run at 56kbps inter-exchange in the US.
+Therefore, you need to achieve 4:1 to get standard voice quality.
+
+If you're willing to give up some quality, you need only 2:1.  This is still
+acceptable from a speech standpoint; it will be a little less faithful to
+the original, but certainly intelligable.  That's all you really need for
+this application.

@@ -1,0 +1,37 @@
+
+
+
+
+
+It's the applications that do this.  Unfortunately, even the applets
+that ship with Win31 seem to have this problem (I've seen it in
+Solitaire, for example).  
+
+
+None that I know of.  If an application doesn't give back the
+resources, they are lost and gone forever, pending a restart of
+Windows. 
+
+
+If the applications don't free up the memory (and a lot of them
+don't), there's bugger all that any other piece of software can do
+about it.
+
+
+No.  This is a problem with the applications, usually.
+
+
+There are books written on this one.  In general, just be sure to free
+up everything that you ask for before you exit.  Unfortunately, I
+understand that VB will *internally* lose resources for you, so
+there's no way to avoid this entirely.
+
+
+
+There's little discussion because it's 'inevitable' until MS manages
+to come up with an OS that will do garbage collection or something on
+the resource pool.
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden

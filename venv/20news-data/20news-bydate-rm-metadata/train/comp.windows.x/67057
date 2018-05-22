@@ -1,0 +1,7 @@
+
+The shell is waiting for the window-manager to respond to its
+positioning request.  The window-manager is not responding because
+it thinks the window is already in the right place.
+
+Exactly *why* the two components get into this sulk is unclear to
+me; all information greatly received.

@@ -1,0 +1,21 @@
+
+I always use the following in my .[t]cshrc:
+
+...
+f ( $?LOGIN == 0 ) then
+   source $home/.login
+endif
+...
+
+and in .login:
+
+...
+setenv LOGIN 1
+...
+
+So I don't need to set all environment variables in my .cshrc, but they get
+set if I login via xdm or xon | xrsh | rx and so on.
+
+Hope this helps,
+
+Bernward

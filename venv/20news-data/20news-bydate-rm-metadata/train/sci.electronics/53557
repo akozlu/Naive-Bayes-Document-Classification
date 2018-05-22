@@ -1,0 +1,18 @@
+
+Heh, heh, heh, heh....I laugh because I have the same damn TV, and it
+did the same thing!  Actually it is a Goldstar, but it's essentially the
+same TV and electronics--just a different face plate and name.
+
+#1.  Fortunately, TV tubes don't explode.  I'd think the TV mfrs want
+to make this possibility remote as possible.  If at all, they'll 
+*implode* and the glass that blows out would be the result of the
+glass boucing off the back of the tube due to the implosion. In any
+case, don't kick it around! :-) 
+
+#2  I fixed the TV after getting a hold of some schematics.  It turned
+out to be a blown 2W resistor feeding the flyback transformer.  I guess
+the original resistor was a bit too small to dissipate the heat it
+created, burning itself out.  I checked to make sure the flyback wasn't
+shorted or anything first!  Oh, luckily, I had a resistor handy lying
+around that had just the right value for what I needed.  I can't see it
+being more than 50 cents!.

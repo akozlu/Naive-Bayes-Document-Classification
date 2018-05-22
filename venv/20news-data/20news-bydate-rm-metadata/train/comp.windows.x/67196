@@ -1,0 +1,22 @@
+
+I find this thread on motif accelerators absoultly amazing.  If I were
+writing an interface to keyboard accelerators, I would have one
+resource called "accelerators" that took a translation table, period.
+I would also implement it so that programmer never has to do any work
+to get the accelerators installed.  As soon as the end-user specified
+one, it would be active and automatically installed.
+
+To get multiple accelerators on a single menu item I'd do something like:
+
+	*menuItem.accelerators: #override \n\
+		Ctrl<Key>M:	fire() \n\
+		Shift<Key>L:	fire() \n
+
+The accelerators would work exactly like translations and you would
+automatically see a "Ctrl M" show up in your menuItem object.
+
+Why in the world is the motif stuff so complicated with so many different
+special cases depending on what type of widget you're dealing with?  There
+has to be some reason.
+
+Sorry for the political tone of this message...

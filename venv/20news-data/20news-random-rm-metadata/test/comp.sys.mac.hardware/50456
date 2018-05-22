@@ -1,0 +1,8 @@
+
+The kit is for an already existing Laserwriter IINTX. It is a ROM
+upgrade that replaces the font rasterizer code with the more
+efficient, speedier code that first became available in Adobe Type
+Manager 1.0.
+
+That software came out after the original NTXes and the so-called
+ATM rasterizer is now standard on Postscript printers.

@@ -1,0 +1,14 @@
+
+	True (especially for electrolytic capacitors at high temperature).
+
+
+
+	Low power quartz oscillators are usually 32 kHz (and THESE
+have significant temperature drifts, which one doesn't often notice
+while wearing the watch on one's wrist).  Low temperature sensitivity
+is available in other crystal types, which unfortunately
+are larger and higher frequency (1 MHz or so) and take more
+battery power.  
+
+	Programmable timers might be less accurate, but they
+are more power-stingy than suitable crystal oscillators.

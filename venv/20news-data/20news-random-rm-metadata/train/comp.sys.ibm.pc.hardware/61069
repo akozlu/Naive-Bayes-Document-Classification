@@ -1,0 +1,7 @@
+
+Micronics & AMI came out with EISA/VLB motherboards.
+Byte Mag tests indicate that VLB is faster for video
+but EISA is faster for disk ops. So I'll wait for
+GW2K to hopefully start using the Micronics board.
+
+-- 

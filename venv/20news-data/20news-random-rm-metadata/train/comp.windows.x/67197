@@ -1,0 +1,16 @@
+  Correct. Most X servers use a version of  malloc(3)  which will not return
+  memory to the OS (ie. the X server might  free(3)  a Pixmap, but the heap does
+  not shrink).
+
+  Well, part of the routines I mentioned do a dirty little trick to get around
+  that problem. First, I create the shared memory segment, attach the client,
+  attach the X server, and then remove (!) the segment. If you read the man
+  pages on removing of shared memory segments, you will see that the segment
+  only dies after all attachments are gone.
+  Now, if the client dies, that's one attachment gone (the OS cleans up for you)
+  and since the X server notices the client has dies, frees up it's resources,
+  including detaching from the segment: there goes the last attachment. No more
+  shared memory segment.
+  Terrible, but it works.
+
+				Regards,

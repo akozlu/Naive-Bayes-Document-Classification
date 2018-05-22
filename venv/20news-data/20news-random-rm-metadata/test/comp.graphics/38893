@@ -1,0 +1,4 @@
+
+Try ImageMagick. I cannot test it but one told me it does 24bit.
+Anyway, are you SURE your Xserver supports 24bit TrueColor visuals ?
+Check with xdpyinfo !

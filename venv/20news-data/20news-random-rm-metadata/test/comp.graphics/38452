@@ -1,0 +1,46 @@
+First off: Thanks to all who have filled me in on the existence of the
+68070. I assumed rashly that the particular number would be reserved for
+further enhancements to the Motorola line, rather than meted out to
+another company. Ah, well, I guess that's what I get when I assume the
+computer industry will operate in a logical manner! ;-)
+
+a
+spot
+
+Version 1.5 of Quicktime is, as has been stated, the current version of
+the software. The older version is 1.0, and 1.6 is on the horizon in the
+not too distant future.
+
+back quite
+25x by
+that it
+he
+
+Quicktime does a much better job of playing back movies at size than it
+does playing back resized movies. Apparently the process of expanding
+each frame's image and dithering the resultant bitmap to the appropriate
+bit depth is pretty processor-intensive. There are optimizers that work
+pretty well for showing movies at double size, but if you drop to 1.9x
+size or increase to 2.1x size, performance suffers dramatically.
+
+(don't know
+Quicktime
+
+He lied. :-) Quicktime is very CPU dependent. He was probably confused by
+the fact that QT is locked to an internal timecode, and will play in the
+same amount of time on any machine. However, an LC will drop frames in
+order to keep the sound and video synced up.
+
+The Centris and Quadras have similar CPUs and will thus boast similar
+performance, though the Quadras will be a bit faster due to marginally
+faster clock speeds and somewhat different architecture.
+
+having
+was
+
+I expect that the version of the Quicktime software you saw was 1.0 -- I
+was using was 1.5. One of the new codecs in v1.5 allows video at nearly
+twice the size and the same frame rate as what version 1.0 could handle.
+The Centris 650 I saw was a plain-vanilla, with the exception of the nice
+speakers that were playing the sound, and the software was Movie Player,
+the QT player Apple includes with the software.

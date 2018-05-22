@@ -1,0 +1,9 @@
+[stuff deleted]
+
+The colormap element of SetWinAttrib must be a legitimate TrueColor
+colormap. So, use XCreateColormap() with the proper visual and use it
+in SetWinAttrib (and don't forget the mask!).
+
+And the inevitable caveat: I usually use widgets, setting the visual
+and colormap resources rather than direct X routines, so I could be
+wrong. But, I think this is the general difficulty.

@@ -1,0 +1,27 @@
+Note the Followup-To: header ...
+
+
+On my SVR4 Amiga Unix box, I've got -lform, -lmenu, and -lpanel for
+use with the curses library.  Guess what they provide? :-)
+
+Unix Press, ie. Prentice-Hall, has a programmer's guide for these
+tools, referred to as the FMLI (Forms Mgmt Language Interface) and
+ETI (Extended Terminal Interface), now in it's 2nd edition.  It is
+ISBN 0-13-020637-7.
+
+Paraphrased from the outside back cover:
+
+    FMLI is a high-level programming tool for creating menus, forms,
+    and text frames.  ETI is a set of screen management library
+    subroutines that promote fast development of application programs
+    for window, panel, menu, and form manipulation.
+
+The FMLI is a shell package which reads ascii text files and produces
+screen displays for data entry and presentation.  It consists of a
+"shell-like" environment of the "fmli" program and it's database
+files.  It is section 1F in the Unix Press manual.
+
+The ETI are subroutines, part of the 3X manual section, provide
+support for a multi-window capability on an ordinary ascii terminal
+with controls built on top of the curses library.
+

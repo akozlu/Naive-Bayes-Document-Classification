@@ -1,0 +1,9 @@
+
+
+The description of the chip's operation evidently leaves out some of the
+key management aspects.  Either the K_P is the secret key corresponding
+to a public key which is broadcast at message initiation, or it is the
+result of a Diffie-Hellman key exchange or something similar.  Either
+way there must be some protocols beyond those described here.  It isn't
+clear whether they are implemented in the Clipper wiretap chip or must
+be provided by other system components.

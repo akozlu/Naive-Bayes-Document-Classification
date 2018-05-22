@@ -1,0 +1,38 @@
+
+
+	Hmmm.  "Check your facts."  Good advice.  Let's check Mr. Cain's
+facts a bit, shall we?
+
+
+
+FACT:  It is unlawful to distribute code implementing RSA without a license
+to do so from PKP, whether or not one is charging for it.  Furthermore,
+any use of RSA, other than for research purposes allowed under US patent
+law, is similarly unlawful.  Therefore, the "average citizen" cannot use
+RSA to encrypt message traffic in the US without a license from PKP.
+
+There is no licensed, freely available product in the US that uses RSA
+encryption other than RSAREF (and hence RIPEM), at least as far as I am
+aware.  If you know of another, please post it here.
+
+
+FACT:  The last contact I had with RSA Data Security, Inc was with some
+guy trying to sell me a license (unsolicited, I might add) for TIPEM.
+Cost: $15K plus 2-5 percent royalties.
+
+I suppose it is a matter of opinion as to whether or not these terms count
+as "mucho bucks" or "incredibly reasonable."  Either way, however, this
+definitely falls into the "routines *they* tell you to (use)".
+
+
+FACT:  There are no restrictions (yet!) on the use of cryptography under
+US law, although this is beginning to look like it will change.  The only
+impediments to widespread use of RSA cryptography in the US are PKP's
+patents.
+
+	Mr. Cain, please shut up until you get your facts straight.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	"Better than the whole world be destroyed and crumble to dust than
+a free man deny one of his desires."
+		-Benito Mussolini, Italian anarchist and poet.

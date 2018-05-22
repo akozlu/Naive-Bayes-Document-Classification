@@ -1,0 +1,10 @@
+
+
+What "it may think is right" may be exactly what the user wants.
+Assuming that your application "has reason to know better" is, IMHO,
+anti-social.  If I start your application with a -geometry option are
+you going to ignore that as well?
+
+There's really no way to force a window manager to do much of anything
+if it's managing your window.  You can ask, you can hint, but there's
+no guarantee that you're going to get what you want.

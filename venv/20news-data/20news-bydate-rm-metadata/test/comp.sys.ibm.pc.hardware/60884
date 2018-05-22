@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+Having in mind the size of the images, my opinion is to go with VLB.
+It has _much_ more bandwith that EISA, which in fact can be utilized
+by the craphics card. (I have not made measures, so someone else may
+share experience on that.)
+
+Also, the DX2/66 is faster in the operations, that run off internal
+cache, slightly slower off the external and about the same off memory.
+So my advice is the 66/VLB.
+
+
+
+
+Have You tried running Photostyler without the cache? No need to have
+paging and cache both. (Well, you might argue, that the paging is
+cached). My belief (no measurements) is that apps left with more
+memory will manage it better than smartdrv.exe(sys).
+
+
+The bandwidth (theoretical) of ISA is over 5MB/s, which is far from
+0.15MB/s. I tried my ISA IDE hard drive (Maxtor 213MB) and got the
+same results - 0.65MB/s - regardless of the ISA bus speed
+(5.5-8.25MHz). So I guess, that just the card/drivers combination is
+lousy.
+
+
+The rumors are that DX3-99 (if any) is the most likely chip to come
+out. But note, that IBM is closest to the technology an it will only
+sell whole motherboards, so you'll have to upgrade the MB.
+
+
+Just some view, not much figures.
+
+--
+Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu

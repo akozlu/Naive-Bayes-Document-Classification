@@ -1,0 +1,10 @@
+
+
+If you are planning on using this on a regular basis, conncting the printer
+to file can become bothersome because Windows then asks you for the filename
+that you want to create. I've found that putting a line in system.ini in the
+ports section with just a path and filename works. The only problem is that
+if you send more than one job, the second one deletes the first.
+
+
+Chris

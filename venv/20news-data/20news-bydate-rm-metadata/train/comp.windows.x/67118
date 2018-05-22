@@ -1,0 +1,12 @@
+
+
+If it's any consolation, I have two 2-headed Sun-3/60 systems, though the
+color and mono monitors for each are "rated" 1152x900.   Their configuration
+is the same as yours, so it "should" be a Plug'N'Play situation, EXCEPT:
+
+I don't know if your hi-res mono monitor will function this way.  However,
+you may simply be able to pull the motherboard and set the HI-RES jumper
+(located in the same jumper array as the jumpers for the RAM/SIMM selects
+and Ethernet connection) and be happily on your way.  When you pull the
+motherboard, the jumpers are in the left-rear (e.g. "north-west") quadrant
+of the motherboard (to the left of the SIMM sockets).

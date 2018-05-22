@@ -1,0 +1,6 @@
+
+BTW, the X11 tools come as sources. The sillyness of most vendors lets you
+stuck with binaries.
+
+Anyway, have a look onto xgrab/xgrabsc. It does the IMHO best job for
+this, including compression.

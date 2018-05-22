@@ -1,0 +1,12 @@
+From my rather rusty knowledge of radio, most radio receivers use a superhet 
+circuit, so that the incoming signal is mixed with a local oscillator, giving 
+a fixed intermediate frequency (IF) that is more easily amplified. The
+detector detectors work by picking up IF re-radiated from your radar 
+detector. In Britain, where one has/used to pay for a TV licence, there 
+are/were TV detector vans prowling the streets, looking for people who hadn't 
+paid their licence fee. They had a couple of long solenoid antennae on the
+roof, and I believe could triangulate an operating TV from the IF. 
+
+I wonder how much of the IF is radiated back from the detector antenna, and 
+how much from the rest of the module. It might be worth putting the detector 
+in a proper RF shielded enclosure.

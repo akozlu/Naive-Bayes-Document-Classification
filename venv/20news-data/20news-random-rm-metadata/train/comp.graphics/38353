@@ -1,0 +1,3 @@
+The 68070 _does_ exist. It's number was licensed to Philips to make their
+own variant. This chip includes extra featurfes such as more I/O ports, 
+I2C bus... making it more microcontroller like.

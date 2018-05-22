@@ -1,0 +1,21 @@
+
+
+Yes, but still not a 6502 for those differences.  Same instruction set,
+of course.
+
+
+
+Yes, the same number, but an entirely different device.  I should have
+qualified this further by stating that this was the PAL version of the TIA -
+I am not 100% sure that the NTSC TIA would have a different number.
+
+
+Does anyone on the net actually have details of the TIA, as this is the only
+device I have not yet discovered details about?  Atari Australia, when asked,
+claimed that their attempts to get the programmers documentation for the 2600
+had failed, as the US head office had refused to provide it.
+
+
+I saw a couple of cheaper devices with PN2222's and a couple of resistors
+hooked up as a cheap inverter.  Nasty, but workable, and cheaper than a
+7404 inverter if labor costs almost nothing.

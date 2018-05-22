@@ -1,0 +1,6 @@
+
+Why is that terrible ? That's exactly the way our code has been doing
+it for two years now and is the way that temporary files in UNIX systems
+are managed most of the time (open, unlink).
+
+		Burkhard Neidecker-Lutz

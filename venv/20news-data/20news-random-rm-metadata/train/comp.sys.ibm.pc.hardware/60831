@@ -1,0 +1,8 @@
+
+
+I ran into this about six months ago.  My system is a GW2000 486DX/66V,
+8 megs RAM, 1Meg ATI GUP VLB. It seems the problem is that the ATI
+Graphics Ultra Pro card consumes the COM4 port for some reason, so only
+COM1-3 are available.  I believe this is documented somewhere in the
+system manuals, but I can't recall where.
+ 

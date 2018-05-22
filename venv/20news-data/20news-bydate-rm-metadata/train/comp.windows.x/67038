@@ -1,0 +1,10 @@
+
+I specifically made the above comment assuming that perhaps the code fragment
+came from a simple "open-draw-quit" client.  
+
+As per your question: why not have the button handler add the object, and
+then call the "window_redraw()" (or whatever) directly?  Although, depending
+on how the overall application is structured, there may be no problem with
+rendering the object directly in response to the button press.
+
+	Ken

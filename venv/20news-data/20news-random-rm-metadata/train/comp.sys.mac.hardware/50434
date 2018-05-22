@@ -1,0 +1,25 @@
+
+There's only one physical size for VRAM SIMMs (unlike DRAM SIMMs which 
+come in many, many sizes and pinouts), although they do come with 
+differing amounts of VRAM on them.  The ones you need are 256KB SIMMs, are 
+organized as 128K x 16, and have two 128K x 8 VRAM chips on them.  This is 
+the only size which the Quadra and Centris machines can use.
+
+
+Two.
+
+
+Both SIMM slots must be filled; putting a SIMM in only one slot does 
+nothing for you.
+
+
+80 ns for the Q800 and C650, 100 ns for the C610.
+
+
+There are certain VRAM chip manufacturers whose parts are not compatible 
+with the Quadra and Centris video hardware.  Make sure that the source you 
+get them from guarantees compatiblity.  In general, if it works in a Q950,
+it will work in a Q800.
+
+
+Trust me.  ;-)

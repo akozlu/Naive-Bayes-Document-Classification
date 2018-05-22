@@ -1,0 +1,12 @@
+  {deletions}
+Yes, this is a valid concern IMHO.  With the directly attached fan units I've
+seen, it looks like if the fan were to stop the chip cooling would be 
+a good bit worse than no heat sink at all.  In other words, if the fan stops
+the unit turns into an insulator and the chip might get hot enough to
+suffer permanent damage, not just stop working temporarily.
+
+My Zeos 486DX2/66 (tower case) has a passive heat sink on the cpu, and it's
+located so the front fan, which sucks air into the case, blows right on the
+heat sink.  If that fan stops the heat sink is still cooled by convection air
+flow so should not see too dramatic a temperature rise.  Essentially the 
+arrangement you're talking about and a good idea IMHO.

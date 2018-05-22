@@ -1,0 +1,23 @@
+
+
+I have tried others, but I think that the Adaptec is best value for money.
+
+
+
+
+I dont think you can mix the two types of drive, unless you have one of the
+SCSI/IDE cards that is available.  You will have to turn your IDE off.
+
+
+
+
+Instructions for drive type are included with the controller.  With some it may be
+a type 1. no matter what the disk is.  With others it may be a type 47.  I had one
+controller that I had to tell the BIOS that no hard disk was installed.
+
+ 
+
+
+Do not low level format a SCSI unless you have the SCSI low level format program. 
+First use fdisk to set the partitions, then use format.
+

@@ -1,0 +1,24 @@
+
+Thanks. Got that from two other sources as well. The full quote is as
+follows:
+
+From Dorothy Denning, CRYPTOGRAPHY AND DATA SECURITY, Addison-Wesley
+1982,1983, page 8:
+
+"Cryptosystems must satisfy three general requirements:
+
+"1. The enciphering and deciphering transformations must be efficient for
+all keys.
+
+"2. The system must be easy to use.
+
+"3. The security of the system should depend only on the secrecy of the
+keys and not on the secrecy of algorithms E [enciphering] or D
+[deciphering]."
+
+
+
+--Mike
+
+
+

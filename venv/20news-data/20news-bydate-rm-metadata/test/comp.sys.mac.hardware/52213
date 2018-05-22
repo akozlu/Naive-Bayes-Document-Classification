@@ -1,0 +1,16 @@
+
+[... other info deleted ...]
+
+
+Are you sure it's not a problem caused by software?  I've seen this sort 
+of effect when a runaway program (which could be caused by an INIT 
+conflict, for instance) accidentally wacks on a register in the video 
+hardware.  Have you tried booting with no extensions and then letting the 
+Q950 just sit there in the Finder?  You might also want to try changing to 
+24-bit addressing (yes, I know you can't access your full 64 MB of RAM - 
+it's just an experiment) as the video hardware registers can't be accessed 
+then.
+
+Another thing to try as a 'recovery' measure is to use something like 
+QuickKeys to change the pixel depth of the display.  This reprograms (some 
+of) the video hardware registers and may allow sync to be restored.

@@ -1,0 +1,19 @@
+
+Which bus???
+
+I think there are several reasons :-
+
+50MHz motherboards are harder to get right
+50MHz need a fast L2 cache - 12-15ns is a good idea
+50MHz needs to be slowed down to make a compliant VESA bus
+66MHz DX2 chips are faster for a lot of things
+
+
+With a good, fast L2 cache a DX2/66 is going be be faster than a DX50...
+
+What do I have?
+
+A DX50 of course!
+
+
+Guy

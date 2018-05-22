@@ -1,0 +1,4 @@
+
+
+
+Or the library might be there but not pointed to by LD_LIBRARY_PATH.

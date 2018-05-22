@@ -1,0 +1,11 @@
+
+
+Try this:
+
+char *name=NULL;
+unsigned long value;
+
+if(XGetFontProperty(font, XA_FONT, value)) 
+    name=XGetAtomName(dpy, value);
+
+where dpy is your Display connection and font your XFontStruct pointer.

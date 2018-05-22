@@ -1,0 +1,9 @@
+
+	It depends on what kind of the polygons. 
+	Convex - simple, concave - trouble, concave with loop(s)
+	inside - big trouble.
+
+	Of cause, you can use the box test to avoid checking
+	each edges. According to my experience, there is not
+	a simple way to go. The headache stuff is to deal with
+	the special cases, for example, the overlapped lines.

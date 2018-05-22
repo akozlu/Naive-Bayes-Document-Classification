@@ -1,0 +1,7 @@
+the
+boot
+reboots
+
+This problem is usually a low +5 Vdc from the power supply, there is an  
+adjustment for this on the supply. If the voltage is still unstable or low  
+then the culprit is probably a bad rectifier at CR20.

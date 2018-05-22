@@ -1,0 +1,17 @@
+I'm not sure if this will help you, but the (local) interstellar
+radiation field has been measured and modeled by various groups.  If I
+remember things correctly, the models involved contributions from three
+different BB sources, so there's no obvious "temperature" of background
+radiation in our local area.  However, the following references give the
+interstellar radiation density as a function of wavelength, and you can
+integrate and average in an appropriate manner to get an "effective"
+temperature if you like:
+
+Witt and Johnson (1973) Astrophys. J. 181, 363 - 368
+Henry et al. (1980) Astrophys. J. 239, 859 - 866
+Mathis et al. (1983) Astron. Astrophys. 128, 212 - 229
+
+As you can see, the references are out of date, but they might get you
+started.
+
+Hope this helps,

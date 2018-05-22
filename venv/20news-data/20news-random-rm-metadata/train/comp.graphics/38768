@@ -1,0 +1,5 @@
+what about
+
+qrttoppm < file.dis | ppmtotga > file.tga
+
+??

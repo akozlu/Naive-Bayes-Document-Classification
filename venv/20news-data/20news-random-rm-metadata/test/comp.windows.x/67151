@@ -1,0 +1,10 @@
+
+
+You are right but PLEASE DON'T DO THIS.  It makes my brain hurt.
+USPosition and USSize should ONLY be set if the USER specified the
+position and size.
+
+You say: "Tom, don't blow a gasket, what's the harm?"
+
+Some window managers do very different things (besides positioning the window)
+when they see USPosition rather than PPosition.

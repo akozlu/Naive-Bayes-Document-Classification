@@ -1,0 +1,5 @@
+
+hmm... not that I am an authority on RISC ;-) but I clearly remember
+reading that the instruction set on RISC CPUs is rather large.
+The difference is in addressing modes - RISC instruction sets are not
+as orthogonal is CISC.

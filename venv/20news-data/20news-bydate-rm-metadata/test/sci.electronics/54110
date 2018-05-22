@@ -1,0 +1,5 @@
+
+If you are just getting sick of the real estate used by the HCT373, you could
+always use the approach I have seen one designer take - he stuck the chip in
+the middle of the EPROM socket, under the EPROM.  Naturally, you have to use
+an IC socket with the right dimensions, but layout is really easy.

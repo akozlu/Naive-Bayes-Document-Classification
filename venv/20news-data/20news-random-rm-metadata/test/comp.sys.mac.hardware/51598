@@ -1,0 +1,12 @@
+
+This doesn't sound right to me.  Don't Quadras use the 53C96?  If so, the
+Mac has nothing to do with the SCSI timing.  That's all handled by the
+chip.  About the only the timing could be wrong is if Apple programs the
+clock registers wrong on the 96.  That, however, should only really hurt
+synchronous transfer, which is not used by the Mac SCSI Manager.
+
+Furthermore, disabling blind writes should be meaningless on a Quadra.
+On Macs that used the 5380, which is a much lower level SCSI chip, the
+Mac was responsible for the handshake of each byte transferred.  Blind
+mode affected how the Mac handled that handshake.  On the 5396, the
+handshake is entirely handled by the chip.

@@ -1,0 +1,40 @@
+
+I have both!
+
+I have IDE only on my DROS box and IDE and SCSI on my Unix box.
+
+IDE on the DROS box 'cos it only has a hard disk, SCSI on my Unix box 'cos it
+has a SCSI hard disk, CD-ROM and tape.
+
+I bought SCSI as it makes adding many devices easier. For the price of one
+irq and dma I have three different types of device connected up.
+
+Faster drives are also available for SCSI - I have a DEC DSP3085s that realy
+does have a 9ms average seek time. I.E it finds data 25% faster than my 12ms
+Toshiba drive.
+
+
+I don't think that SCSI will increase your data transfer much on an ISA bus :-(
+
+
+890KB/s is pretty good...
+
+
+Many state of the art SCSI disks use the *SAME* mechanicals as many state of the
+art IDE drives. Only the interface electronis differ - look at the 520MB Fijitsu
+drive for an example!
+
+
+I use an Adaptec 1542B on my Unix box and no-name IDE cards on both.
+
+
+Caching controller! Why? What does it give you that smartdrive ( for DOS ) does 
+not? About 30KB extra lower memory! That's about it.
+
+A properly configured main memory cache will produce better results than a caching
+controller! My Unix reads reads data from its main memory cache at 8.5MB/s! That's
+faster than the standards ISA bus can ever sustain!
+
+
+
+Guy

@@ -1,0 +1,12 @@
+You CAN print to a file from an HP (or any other printer).  Just go into
+the Printers section of your Control Panel.  Select the printer you want
+to re-direct to a file, and click on Connect.  Then choose :FILE as the
+port to connect the printer to.
+
+When you print from any application to that printer, Windows will prompt
+you for a file name for the file into which you want to capture the
+printout.
+
+It's pretty easy.
+
+Good luck!

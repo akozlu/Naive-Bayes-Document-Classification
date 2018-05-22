@@ -1,0 +1,10 @@
+Has anyone got multiverse to work ?
+
+I have built it on 486 svr4, mips svr4s and Sun SparcStation.
+
+There seems to be many bugs in it.  The 'dogfight' and 'dactyl' simply do nothing
+(After fixing a bug where a variable is defined twice in two different modules - One needed
+setting to static - else the client core-dumped)
+
+Steve
+-- 

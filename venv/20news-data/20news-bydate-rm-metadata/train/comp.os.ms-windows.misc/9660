@@ -1,0 +1,12 @@
+
+
+If you need just to change the wallpaper, then I've written a short
+program in VB that does this by using SystemParametersInfo-function.
+The bad news is that you need VBRUN200.DLL to run it, and the DLL is
+some 350kb (the program is about 7kb). The order of pictures depends
+on the system date and the number of BMP-files in the directory, so
+the picture remains the same if you execute the program multiple times
+during the same day and the number of BMPs has not changed.
+
+If you feel this is what you need then I could uuencode it and email
+it to you. (It is unavailable via ftp.)

@@ -1,0 +1,13 @@
+
+
+
+fix the table in .../X11R5/mit/server/ddx/sun/ or
+use xmodmap(1).
+
+put
+  stty pass8; setenv LC_CTYPE iso_8859_1; setenv LESSCHARSET latin1
+in your .login. the first prevents the stripping of bit 7.
+the second sets the locale. the third makes less(1) show the character
+instead of the octal representation.
+
+rj

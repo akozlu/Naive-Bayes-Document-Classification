@@ -1,0 +1,6 @@
+
+The only time I've seen similar behaviour is when an X application forked a child
+without setting close on exec on the X display connection file descriptor.
+The shell waited for a ConfigureNotify event that never arrived because it got
+picked up by the child.  Sometimes the shell correctly got the ConfigureNotify if
+the timing was 'right'.

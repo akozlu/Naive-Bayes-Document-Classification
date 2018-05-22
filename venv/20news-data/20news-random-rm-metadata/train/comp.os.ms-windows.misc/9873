@@ -1,0 +1,4 @@
+ I think you can do this with REGEDIT, which can make changes
+to the OLE registration database.  From Program Manager (or 
+File Manager) choose RUN and type REGEDIT.  You do have it-
+its included with Windows, but not well documented.

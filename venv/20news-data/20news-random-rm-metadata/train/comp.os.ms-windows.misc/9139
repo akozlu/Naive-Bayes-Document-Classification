@@ -1,0 +1,8 @@
+Are you using Windows 3.0 or 3.1? If you're still on 3.0, 3.1 devotes about
+twice as much memory to these and runs out much less frequently. If 3.1,
+you might use one of the resource monitors (such as the one that comes with
+the Windows 3.1 Resource Kit or one of the many shareware ones available)
+to see which programs are hogging the resources (every icon, internal
+graphics brush, etc. in every program running uses a certain amount of
+this limited memory area. Also, some don't give it back when they're
+finished).

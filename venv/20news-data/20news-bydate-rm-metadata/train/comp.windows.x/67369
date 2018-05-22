@@ -1,0 +1,10 @@
+Can someone tell me in 25 words or less how to compile posix
+message catalogs so that I can use them with catgets, catopen, etc.
+I know what the format for the catalogs is, but don't know how
+to compile them.
+
+Please reply to chas@blackwhite.com
+
+Thanks in advance,
+
+chas

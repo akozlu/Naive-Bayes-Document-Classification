@@ -1,0 +1,11 @@
+
+
+Maxim makes a chip that does exactly what you want. The MAX7219 drives 8
+7 segment LED displays with full decode or drives 64 discrete LED's with
+a 3 wire serial interface.  The chips can also be cascaded to allow very
+large arrays.  I am working on a sign display using this part.
+
+I'll have to post the contact info for Maxim later, it's at home.  There was
+a series of articles on this chip in the last couple of Circuit Cellar Ink's.
+
+Mike Harpe

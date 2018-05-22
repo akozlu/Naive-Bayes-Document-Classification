@@ -1,0 +1,7 @@
+
+I had this problem as well - It had to do with the CG6 graphics card that
+comes with the IPX.  What fixed the problem for me was to apply the "sunGX.uu"
+that was part of Patch #7.  Patch #1 also used this file so perhaps you
+didn't apply the one that came with Patch #7.
+
+jeff

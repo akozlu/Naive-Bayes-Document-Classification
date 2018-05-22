@@ -1,0 +1,27 @@
+
+Actually, info@qdeck.com is our customer service department. If you have
+technical questions, you can write to support@qdeck.com.
+
+
+I expect the limiting factor will be your server machine, not the network
+itself. To give you a real-world example, here at Quarterdeck we have
+roughly 100 people using DVX to talk to a bunch of unix boxes, novell
+file servers, and each other. It's not _too_ much of a load on our
+Ethernet (with maybe 4 concentrators, so you have 20-30 people on each
+segment). If you had a badly loaded net, or the apps you wanted to run
+were very network intensive, you could run into some slowdowns.
+
+But the biggest problem would be the machine itself. Say you have a 486
+33 with plenty of ram and a fast hard disk and network card. If you have
+10 people running programs off it, you're going to see some slowdowns
+because you're now on (effectively) a 3.3 MHz 486. Of course, DVX will
+attempt to see if tasks are idle and make sure they give up their time
+slice, but if you have 10 working programs running, you'll know it.
+
+Having said that, if you can tweak the programs being run (by adding
+in calls to give up time slices when idle and that sort of
+thing), you could probably run 15-20 people on a given machine before
+you started seeing slowdowns again (this time from network bandwidth).
+It all really depends on what the programs are doing (ie. you're going
+to see a slowdown from X-bandwidth a lot sooner if your apps are all
+doing network things also...)

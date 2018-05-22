@@ -1,0 +1,23 @@
+
+
+No.
+
+
+No.
+
+
+No, but...
+
+You can allocate real static data within code segments!
+When you need more dynamic memory you can allocate data on the global heap.
+
+You can forget most of what was written about memory management. Under 3.1
+you have paged virtual memory. You can lock every block without hampering
+the memory manager. You can use far pointer everytime without always Lock/
+Unlocking the memory block.
+
+An besides: DLL's are mostly just disguised EXE's, that happen to be called
+by another task.
+
+
+Karl.

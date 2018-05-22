@@ -1,0 +1,11 @@
+
+What about the ELSA WINNER4000 (S3 928, Bt485, 4MB, EISA), or the
+Metheus Premier-4VL (S3 928, Bt485, 4MB, ISA/VL) ?
+
+
+As it just happens, SGCS has a Xserver (X386 1.4) that does
+1024x768x24 on those cards. Please email to info@sgcs.com for more
+details.
+
+- Thomas
+--

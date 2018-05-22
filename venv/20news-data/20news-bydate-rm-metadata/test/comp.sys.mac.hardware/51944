@@ -1,0 +1,11 @@
+
+
+You shouldn't have ignored the ZyXEL.  It can be purchased with a "Mac
+bundle", which includes a hardware-handshaking cable and FaxSTF software.
+The bundle adds between $35 and $60 to the price of the modem, depending
+on the supplier.  It is true that the modem has no Mac-specific docs,
+but it doesn't require much 'tweaking' (aside from setting &D0 in the
+init string, to enable hardware handshaking).
+
+For more information on the ZyXEL, including sources, look at various files 
+on sumex-aim.stanford.edu, in info-mac/report.

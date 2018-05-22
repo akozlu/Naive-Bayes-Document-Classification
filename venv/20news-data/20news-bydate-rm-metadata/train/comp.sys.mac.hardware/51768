@@ -1,0 +1,21 @@
+
+
+How many NuBus slots do you have?
+
+Applied Engineering has something called the QuadraLink, which is
+a card with 4 serial ports that you get at through the comms
+toolbox (in addition to the built-in ones) It also comes with
+software for fooling applications to open an AE port when they
+think they open a built-in port.
+
+They also have a more expensive card with DMA (better performance)
+and I _think_ they, or someone else, have a card that handles
+8 ports simultaneously.
+
+As I said, with NuBus, you're green. Learn how to use the Comms
+Resource Manager to get at the various installed cards.
+
+Cheers,
+
+					/ h+
+ 

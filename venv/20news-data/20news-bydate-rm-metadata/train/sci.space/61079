@@ -1,0 +1,29 @@
+News-Software: UReply 3.1
+X-X-From: Wingert@VNET.IBM.com (Bret Wingert)
+            <C5uBn5.tz@zoo.toronto.edu>
+
+ ========================================================================
+A couple of points on this thread.
+
+1. We have been using our processes since way before Challenger.  Challenger
+   in and of it self did not uncover flaws.
+
+2. What Mr. Spencer says is by and large true.  We have a process that is
+   not dependent on "sophisticated tools"  (CASE tools?).  However, tools
+   cannot fix a bad process.  Also, tool support for HAL/S (the Shuttle
+   Language) is somewhat limited.
+
+3. The Onboard Flight Software project was rated "Level 5" by a NASA team.
+   This group generates 20-40 KSLOCs of verified code per year for NASA.
+
+4. Feel free to call me if you or your organization is interested in more info
+   on our software development process.
+
+Bret Wingert
+
+
+(713)-282-7534
+FAX: (713)-282-8077
+
+
+Bret Wingert

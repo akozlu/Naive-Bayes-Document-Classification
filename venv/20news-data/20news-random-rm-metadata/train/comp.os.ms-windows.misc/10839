@@ -1,0 +1,6 @@
+
+On all 1.44Mb drives (both Mac and PC), the disk spins at a constant
+RPM.  On 800k Mac disk drives, the spin rate of the disk is varied so 
+that the tracks pass under the head at a constant speed; a slower rotation
+for the outer tracks, and a faster rotation for the inner tracks.  A PC
+needs special controller hardware to make this happen.

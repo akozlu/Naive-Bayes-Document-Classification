@@ -1,0 +1,19 @@
+
+
+I have (had) several problems with the card.
+- Applications crashed when moving the mouse (VGA mode). Fixed by removing
+  the line STACKS=0,0 from config.sys. The default value STACKS=9,256
+  does just fine.
+- Random white pixels all over the screen when moving the mouse, in a
+  256 color graphical mode (the hardware cursor modes). Fixed by turning
+  off the hardware scroll ("24xmode scrolloff") before entering the graphics
+  mode. This also fixed the problem of the windowed DOS boxes under windows.
+  With the hardware scroll enabled, applications write garbage outside the
+  window.
+- The screensavers do not remove the cursor in 256 color modes (hardware
+  cursor). I don't know if this is a windows problem or a driver problem.
+  Clearly there should be two types of cursor removing functions: a remove-
+  for-draw, which can be ignored for hardware cursors and a remove-
+  unconditionally. Do other cards with hardware cursors have the same problem?
+- The VESA driver does not support the 640x480x16M TrueColor mode. (Universal
+  VESA drivers do not run at all).

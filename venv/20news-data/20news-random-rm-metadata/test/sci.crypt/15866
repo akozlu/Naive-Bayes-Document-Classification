@@ -1,0 +1,21 @@
+
+
+[ ... ]
+
+
+
+[ ... ]
+
+
+One very interesting thing I notice about this is that the only use of
+the chip key is to encode the session key for the law enforcement field.
+It is not used at all by the encryption algorithm.
+
+It seems like it would be possible to create a device that would be
+otherwise compatible, but would send out a bogus law enforcement field.
+This might render the device unusable with "normal" devices if there's
+some sort of validation involving the law enforcement field, but it
+could certainly be used with other such modified devices.
+
+Of course, this is irrelevant if the NSA has a backdoor in the
+algorithm, but it does make it possible to defeat the key escrow system.

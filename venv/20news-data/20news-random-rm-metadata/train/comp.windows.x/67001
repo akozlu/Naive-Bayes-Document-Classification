@@ -1,0 +1,8 @@
+
+1) This is NOT a feature of the Window Manager but of xterm.
+2) This sequences are NOT ANSI compatible, are they ?
+   Does anyone know IF there are compatible sequences for this and what they
+   are ? I would think they are DCS (device control sequence) introduced,
+   but may be a CSI sequence exists, too ?
+   This MUST work on a dxterm (VT and ANSI compatible), it may not work
+   on xterms.

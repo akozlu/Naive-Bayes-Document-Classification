@@ -1,0 +1,42 @@
+
+Thank you very much. After reading the text some distinct questions
+arised to me, which I guess will also be asked by other people. Perhaps
+would it be interesting to find an answer to these questions ?
+
+
+
+shorter or longer ?
+
+
+
+
+First question: When will the LawEnforcmentField be transmitted, and how
+does the remote Clipper Chip handle it? Is it transmitted periodically
+in the stream of encrypted blocks, or just at the beginning ? Does the
+phone at the other side discard those packets via a protocol whatsoever,
+or tries it to turn them into voice-output ? (Which would not be disturbing)
+
+
+
+Second question: Why!?!? Why is such a strange procedure used, and not
+a real RNG ? This turns those S1,S2 in a kind of bottleneck for system-
+security.
+
+
+
+So no (technical) provision will be taken to place a 'timeout' on these
+warrants? This would be a unique possibility to realize such a technical
+restriction, by letting the escrow-agencies perform the decoding of the
+session key. Just take modem-lines instead of secure fax. Is this such
+a bad idea ?
+
+
+
+Wow! (How does the randomizer work?) Are the SHA (and Key exchange) secret,
+or publicly known ? Key-Exchange is DH, I guess ?
+
+It seems that those who are opposed to this chip shall have a tough time,
+your government realy means to act. :-(
+
+Friendly greetings,
+	   Germano Caronni

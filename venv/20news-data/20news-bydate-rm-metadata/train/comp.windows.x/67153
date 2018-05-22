@@ -1,0 +1,6 @@
+
+Link with '-lm' (math library).
+
+
+This is a bug in Sun's shared libraries. Linking with
+'-assert nodefinitions' should do the trick.

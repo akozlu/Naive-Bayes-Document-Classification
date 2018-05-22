@@ -1,0 +1,9 @@
+
+
+Yes.
+
+
+Look up XV_DEPTH.  Also, you might want to try using XView colormap segments
+instead of Xlib for your colormap stuff.  They will probably be easier
+for you to use, and since you are using a TrueColor visual, you won't
+be losing anything compared to straight Xlib.

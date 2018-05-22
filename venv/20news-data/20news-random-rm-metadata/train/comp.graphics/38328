@@ -1,0 +1,7 @@
+
+The 68070 is a variation of the 68010 that was done a few years ago by
+the European partners of Motorola. It has some integrated I/O controllers
+and half a MMU, but otherwise it's a 68010. Think of it the same as
+the 8086 and 80186 were.
+
+		Burkhard Neidecker-Lutz

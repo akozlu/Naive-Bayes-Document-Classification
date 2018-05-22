@@ -1,0 +1,12 @@
+
+Most likely reason is that your backup battery is failing - this battery 
+maintains the contents of the CMOS memory when AC power is turned off, and
+if the battery is flakey then the contents of the CMOS will be lost and 
+the checksum will be wrong (along with most other of the CMOS data). Try 
+replacing the battery.
+
+If, however, your PC doesn't use a battery but a large capacitor to power
+the CMOS, you should check to see if you can replace the capacitor with a 
+more normal lithium battery. If this isn't possible, make sure you leave
+your PC on for a half hour or hour each day; this will keep the capacitor 
+charged. I'd opt for the battery change, though.

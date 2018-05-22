@@ -1,0 +1,23 @@
+
+
+
+From the Pluto Fast Flyby Instrument definition research anouncemnet,
+the instrument payload constraints are:
+    Mass allocation -  7 kilograms (15.4 lbs)
+    Power allocation - 6 watts
+    Required instruments:
+	Visible imaging system (1024x1024 CCD, 750 mm fl, f/10 optics)
+	IR mapping spectrometer (256x256 HgCdTe array, 0.3% energy resolution)
+	UV spectrometer (55-200 nm, 0.5 nm resolution)
+	Radio science (ultrastable oscilator incorporated in telecom system)
+		ultrastable means 10^-14.
+
+This doesn't leave much room for payloads which are totally unrelated
+to the  mission of the spacecraft.  In addition, the power will come
+from a radioisotope thermal generator, and the whole space craft will
+be about 2 feet in diameter, with no booms, which means there will be
+strong gamma-lines from Pu-239 and associated schmutz in the
+background, which tends to reduce sensitivity somewhat.
+
+It would still be nice, and our group here at Goddard is looking
+in to it.

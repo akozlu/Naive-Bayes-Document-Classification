@@ -1,0 +1,15 @@
+I tried to e-mail you but it bounced so...
+
+Hi there,
+
+
+It might be that the X terminal doesn't support the "Postscript
+Extensions to X" product.  I use the 'dxpsview' program on a 
+DECstation 5000 to view postscript files but when I moved to an
+NCD X terminal, I couldn't use it any more.  So I ftp'd and
+compiled GhostScript (GNU software).  Now we can view postscript
+files on our X terminals.
+
+Hope this helps.
+
+Grant

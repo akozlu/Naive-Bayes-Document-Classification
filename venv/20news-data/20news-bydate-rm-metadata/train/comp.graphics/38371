@@ -1,0 +1,27 @@
+
+I think he wanted to avoid reinventing the wheel.
+I would suggest that you take your code, and submit it to
+comp.sys.mac.binaries to be distributed (including to the ftp sites). 
+Many folks, myself included, would enjoy the extra code.
+
+
+Just to clarify, the 3D routines that are mentioned in various places
+on the mac are in a libray, not the ROM of the mac.  A few years ago before
+I knew anything about implementing graphics, I came across a demo of the
+Apple GrafSys3D library and it actually did a lot.  However, it is quite
+limited in the sense that it's a low-level 3D library; your code still has
+to plot individual points, draw each line, etc ad nauseum.  It has nothing
+on GL, for example, where you can handle objects.
+
+Other things to consider when talking about Apple's old 3D GrafSys library:
+
+* Unsupported;  never was and no plans exist to do so in the future
+
+* Undocumented; unless you call header files documentation...
+
+If one knows something about graphics, you could probably figure it out,
+but I'd assume there's better software available that gives better
+output and is, at the same time, programmatically nicer (i.e. easier to
+program).
+
+Just my 2% tax

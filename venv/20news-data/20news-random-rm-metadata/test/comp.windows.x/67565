@@ -1,0 +1,8 @@
+Yet another XView question: is there an (easy) way of detecting when a user
+has resized a frame _externally_ by way of the window manager (e.g. grabbing
+and letting go of the frame resize corners under olwm)? If so, please let me
+know!
+
+Derek
+
+-----------------------------------------------------------

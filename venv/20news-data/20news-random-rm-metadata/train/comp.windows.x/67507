@@ -1,0 +1,3 @@
+: VirtualGrabKeys is not an OW resource. It belongs to olvwm(1).
+
+Not only that, the olvwm(1) (version3.3) man-page says it's called

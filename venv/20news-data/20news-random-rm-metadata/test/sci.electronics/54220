@@ -1,0 +1,17 @@
+Mike, Ring is the RED wire. Tip is the GREEN wire of most standard
+phone lines. They two constitute the two wires most often used for
+voice telephone (the two live lines). They are the two innermost
+connectors of an RJ-11 phone jack.
+
+Another way of telling is that if you measure voltage from RED to
+GREEN (ring to tip. tip/green being at ground potential of the
+voltmeter), it should read -48 volts in the on-hook no-ring position).
+I am 98% sure it's -48 V and not +48 volts. Doesn't hurt a phone too
+much if they're reversed, it's just bad if one happens to somehow get
+grounded to earth ground elsewhere).
+
+Additionally, when off-hook, the voltage drops to about -4 to -9 Volts
+DC. I think it is supposed to correspond to a 36 to 40 mA current
+loop. And lastly, when ringing, the two wires develop an AC potential
+of about 80 V p-p at 20 to 30 Hz across them (where you get the
+electromechanical old fashioned bell ringer from).

@@ -1,0 +1,14 @@
+
+Nope.  Your problem is either being caused by excessive voltage drop in the
+long cable from the generator, or just plain not having enough power.  I
+would suspect that those amps are going to draw a lot of current on short
+peaks.
+
+You can try using larger (and shorter) cables to the generator, or try
+strapping the amps for 240V service and running 240V mains cables out,
+which will minimize the line drop.  If these don't work, though, you're
+going to need a bigger generator.
+
+I assume that you're using well-maintained generators, and have watched the
+voltage output on the generator properly.  If you don't have 120V coming out
+of the unloaded generator you'll never get 120V at the other end.

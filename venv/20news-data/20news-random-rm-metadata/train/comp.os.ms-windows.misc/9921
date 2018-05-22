@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+Try setting up another HPIII printer but when choosing what port to connect it
+to choose FILE instead of like :LPT1.  This will prompt you for a file name
+everytime you print with that "HPIII on FILE" printer. Good Luck.

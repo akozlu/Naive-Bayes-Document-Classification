@@ -1,0 +1,24 @@
+
+We tried to ship an X server once that only supported a 24bit
+TrueColor visual. The main problems we encountered were:
+
+	1) Clients written with logic like the following:
+
+	    if (DefaultDepth() != 1)
+		/* Assume default depth is 8bit */
+
+	   These clients need an 8bit deep visual in the root window
+	   to run correctly.
+
+	2) Other clients didn't even bother to do that much, and just
+	   outright assumed they had a *dynamic* visual class, with a
+	   dynamic colormap. XStoreColors doesn't work on cmaps
+	   associated with Static or TrueColor visual classes, but
+	   many clients don't bother to check, they just start
+	   throwing XStoreColor calls at you.
+
+Though both are clearly client error, this is the case with so many
+clients that it's easier for you to expose 8bit PseudoColor as a
+default root window visual, than it ever would be for all these client
+writers to change their clients to do the right thing.
+--

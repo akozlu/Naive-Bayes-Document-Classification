@@ -1,0 +1,27 @@
+
+It also runs OS/2 character based apps and POSIX apps.  The DOS, 16bit
+and 32 bit windows apps run in a windows 32 bit subsystem.
+
+If you consider the fact that NT has:
+ the Lanman redirectors,
+ built in support for TCP/IP
+ built in support for NETBEUI
+ comes with TCP utils like ping and an ftp client, etc
+ applications like schedule+ and a 32 bit version of msmail
+
+the storage argument isnt an issue.
+
+
+I ran it on a 486 with 8MRAM and it did a ton of disk swapping, with a 19M
+virtual memory paging file.  It functioned but it crawled.  (this was the OCT
+build)
+
+I upgraded the machine to 16M and the performance is good,
+At that point I installed the March Build.  Consider they
+are probably still working on the feature set, and havent done a lot of fine
+tuning to the code yet.
+
+
+I have little info on Chicago so I cant make a comparison.  Is it in Beta?  Is
+there anyone out there who has tested both and cares to make a comparison?
+Just my $0.02  

@@ -1,0 +1,20 @@
+
+
+
+
+
+
+I have been using both IDE (or MFM) and SCSI drives for years.  I have 2
+IDE and 1 SCSI on one system and the other with 2 IDE, 2 SCSI disk, and 
+1 SCSI CDROM.  I currently using ALWAYS IN2000 SCSI card, but I also have
+a Future Domain, a Western Digital SCSI card, and I work with an ADAPTIC 
+before.  As I recall, all these cards can support boot and floppy drive.
+However, to use with other controller (IDE, MFM...) the boot drive has to
+be the IDE (or MFM).  You CAN NOT boot from the SCSI if you have other 
+controller in the system.  If you guys only have 2 drives (1 IDE, 1 SCSI).
+just set up the IDE in your CMOS setup.  Make sure you can boot from it.
+Then, set up the SCSI controller (IRQ, DMA, etc). Set the SCSI drive to 
+ID 0.  Just plug and play for all the cards I seen so far.  Only if you 
+have more than 2 drives then you need driver for the third drive and so
+on.  If you have more question, email me, I will try to answer it.
+Good Luck!

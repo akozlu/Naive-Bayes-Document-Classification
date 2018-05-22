@@ -1,0 +1,30 @@
+
+	The VESA standard can be requested from VESA:
+	VESA
+	2150 North First Street, Suite 440
+	San Jose, CA 95131-2029
+
+	Ask for the VESA VBE and Super VGA Programming starndards.  VESA
+	also defines local bus and other standards.
+
+	The VESA standard only addresses ways in which an application
+	can find out info and capabilities of a specific super VGA
+	implementation and to control the video mode selection
+	and video memory access.
+
+	You still have to set your own pixels.
+
+
+	VESA defines a "window" that is used to access video memory.
+	This window is anchored at the spot where you want to write,
+	and then you can write as far as the window takes you (usually
+	64K).  Windows have granularities, so you can't just anchor 
+	them anywhere.  Also, some implementations allow two windows.
+
+
+	This is VESA mode 101h.  There is a Set Display Start function
+	that might be useful for scrolling.
+
+
+	Your best bet is to write VESA for the info.  There have also
+	been announcements on this group of VESA software.

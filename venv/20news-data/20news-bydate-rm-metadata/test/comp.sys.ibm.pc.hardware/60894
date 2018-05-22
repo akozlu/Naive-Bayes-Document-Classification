@@ -1,0 +1,16 @@
+
+
+In a 25-pin serial loopback plug, you need to connect the following
+pins:
+
+pin 1 to pin 7
+pin 2 to pin 3
+pins 4, 5 and 8 together
+pins 6, 11, 20 and 22 together
+pins 15, 17 and 23 together,
+pin 18 to pin 25.
+
+That should do it.  Note that *a lot* of these pins are redundant
+in many implementations....
+
+Phil

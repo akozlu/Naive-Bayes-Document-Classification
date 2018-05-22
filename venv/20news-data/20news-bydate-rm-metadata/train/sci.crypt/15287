@@ -1,0 +1,28 @@
+
+From the limited details released so far, It seems that the clipper chip 
+system must employ some sort of public key cryptography. Otherwise, the key 
+management problems inherent to symetric ciphers would make the system 
+unworkable. It probably has some sort of public key exchange that takes place
+at the start of each call. Thats how they would identify the private key in 
+their data base?
+
+This means that either the NSA has developed some non RSA public key 
+algorythm or the feds have decided to subsidize PKP & RSADSI. The former is 
+rather an exciting posibility since keeping the algorythm secret while making
+chip implimentations widely avalibe will be exceptionally hard. If the feds
+are forced to make it avalible in order to gain public acceptance than that 
+could break RSA's stranglehold on public key crypto in the U.S.   
+
+As for my impressions of the whole scheme It seems that instead of trying to
+ban strong crypto, they are trying to co-opt it. Their contention that they 
+need to keep the algorythm secret to protect the security of the key
+registration suggests possible inherent weakness to the algorythm. More likely
+is that they dont want anyone constructing black market devices which dont 
+have the keys registered. Anyone else notice that in their Q&A session, they
+talk about releasing the keys only to people with proper autiorization but
+carefully dance around stating that the keys will simply have to be supeonaed.
+They seem to be trying to keep open the posibility of obtaining keys without 
+court order even though tapping a phone line requires one. Also pick up on 
+their implicit threat of eithe accept this or we'll ban strong crypto outright?
+I dont trust this plan at all and plan to oppose it in all (legal) ways
+possible.

@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+I'm glad to see this idea come up because I've had something similar in mind.
+What if you had an authorization key that computed from the name and address 
+data.  When the user registers, you don't even need to send executable code, 
+just compute his/her key and send him/her instructions to enter in the 
+appropriate place the following:
+
+Name=Joe Doe
+Address=123 Main Street
+City=Anytown, CA
+key=ldslfoialsdkcdsngsikhsfd

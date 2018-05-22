@@ -1,0 +1,18 @@
+
+
+I had this problem when I first loaded windows.  My I/O card is for 2 HD's
+2 FD's 1 Parrelel 2 serial (1 for mouse and 1 for my external modem) and
+a game port.  PROBLEM enters.  The DARN serial ports have no selection for 
+COM settings, they are stuck on 3 and 4.  
+Good card for HD's and FD's but lousy for serial. 
+
+I called Microsoft and other places.  The long and short of it is
+WINDOWS wants com1 and 2 ONLY!, for mouse selection.
+I went out and bought a small I/O card just for parrelel and serial.
+Now I have ALL 4 active COM ports and LPT1 and LPT2.
+This Half card was less than $20.
+
+Mouse on COM 1  external modem on COM 2,  I disabled the LPT2 so I could use
+the interupt for my scanner card IRQ.
+C-ya..... /\/\artin
+ 

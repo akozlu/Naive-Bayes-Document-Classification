@@ -1,0 +1,9 @@
+
+This sounds an awful lot like a password-guesser, not a weakness in
+DES.  Merritt and I pointed out this weakness in Kerberos in a paper
+that came out about 2.5 years ago, in both Computer Communications
+Review and Usenix.  For that matter, it was loudly discussed on the
+Kerberos mailing list even earlier.
+
+The problem has nothing whatsoever to do with DES, and everything to do
+with bad password selection.

@@ -1,0 +1,15 @@
+
+
+The paper was distributed (against the wishes of the NSA - I have a copy
+with a few 'illicit distribution' footnotes scribbled on it :-), and eventually
+published at one of the crypto conferences.  Things were looking good.
+
+Then Xerox patented the algorithms.  <Plonk!>
+
+I don't know of anything which uses them.  Also, Khafre was broken at a
+later conference and from work on a related algorithm I don't think the
+existing Khufu would hold up too well against a converted differential
+cryptanalysis attack, although it can probably be changed to resist this
+type of attack....
+
+Peter.

@@ -1,0 +1,8 @@
+
+
+
+In SGI's distribution with their Indigo line (others as well, possibly),
+they include source code for a GL widget that fits on top of Motif, and
+one that's Xt based as well.  You may wish to ask IBM whether they
+support this.
+--

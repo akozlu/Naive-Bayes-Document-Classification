@@ -1,0 +1,15 @@
+
+In your menu definition, put:
+
+    "Quit TWM" f.function "Execute and Quit"
+
+Then define:
+
+Function "Execute and Quit" {
+    !"some_program"
+    f.quit
+}
+
+-- 
+Barry Margolin
+System Manager, Thinking Machines Corp.

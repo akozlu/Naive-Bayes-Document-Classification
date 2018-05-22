@@ -1,0 +1,18 @@
+
+
+[...]
+
+
+
+I think your performance will depend upon the X server. 
+
+I'm running Linux and XFree86 on a 33Mhz 486DX with 4MB of RAM (8MB swap) and
+it runs just fine.  Its a lot better than some of the crappy old Xterminals
+in the labs at school anyway.
+
+You could probably outfit a 386SX with a minimal Linux/X setup for $900
+and be better off than with an Xterminal. IMHO.
+
+
+Scott
+--

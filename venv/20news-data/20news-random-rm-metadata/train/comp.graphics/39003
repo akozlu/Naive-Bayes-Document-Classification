@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+Look be consistent. First you post something that seems to suggest that you see
+xv being an 8 bit program as some sort of error. 
+So I post and asy it is not a bug, it is meant to be like that. 
+So you post and say it is not a bug, you never said it was, I have misunderstood
+etc.
+Now you are saying:
+
+
+If you would make up your mind what you are claiming it would make the
+discussion a *lot* easier.
+
+----------------
+
+
+Eh? Sorry, I don't understand what you are saying here. I am aware that English is
+not your native language and have tried hard to fathom your meaning, but this
+paragraph defeats me.
+
+
+Yes *as I originally said*, global changes are easily possible.
+
+But this statement contradicts what you said earlier: 
+
+
+---------------
+
+
+
+No I don't think so actually. 
+
+You were talking about loading a 24 bit image into xv (by quantising),
+manipulating the colours in the colour editor, then somewhow applying these
+changes to the 24 bit file when you exit xv. Xv lets you edit individual
+colours. Where is this sudden jumping off the topic?
+
+
+Yes I am aware there is no colourmap in a 24 bit file!!
+
+
+I do not understand what this statement is supposed to mean.
+
+
+???
+What are you saying
+???
+
+
+Ah! now we see thew problem! First you want to extend xv to allow editing of 8
+bit previews of 24 bit images. Then I point out problems with this. Now you are
+saying there is no problem because you, personally, happen not to use those
+parts of the program that cause the problem!!
+
+
+
+Not sure what you are saying here. Certainly one can make local changes.
+
+
+Yes that is one possible approach. I would find a program that took such an
+approach clumsy, however.
+
+
+Well here we agree - you have not thought it through very much. You don't seem
+to have a consistent point to make and contradict yourself from one post to the
+next. OK, we all have off days - perhaps you should step back and think this one
+through.
+
+
+
+As I said in the last post, JPEG is a compression algorithm. It is a way of
+saving disk space by trading off quality against compression. I fail to see what
+the problem is. You have not proposed any workable alternatives.
+
+
+Speak for yourself. You are the *only* person I have met or spoken to who,
+having quantised a 24 bit image down to 8 bits, expects this process to somehow
+reverse when the file is saved; keeping all modificvations that heve been made
+to the 8 bit image palette.
+
+Perhaps that is why you yused the singular?
+
+
+Look, next time you import a 24 bit image into xv look carefully at the main
+control panel - it tells you how many colours have been allocated to the 8 bit
+image. XV makes it abundantly clear that you are not editing the original 24 bit
+file. You are the *only* person who claims this is confusing.
+
+
+Is a design error the same as a bug? ;-)
+
+Read my lips. XV is a program for viewing and modifying 8 bit images. It lets
+you import other images. It shows, I would say, a good deal of thought about the
+human interface. And everyone else seems to use it happily for the purpose it
+was designed for. It makes no false claims.
+
+
+If you would come up with a solid, logical, well argued and lucid description of
+precisely how these proposed extensions would work, feel free to post them. So 
+far, you have not done so.
+
+
+Argh!! After all this, a comment like that. `Very easily'. OK, go ahead and code it
+if it is so easy.
+
+Or alternatively, look up the terms `import' and 'non-reversible transformation'.
+
+
+I think this is a bit of an exageration.
+
+What you are actually saying is, you got into a lift (elevator, if you are in
+the states ;-) ) and mistakenly pressed the down button to go up. Everyone else
+had no problem. Now you are trying to sue the manufacturer...
+
+
+you bet
+
+
+Mostly. Leaving aside the language issue however, it betrays some very wooly
+thinking (as you yourself admit) which is the same in any language. Go think
+some more.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc

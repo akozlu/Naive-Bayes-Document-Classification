@@ -1,0 +1,7 @@
+
+	I assume you're using the driver available from cica (hp4-v108.zip).
+Bring up the setup screen of the printer through control panel. Click on the
+"Options" button brings up another screen of choices. Change the "Graphics
+Mode" from "HP-GL/2" to "Raster" and check the box "Print Truetype as graphics
+(this is only available when you choose "Raster"). Now you should be able to
+print all your truetype fonts correctly. Good luck.

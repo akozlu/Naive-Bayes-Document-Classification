@@ -1,0 +1,29 @@
+to widgets:
+application code
+to a
+action to do this, processing any events afterwards.
+sequence
+events
+the
+ 
+Use a workProc.  See XtAppAddWorkProc(3Xt).
+
+You should split your drawing routnie up into small chunks (this
+is the hard part).  Then, in the callback that starts the drawing,
+you call XtAppAddWorkProc() to call your workProc the first time. 
+Your workProc should be a function that returns a boolean...
+TRUE when you are finished, and FALSE when you want to keep
+processing.  If you return FALSE, the workProc is automatically
+re-installed.  
+
+Note that this method is better that using a time-out loop, since
+events get processed in a more precedence-oriented manner.  If you
+are using the same Ada bindings I am, however, you are hosed, and
+should look into XtAppAddTimeout(3Xt).
+
+----------
+Joe Hildebrand
+hildjj@fuentez.com
+Software Engineer
+Fuentez Systems Concepts
+(703)273-1447

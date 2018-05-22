@@ -1,0 +1,16 @@
+
+The Fluke 87 beeps at you if you try to take it out of a current measuring
+range while there is still a lead plugged in to the current sense socket.
+
+... this should solve your problem - unless you are in a noisy environment.
+
+JohnH
+
+----------------------------------------------------------------------------
+
+      |  _  |_   _   |_|  _   _|  _|              Electronics Department
+    |_| (_) | | | |  | | (_| (_| (_| \/           School of MPCE
+    ---------------------------------/-           Macquarie University
+                                                  Sydney, AUSTRALIA 2109
+
+    Email: johnh@mpce.mq.edu.au, Ph: +61 2 805 8959, Fax: +61 2 805 8983

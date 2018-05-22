@@ -1,0 +1,7 @@
+
+
+Ok, so your a HAM.   Well, tune in 10.7Mhz or 455Khz.  These numbers sound 
+like some you have herd before?   Thats right, you guessed it, they are 
+common IF numbers.   Every Super-Het receiver has a local oscillator(s)
+which generates an IF.  This is what your detector detector is detecting (the
+local oscillator). 

@@ -1,0 +1,13 @@
+
+
+
+I tried this code yesterday.  On my Sparcstation ELC it takes over
+300 seconds to compress 22 seconds' worth of speech.  This means that it
+needs to be "optimized" by over a factor of 10 before it will be usable
+in even a half-duplex mode.
+
+I question whether CELP is the best approach for this application.  It produces
+great compression but at the expense of tremendous CPU loads.  We want
+something that can be run on ordinary workstations or even high-end PC's
+without DSP cards.  My guess is that some other algorithm is going to be
+a better starting point.

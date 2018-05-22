@@ -1,0 +1,19 @@
+
+I just implemented this and it seems I can just about achieve the display
+rates (20 400x400x8 frames / sec on IPX) that I get with Sunview, though
+it's a bit "choppy" at times. Also, loading the data, making an XImage,
+then XPut'ing it into a pixmap is a bit cumbersome, so the animation is
+slower to load than with Sunview. Is there a better way to load in the
+data?
+
+
+Shared memory PutImage (also mentioned by nkissebe@delphi.beckman.uiuc.edu,
+Nick Kisseberth) looks interesting, but I need someone to point me to some
+documentation. Is this method likely to give better results than server-
+resident pixmaps? I'd also be interested in looking at the XView code
+mentioned above...
+
+Thanks for the help so far. If I get something decent put together, I'll
+definitely post it to the Net.
+
+-----------------------------------------------------------

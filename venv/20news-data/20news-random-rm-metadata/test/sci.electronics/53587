@@ -1,0 +1,22 @@
+could 
+convenient
+then
+and
+called Global
+earth. 
+get
+meters (on
+
+Thought it means Global Positioning System. There are two precision levels, one  
+for army applications (killing has to be very accurate today) and one for civil  
+ones. The civil precision is about 20 to 30m (correct me, if I'm wrong),  
+though, it may be insufficiant for mapping buildings. But there is a way with  
+an additional reference point (e.g. one fixed GPS system in a house) to get the  
+same high precision as the military version, but it gets pretty complicated  
+then. If You use a microwave system (actually this means some type of radar),  
+You need quite a lot of number crunching to get accurate vectorized data out of  
+Your original signals. So the GPS system seems to be the better (and running)  
+idea for Your application(there have been discussions in this newsgroup, don't  
+know of an address anymore).
+
+Cheers    Robert   (HB9NBY) 

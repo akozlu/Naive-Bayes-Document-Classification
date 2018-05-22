@@ -1,0 +1,25 @@
+*** Unecessary ...
+might do it, too much trouble :)
+
+
+*** Agreed Mixali...
+
+
+*** Not entirely true..>
+
+
+TRUE ***
+
+Unecessary ...
+
+	Path of least resistance (TM) :) :
+Get WinGIF 1.4 from cica (ftp.cica.indiana.edu pub/pc/win3/(desktop?) )
+It will save to native .rle format unlike PSP (an otherwise fine, fine prog)
+Make a file using anything that has to be less than 30k, as Michael said,
+and less than 16 colors... Import it to WinGIF as gif, pcx or bmp and
+save it in you windows/system subdir as vgalogo.rle (NOT .lgo). Exit Win,
+and run setup in the windows subdir. Reselect your _current_ config. Run
+Win. Voila'
+(minor correction: the .rle file has to be <30k. that means ~15k gif ?)
+Hope it helps... (and please, please someone put this in the group's FAQ)
+

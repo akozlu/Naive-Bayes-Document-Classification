@@ -1,0 +1,17 @@
+
+It's made by (SURPRISE) National Instruments:
+6504 Bridge Point Parkway
+Austin, TX 78730-5039
+(800) 433-3488
+anonymouse ftp at: ftp.natinst.com
+
+Their 1991 catalog lists the NB-8G as follows:
+
+fetch and deposit DMA controller (8 channels)
+IEEE-488 interface with data rates up to 850 kB/sec, with DMA and
+programmed I/O
+   transfers
+8 16-bit counter timer channels
+RTSI bus (that's the connector on the top of the board - it links it with
+   other National Instrument boards
+List price of $1295

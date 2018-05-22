@@ -1,0 +1,27 @@
+
+
+
+How about some numbers here? Some kind of benchmark?
+If you want, let me start it - 486DX2-66 - 32 SPECint92, 16 SPECfp92 .
+
+
+
+Numbers? Pentium @66MHz - 65 SPECint92, 57 SPECfp92 .
+	 PowerPC @66MHz - 50 SPECint92, 80 SPECfp92 . (Note this is the 601)
+        (Alpha @150MHz  - 74 SPECint92,126 SPECfp92 - just for comparison)
+
+
+
+Not in a clock-doubled system. There isn't a doubling in performance, but
+it _is_ quite significant. Maybe about a 70% increase in performance.
+
+Besides, for 0 wait state performance, you'd need a cache anyway. I mean,
+who uses a processor that runs at the speed of 80ns SIMMs? Note that this
+memory speed corresponds to a clock speed of 12.5 MHz.
+
+
+Numbers?
+
+-- 
+Ravikumar Venkateswar
+rvenkate@uiuc.edu

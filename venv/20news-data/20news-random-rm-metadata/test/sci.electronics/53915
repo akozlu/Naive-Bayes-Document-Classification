@@ -1,0 +1,8 @@
+
+I use an H11F1   FET optoisolater to switch microphone level signals.
+There is no click, since I put a .1uF cap across the LED.  Distortion
+measurement are very low with mic level, and they went up to 0.03% at a
++ 14 dB line level.  All I did was put the FET in series with one leg
+of the balanced line.  No hums, pops, just audio jumping out of silence.
+The FET runs about 100 million ohms with the LED dark and drops to 150-200
+ohms with it on.

@@ -1,0 +1,6 @@
+
+Its my understanding that bus mice are more accurate and "stable" in
+general than serial mice.  If I remember correctly, its because
+of the differences in how the interrupts are handled, as well as
+the fact that the mouse data is received over the computer bus
+as opposed to a (9600 bps?) serial connection.

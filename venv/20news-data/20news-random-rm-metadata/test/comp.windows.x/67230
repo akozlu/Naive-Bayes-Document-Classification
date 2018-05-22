@@ -1,0 +1,6 @@
+	Another way would be to use GetGeometry to find out where
+you are relative to the frame, and TranslateCoordinates to find
+out where your window's upperleft corner really is.
+	-- Ethan
+
+

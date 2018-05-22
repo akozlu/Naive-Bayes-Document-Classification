@@ -1,0 +1,33 @@
+
+
+You are quite correct in your understanding.  The filtering is not
+interpolation, as that would distort the frequency content of the signal
+you are listening to.  Generally, these players run the samples thru an
+all-pass filter network.  I have done this for ECG waveforms from a person's
+heart, and the effect is rather spooky.  It actually reconstructs peaks
+that weren't there (correctly, too!) and fills in the gaps with the
+properly computed values, just as if there had been a real sample taken at
+that point.  I use a CPU to do all the math.  It takes a decent (but not
+unreasonable) amount of CPU time to do this.  You can keep up with things
+in realtime if you write efficient code.
+
+In case you care, the filtering method uses an FIR (finite impulse response)
+filter.  I'd guess that CD makers use the same kind of method.  Anybody out
+there know the real answer?  I'd say that they use a tapped delay line with
+resistor/op-amp weighting to accomplish the filtering.  This strikes me as
+the most cost effective method for volume production runs.
+
+
+
+Actually, I think the only reason they do this is so that they can say that
+they have a marketting gimic.  I would guess that it is acutally cheaper to
+filter an oversampled signal than not.  You can use sloppier components and
+give the filter a roll-off that isn't so sharp.   It's too bad that they
+charge more for something that (I think) is actually less costly to build.
+
+I seriously doubt that the filters cost the same but are better.  They are
+built to a price spec, and that spec says "cheap as possible!". 
+
+
+
+  -dave

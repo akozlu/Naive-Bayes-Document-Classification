@@ -1,0 +1,18 @@
+
+
+
+
+You don't give the precise error message, but I assume that
+the making of the target fails, because make can't find the rules.
+
+We've seen this happen with SunOS 5.x make as well and aat this
+point I'm not sure why it happens. It seems to happen
+with large Makefiles. The entries near the end get lost.
+Small changes in the makefile will remedy this problem,
+as it does in your example.
+
+In the MIT R5 distribution + R5.SunOS5.patch this can happen with
+the target ``Makefiles'' in one of the doc directories.
+
+
+This is really weird. Are your *really* sure that you were using GNU make?

@@ -1,0 +1,6 @@
+From article <1rc07h$ern@olivea.ATC.Olivetti.Com>, by manu@oas.olivetti.com (Manu Das):
+
+The window is probobly on top but the lower windows are drawing over it.
+Try using WS_CLIPSIBLING to keep the lower siblings from drawing on the
+top sibling's space.
+-- 

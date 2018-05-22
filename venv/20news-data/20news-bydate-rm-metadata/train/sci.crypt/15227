@@ -1,0 +1,8 @@
+
+	This doesn't handle superencrypted traffic. If the clipper
+doesn't impose any unfortunate performance side-effects there's no
+reason not to use it to superencrypt a stream of triple-DES encrypted
+traffic. That way your traffic looks "normal" and perhaps anyone
+desiring to listen in won't even bother, since they know nobody's
+going to really trust crypto that has classified internals for
+important stuff.

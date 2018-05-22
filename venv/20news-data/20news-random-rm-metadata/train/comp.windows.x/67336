@@ -1,0 +1,9 @@
+
+Depends on the nature of the "rounding."  X allows the user to do bit
+arithmetic on pixel values, (i.e.,  XOR foreground and backgroun pixel
+values together to calculate a foreground color that when used with a
+function of GXxor fill change foreground to background and vice-versa).
+If your rounding does not preserve these types of calculations then 
+clients that use them will break.
+
+	Ken

@@ -1,0 +1,13 @@
+
+Jeez, that should do it.
+
+
+Very interesting application, controlled lighting and environment, moderate
+distances ... might be more interesting than my application.  Just a thought,
+you could use a roof mounted IR sender, similar in operation to a TV remote
+control that tells each persons coded IR pulser to send a pulse.  A Hamamatsu
+detector, as was mentioned in a previous message in this thread, would give
+the current position.  Store and collate this on a computer and you could
+replay the movements on the screen.  Interesting!
+
+--

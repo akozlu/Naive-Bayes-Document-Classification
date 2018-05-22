@@ -1,0 +1,6 @@
+
+I don't know the answer to your direct question, but if the Mac Superdrive can  
+read MS-DOS disks (can it??) then you can transfer files between the NeXT and  
+a Mac by using MS-DOS formatted disks since the NeXT *can* read/write that  
+format.  And if you're interested in transferring files, you can also do it  
+over the serial port using kermit.

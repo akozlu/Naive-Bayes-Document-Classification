@@ -1,0 +1,8 @@
+
+ ...
+
+BadWindow is an X protocol error.  If you write a custom error handler
+which does not do "exit(1);" the error handler will return and let
+your program carry on.  So, using a XSetErrorHandler is the way to
+go, but never mind the longjmp.
+

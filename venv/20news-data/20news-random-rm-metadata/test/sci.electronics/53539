@@ -1,0 +1,8 @@
+
+
+Well, one reason for getting conflicting answers is that it depends on
+what you want the ground plane to do.  A continuous conductor is a good 
+electrostatic shield.  Do you have signals on your board that need
+shielding rom other things?  This shielding won't do much good for magnetic
+fields, unless you make it continuous around the circuit to be shielded,
+like a Faraday cage.

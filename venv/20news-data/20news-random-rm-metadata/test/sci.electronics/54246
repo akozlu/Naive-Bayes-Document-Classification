@@ -1,0 +1,8 @@
+If you can modify the design of the DTMF decoder, the ideal comunications
+would be over a multi-drop system, like RS-485.  RS-485 boards are available
+for PC's, probably cheaper than a bunch of RS-232 channels, and RS-485 is
+cheaper to build onto your satellite modules, using only a single supply
+8-pin DIP driver chip.  Software at the PC end would be similarly complex
+for either RS-232 or RS-485, in my opinion.  The higher data rates possible
+with RS-485 would permit quasi-simultaneous data transmission.
+Hope this helps.

@@ -1,0 +1,9 @@
+
+
+
+
+I have tried that with one font, if your xterm terminfos/termcaps are set up
+to NOT remap bold (which they are be default) to reverse, then nothing happens
+when bold is displayed.  It would appear (at least in X11R4) than you cannot
+display bold in an xterm without specifying two fonts; a normal and a bold.
+I wish someone would prove that incorrect.

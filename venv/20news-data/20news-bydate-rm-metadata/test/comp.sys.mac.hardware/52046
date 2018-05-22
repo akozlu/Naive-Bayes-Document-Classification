@@ -1,0 +1,16 @@
+
+The problem with turing your computer on and off constantly is not due to
+the power surge at start up.  It is due to thermal fatigue.  You turn on
+your computer, it heats up, and everything expands.  You turn it off, it
+cools off, and everything contracts.  There is a limited number of cycles
+of this that any component can take before it fails.  Modern electronics
+are much more robust in this respect than their predeccesors.  In fact
+portable computers are designed with this in mind since the sleep function
+that extends battery life also greatly increaces the number of thermal
+cycles that occur.  As a rule of thumb, if I am not going to use my
+computer (and this includes the monitor) in the next 4-6 hours, I turn it
+off (I always dim the monitor when not in use to prolong the life of the
+phosphor).  I tend to think that with the pace of technical innovation in
+the computer industry you should be much less concerned with the fatigue
+life of your equipment and more concerned with how long your particular
+architecture will be supported by hardware and software vendors. :") 

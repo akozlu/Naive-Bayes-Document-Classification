@@ -1,0 +1,18 @@
+newly
+the pixel 
+is 
+
+You could set up a bitmap with a mask in it.  Clear the
+bitmap, draw the rectangle to be deleted with GXor.  Draw the one
+that is to stay with GXclear.  Then GXxor the entire pixmap with
+the screen.  
+
+Note that this is a pretty effective way of animation, if you ever
+need to do that (replace the GXclear with a GXxor).
+
+----------
+Joe Hildebrand
+hildjj@fuentez.com
+Software Engineer
+Fuentez Systems Concepts
+(703)273-1447

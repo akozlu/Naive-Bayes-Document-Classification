@@ -1,0 +1,36 @@
+
+	This is not a good idea.. I upgraded my motherboard last fall.  I
+would have been quite pissed at any software that would have forced me to
+reinstall simply because I changed motherboards.
+
+	Any info in the BIOS is too volatile to use as a checksum.  Are you
+going to require that a user re-install all their software if they add 4Mb
+of RAM to their computer?  I did that a couple of weeks ago.  It's in the
+BIOS, and if software had told me "this isn't the machine you installed me
+on" I would never have used that software again.  Really bad idea.
+
+
+	This is silly.  It's much easier to loan disks to a friend and let
+them do an install than to backup your copy already on disk, and then give
+them that.  Your scheme isn't going to stop anyone.
+
+
+	Do you know any assembly language at all?  All anyone needs to do if
+find the part of the code that does the quiz, and insert a JMP instruction
+to just completely skip it.  Not that difficult, really!  And there is very
+little that commpanies can do to stop this type of thing.  Using PKLITE or
+some similar utility would help, but only if the resulting compressed .EXE
+were tagged as uncompressable.
+
+
+	This is by far the best idea you presented in your post.  Making it
+plainly obvious who registered is going to stop casual pirates. But, the
+determined ones are just going to answer "Joe Blow" to the question of
+"what's your name" so this won't stop them in the long run.
+
+	Pirates are always going to win this fight.  They simply have more
+time to work on the software and figure out the protection scheme.
+
+--
+Steve Madsen
+sjmadsen@nextsrv.cas.muohio.edu

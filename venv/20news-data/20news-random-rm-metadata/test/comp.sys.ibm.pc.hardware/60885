@@ -1,0 +1,16 @@
+
+
+As an earlier post noted - through DMA.
+
+
+
+Any one time means IMHO a single byte xfer. If I have four sources of
+DMA requests ready, the DMA would service the one after the other. If
+the bandwidth for the four together is lower than the ISA/DMA
+bandwidth, this will work.
+
+Note that the bus mastering here is the priority mechanism in the DMA
+controller.
+
+--
+Penio Penev  x7423 (212)327-7423 (w) Internet: penev@venezia.rockefeller.edu

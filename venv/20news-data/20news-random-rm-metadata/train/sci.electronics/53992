@@ -1,0 +1,36 @@
+
+
+
+
+They do interpolate - it's not linear interpolation though. You are correct
+that the frequency content is not altered (more specifically, the baseband
+spectrum is preserved, and so is every Nth image spectrum. The other
+(N-1) in N image spectra are removed, where N is the oversampling rate)
+
+
+Ideally the filter has a gain of 1 from 0Hz to 22050Hz, and a gain of 0
+from 22050 to the new Nyquist frequency. In practice a finite transition
+band is required, and there is also a certain amount of pass-band ripple
+and stop-band leakage. With a high order (eg 200 taps) digital filter,
+a very good approximation can be easily achieved.
+
+ <<< BIT DELETED ABOUT OBSERVATIONS OF INTERPOLATION FILTER AT WORK >>>
+
+
+No, they actually use a digital FIR just like yours, but built in hardware,
+on custom VLSI chips for (mainly) economic reasons.
+
+
+
+I guess that the answer is somewhere between the two.
+
+As an interesting (?) aside, some of you out there may be aware of a scheme
+used by Pioneer and Wadia, which is called (by Pioneer, at least) Legato
+Link. I haven't heard one of these players, but by reading advertising
+blurb, and a couple of pseudo-technical articles I deduced that all they
+do is build a lousy digital oversampling filter, and let a load of the
+first image (ie aliassed) spectrum through. Talking to Bob Stuart (of
+Boothroyd Stuart, aka Meridian) confirmed my suspicion. He said that it
+sounded awful, but then he would, wouldn't he...
+
+Christopher

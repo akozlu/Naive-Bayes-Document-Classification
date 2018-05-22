@@ -1,0 +1,11 @@
+
+
+
+  Actually the most flexible way to create temp files is to check for a TEMP or
+TMP environment variable and create the files on the drive and directory pointedto by the variable.  This is pretty much a standard for DOS, Windows and OS/2
+applications.
+
+
+-- 
+What I have to say is my own opinion and has no bearing on any other person or
+organization including my employer.

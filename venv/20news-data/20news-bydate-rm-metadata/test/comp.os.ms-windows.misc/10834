@@ -1,0 +1,13 @@
+
+IT'S BACK!!!!!!
+
+Congratulations, you've just discovered a very nasty, and very frequently
+ecountered, bug in the Word Setup program. Once you know what is wrong, it
+is quite easy to fix. Go into the Fonts dialog under Control Panel, and select
+the two fonts MT Extra and Fences. Delete them, but only delete the list
+entries, not the disk files. Now select Add, and add the fonts MT Extra Plain
+and Fences Plain. Close the Font box, close Control Panel, and restart Word.
+Everything should be alright now.
+
+Does anyone know if Microsoft has fixed this thing yet? They HAVE to know
+about it by now, it's been so frequently reported.

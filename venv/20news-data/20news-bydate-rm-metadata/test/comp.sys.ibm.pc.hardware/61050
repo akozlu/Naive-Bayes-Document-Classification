@@ -1,0 +1,5 @@
+
+
+I have got an Adaptec SCSI card, that comes with its own version of FDISK.
+The problem with DOS is that it will only see two hard disks, any more need to be
+done by device drivers.

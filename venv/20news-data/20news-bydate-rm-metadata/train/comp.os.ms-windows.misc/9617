@@ -1,0 +1,20 @@
+
+
+Since running any GUI over a network is going to slow it down by a
+fair amount, I expect Windows NT will be multiuser only in the sense
+of sharing filesystems. Someone will likely write a telnetd for it so
+one could run character-based apps, but graphics-based apps will have
+to be shared by running the executables on the local CPU. This is how
+things are shaping up everywhere: client-server architectures are
+taking over from the old cpu-terminal setups. 
+
+Note that the NeXT does this: you can always telnet into a NeXT and
+run character-based apps but you can't run the GUI. (Yeah, I know
+about X-Windows, just haven't been too impressed by it...)..
+
+
+
+
+
+
+-- 

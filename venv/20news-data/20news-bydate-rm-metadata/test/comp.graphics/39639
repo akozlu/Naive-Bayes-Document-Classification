@@ -1,0 +1,17 @@
+
+
+Yes.  Here's what you should do.
+
+Keep the vertices in an array, and have the polygons (triangles are okay,
+but n-sided polygons are slightly more efficient) store the indices into
+the array of the vertices that comprise them.  You set a flag for each
+vertex when you transform it, so you don't have to transform any vertex
+more than once; you also do backface elimination before processing the
+polygon, so that vertices that belong only to bacfacing polys don't have
+to be transformed at all.
+
+Whenever you transform a vertex, check if it's on the far side of the hither
+plane; if it is, you can project it right away and store the result.
+
+Then do your Z clip; any vertices that get produced will have to have their
+projection done at that stage.

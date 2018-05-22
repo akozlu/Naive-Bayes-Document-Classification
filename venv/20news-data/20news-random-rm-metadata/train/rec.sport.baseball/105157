@@ -1,0 +1,18 @@
+
+
+
+
+I think there is another formula for ERA.  I heard something about it last 
+year.  Im not sure what it is, but im gonna give it a stab.  It allows for
+a pitcher to pitch more than 9 innings at a time and not benefit, cuz it
+uses outs recorded instead of innings pitched...
+
+        ERA = (ER*27)/outs recorded
+
+Like i said, im not sure this is exactly it, but im pretty sure they changed
+it to something of the sort.
+
+
+
+
+

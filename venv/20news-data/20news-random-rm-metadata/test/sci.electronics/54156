@@ -1,0 +1,12 @@
+
+
+     I have recently used the 4066 to switch a bipolar signal.  I simply
+ran the 4066 off a bipolar supply, +/- 8V in this case.   As long as your
+analog input signal stays between the supply rails, the 4066 will work fine.
+Of course, your control (logic) input must use -8V as the logic LOW and
++8V as the logic HIGH reference, so that either (1) all your driving logic
+must be 4000 CMOS with the same bipolar supply or (2) you must provide
+some kind of voltage level shifting circuit between the 4066 and the
+control logic.  In my case, I was able to use the bipolar supply all the
+way.
+

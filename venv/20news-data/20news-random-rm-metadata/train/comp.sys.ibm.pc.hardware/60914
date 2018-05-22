@@ -1,0 +1,6 @@
+
+You can configure devices for the same IRQ as long as you don't use them
+*simultaneously*, under Dos at least. Both LPT1: and SB just sit there until
+you tell them to do something. You can't configure a SoundBlaster for IRQ7
+if you got an Ethernet Card which hits that IRQ a thousand times or so per 
+second.

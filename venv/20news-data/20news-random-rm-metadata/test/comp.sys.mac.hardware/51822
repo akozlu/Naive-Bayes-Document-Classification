@@ -1,0 +1,30 @@
+
+    I think this is mostly the fault of the people who write up the
+literature and price lists being confused themselves. Since there are
+two possible processor configurations and one of the them doesn't have
+an FPU it does seem to be an option, even though it really isn't.
+
+
+    Well, then allow me to end your confusion. The C650 ONLY come with
+an LC040 in the base 4/80 configuration. If you are not getting this
+configuration then you are getting an FPU.
+
+
+    Good question. I have been wondering that since Feb. 10th.
+
+ 
+    This is possible, but an option is something that you are supposed
+to be able to request when you want it. What Apple has done is given the
+buyer a CHOICE between configurations and not an OPTION.
+
+
+    This is not unclear at all. In fact Apple has included in the ROMs
+of those machines with LC040s code to recognize the presence of the full
+040's FPU and use it. Thereby making the upgrade as easy as switching
+chips. You pop the LC040 out and pop in a full '040.
+
+
+    They did? I think I would double-check this. It has been stated
+countless times in this newsgroup by two of the Centris hardware
+designers that the LC040 and the full '040 are pin compatible and that
+the C610 can be upgraded to a full '040.

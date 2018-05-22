@@ -1,0 +1,5 @@
+
+Larger drives tend to have multipule platters which can allow adjacent
+bits to be read in parallel resulting in higher throughput.  They also
+have higher spindle speeds which leads to both increased throughput and
+reduced seek times (due to reduction of rotational latency.)

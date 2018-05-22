@@ -1,0 +1,23 @@
+
+
+But the interesting comparision is how fast clock-cycle chips
+you can get - an Alpha is WAY slow at 66 MHz, but blazes at
+200 MHz.
+
+
+
+But the 68040 is (or will soon be) available in 40 MHz version,
+making it "comparable" to a 486DX2-80
+
+
+I think you have that one turned around; they have faster clock
+cycles but less power behind each cycle. Not to mention that the
+Intel instruction stream is BYTE-oriented (longest Intel instruction
+is 15 bytes; what an odd number :-) which makes it hard to do any
+intelligent memory subsystem.
+
+Cheers,
+
+					/ h+
+-- 
+ -- Jon W{tte, h+@nada.kth.se, Mac Hacker Deluxe --

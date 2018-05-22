@@ -1,0 +1,19 @@
+
+
+
+
+
+I tried to send this as private mail, but mail to benj@ossa.hq.nasa.gov was
+rejected, so here it is:
+
+Here is an extract from the README file that comes with MacX:
+
+Users of remote commands with Sun machines may find that their remote commands 
+appear to do nothing and there is no output from the Sun machine.  This is due 
+to a feature of the Sun rexecd network daemon which quietly disconnects from 
+requesting machines that are not known to the Sun|s network address (/etc/hosts
+or NIS hosts) database.  To successfully use remote commands with a SunOS-based
+machine, there must be an entry in the network address database for the 
+Macintosh which is running MacX.
+
+-- 

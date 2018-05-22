@@ -1,0 +1,8 @@
+
+Can some people with cache cards PLEASE post speedometer numbers they get
+with the cards. I have only one report, which seems to indicate that
+a 32K cache card gives you only about a 1% speedup!! Access to memory takes
+LONGER when you have a cache card(and get a miss) thus a small cache card
+of 32K may be worth $0. I don't know what kind of numbers 64K cards get
+you. Also I found it interesting that you can disable the cache cards
+via software(read about it in the Mac IIsi tech notes from ftp.apple.com)

@@ -1,0 +1,15 @@
+
+Battery powered devices like the PowerBook are sometimes more sensitive to 
+serial port weirdness.  I had trouble with connecting my Mac Plus to an HP 95LX
+handheld.  Everything else worked okay on that port, but not the HP. (it runs
+on two penlite batteries).  It turned out that the plus (by accident or by 
+design flaw?) was putting a 4 volt bias on the serial port that was doing 
+weird things to the HP (which has only 3v dc!).  The HP worked fine when 
+connected to the printer port.  
+
+Does your PB screen get dim or anything when connected to the device?  Have you 
+tried using the printer port?
+
+Good luck. 
+
+--jamie

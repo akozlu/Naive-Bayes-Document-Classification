@@ -1,0 +1,10 @@
+         ...........   more deleted
+
+
+You need to start the X-server with -indirect its_name.
+
+If you start it with -indirect localhost, it use the loopback adress as
+it's adress. So when it try to contact another host, this one try to answer
+on its loopback adress. Not good.
+
+Remember that every machine has the adress 127.0.0.1 on the loopback network.

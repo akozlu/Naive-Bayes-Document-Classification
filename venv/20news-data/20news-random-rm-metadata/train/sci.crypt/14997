@@ -1,0 +1,11 @@
+
+The original one-way encryption I put into Multics about 1968 (as suggested
+
+by Joe Weizenbaum) was invertible.  An Air Force tiger team demonstrated 
+this to me in May 1973.  I then asked an expert (who requested anonymity) 
+what I should use instead; the expert's suggestion was to treat the 
+8-byte password as both key and data for the LUCIFER encryption algorithm, 
+which is similar or identical to DES.  This method or something stronger 
+should take care of (a).  Issue (b) is discussed in comp.security.misc: 
+longer passwords and quality control on what users can choose as passwords
+are the common tactics.

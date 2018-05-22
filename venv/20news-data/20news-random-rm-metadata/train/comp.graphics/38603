@@ -1,0 +1,9 @@
+
+
+Why not use the PD C library for reading/writing TIFF files? It took me a
+good 20 minutes to start using them in your own app.
+
+Martin
+
+--
+---------------------------------------------------------------------------

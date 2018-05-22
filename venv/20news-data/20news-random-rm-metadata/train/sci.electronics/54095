@@ -1,0 +1,11 @@
+
+
+WHen trying to choose a resistor with a tolerance better than 1%, you 
+need a trimmer or to screen devices, it can't be made from adding 2 
+resitors of 1% value in parallel, since the smaller device will have the 
+error of 1% to cope with. 
+You have 3 choices;
+a) live with the error of 1% tolerance devices for low Q circuits or low 
+sensitivity designs
+b) buy resistors with better than 1% tolerance (Vishay/Dale)
+c) use trimmers or SOT's (Select-On-Test)

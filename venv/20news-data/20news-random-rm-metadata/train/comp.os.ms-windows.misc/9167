@@ -1,0 +1,17 @@
+
+
+And why they are considering using WinBench as a test, they may want
+to read everything Steve Gibson has said on the subject in his
+InfoWorld column the past couple of month.  In short, virtually
+every board manufacturer cheats on the test by writing things in the
+driver that is there only to make the board appear faster on the
+WinBench suite.  So the WinBench score has no bearing in reality to
+how cards stack up on real world tasks.
+
+In the last PC-Magazine they benchmarked some of the new accelerators,
+and admitted that many of them 'cheated' on WinBench.  Interestingly,
+they 'allowed' one type of cheating behaviour (caching for bitblt
+operations, no matter how unreal), yet did not allow a couple of other
+types of cheating behaviour that some of the cards used.  At least
+one card was eliminated from the "Editor's Choice" because of
+cheating on the benchmark.

@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+So, who is Mykotronx, Inc.?  It would be nice to know that they were
+not a front company used by an intelligence or other agency of the 
+U.S. government.  Trusting the fox to guard the chickens, and all that.
+Seems suspicious when the rest of the sources are foxes.
+
+While we are at it, the chip design(s) should be examined and verified
+against silicon to insure no trap doors or hidden protocols exist in silicon,
+regardless of the security level of the encryption algorithm.  It would be a 
+shame if some three letter agency had the ability to interrogate my chip, when
+all I'd know is that someone rang, and when I attempted to go off hook the
+line went dead.  Could be even worse if the chip were intended to connect
+directly to a modem.
+
+The design examination should be done to the gate level.  Does anyone have
+a good idea how to tell if there is a piggyback design on silicon?  The model
+would be extra logic sharing pins with the advertised function.  Tip offs
+would be circuitry that would ignore incoming data if formats or sequence
+is not right.  I can think of only two ways an output pin could be used,
+and its possible that might be noticed, but could be edited from the netlist.
+I think the silicon itself needs to be investigated.  Imagine a design
+done in two layer metalization, yet finding a third layer under the
+microscope.  

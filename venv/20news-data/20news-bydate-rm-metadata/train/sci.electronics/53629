@@ -1,0 +1,26 @@
+
+
+You didn't mention whether or not cost is an issue.  Where
+exactly are you running 100MHz??  THe digital side?  TTL?
+ECL?  We run 200MHz and 100MHz all over our IC test equipment 
+all day long in the ECL domain, and we use DIP's along
+with PLCC's, 25mil and 20mil pitch 256pin QFP's to name
+a few.  I don't see a problem in packaging as long
+as you adhere to sound engineering practices.  
+
+A good source of information is Motorola's MECL System Design
+Handbook. The latest ed. is dated 2/88.  That is considered
+to be one of the *bibles* in high-speed design.
+
+The very fact that you need to build a test fixture means
+you're most likely going to need a socket.  It in itself
+has far more inductance per pin than the package you are
+testing, not to mention any impedance discontinuities.  I
+don't see the big concern over the packaging because it
+probably isn't going to make that much difference
+
+If you're trying to get TTL to run at 100MHz, have fun...
+TTL was never designed to run in a 100MHz environment.
+:-(
+
+aaron

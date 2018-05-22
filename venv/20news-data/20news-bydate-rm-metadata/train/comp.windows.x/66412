@@ -1,0 +1,8 @@
+
+
+
+
+
+
+No. This is only relevant for OpenWindows 3.x as shipped with SunOS.
+It is not relevant for MIT R5. MIT R5 should compile without problems.

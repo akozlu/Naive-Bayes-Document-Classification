@@ -1,0 +1,14 @@
+
+I believe that the "A-D converters" found on a joystick port are really
+timers that tick off how long it takes an R-C circuit (the R being your
+paddle) to charge up to something like 1/2 Vcc.  For games this works
+pretty well, but you certainly wouldn't want to try to take lab
+measurements off something as non-linear as that.
+
+Hmm... I suppose you could linearize it in software, but the real problem
+is that the precision of your measurement is no longer constant (higher
+voltages would be more precise).
+
+On the other hand, I could be wrong and perhaps the game card designers
+splurged for the extra $.50 to make a cheap constant current source out of
+an op amp.  But I wouldn't expect that...

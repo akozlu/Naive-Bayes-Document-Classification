@@ -1,0 +1,7 @@
+
+The x3270 at export.lcs.mit.edu supposedly does.  I use another x3270
+that was cleaned up by Brian Ward <ward@math.psu.edu> which adds better
+color support, and cleans up _lots_ of bugs, as well as cut&paste.
+I just put it on export.lcs.mit.edu, as x3270v2.65beta.tar.Z.
+
+--Dave

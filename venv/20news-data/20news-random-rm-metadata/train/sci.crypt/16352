@@ -1,0 +1,8 @@
+Wouldn't this method be vulnerable against a "birthday" attack?
+Currently a cracker needs to find the _only_ (*1) key that produces
+the given ciphertext.  He has to try about 2^63 keys on the average.
+In the proposed method the cracker only needs _any pair_ of key halves.
+If he can store about 2^32 guesses for one half, he is likely to find
+a mathching pair in about 2^32 guesses.  (Here I have assumed that the
+DES-encryption is reversable, if the key is guessed.  Is this so or do
+the modifications of the S-boxes by the salt bits make it non-reversable?)

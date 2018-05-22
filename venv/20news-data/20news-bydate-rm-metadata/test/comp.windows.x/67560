@@ -1,0 +1,5 @@
+
+The *fastest* way is to use an X server with shared memory extension. It uses
+shared memory if it is a local X server (hence images don't have to be duplicated),
+and defaults to the regular image routines if either the shared mem extension
+is not available, or if it's  not the localhost.

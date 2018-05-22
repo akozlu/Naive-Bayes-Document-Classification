@@ -1,0 +1,18 @@
+
+Try to get axe - It's a wonderful X based editor and much simpler to use than
+emacs what is a overkill. Of course, emacs is no editor but a religion.
+
+
+1) Don't call going from an Amiga to a IBM 'upgrade'
+2) The Amiga Workbench did the job of a Desktop manager, and there is no
+   really amazing good X Desktop manager in the Public Domain.
+   (I'm currently writing one... but it's in very early stage)
+3) xdtm may be a medium good replacement.
+4) X associates icons with nothing. A number of X Window Managers associate
+   icons with windows, in a way to ease window management.
+   But this has nothing to do with icons of a Desktop Manager application.
+5) The tool bitmap is there for simple icon drawing.
+
+
+xv -root -max -quit whatever-image-file
+

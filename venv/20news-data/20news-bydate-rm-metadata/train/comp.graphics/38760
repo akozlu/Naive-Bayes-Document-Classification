@@ -1,0 +1,8 @@
+
+
+They are 3D object files for CAD 3D 2.0, a program written by Tom Hudson
+for the Atari ST computers.  Don't know much more about them except that
+they are stored with the points first, then the surfaces are next, and are
+made by listing 3 point numbers that make up the triangle surface. Then
+there's a header that describes coloring, lighting, etc.  Don't know much
+more than this, hope this helps.

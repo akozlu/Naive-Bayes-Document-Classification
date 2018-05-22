@@ -1,0 +1,22 @@
+
+
+The HC711 is an EPROM version of the HC11. Raw HC11 parts have factory set
+ROM images, and as such are useless to the hobbyist. HC811 parts have
+EEPROM, allowing for electrical erasure and reprogramming.
+
+Some Motorola parts (such as the HC705K1) have EPROM, making them user
+programmable, but come with options of either windowed or sealed. The
+more expensive windowed packages allow multiple use, the plastic dip
+varieties are one-time programmable, since there is no way of exposing
+the EPROM array to light.
+
+JohnH
+
+----------------------------------------------------------------------------
+
+      |  _  |_   _   |_|  _   _|  _|              Electronics Department
+    |_| (_) | | | |  | | (_| (_| (_| \/           School of MPCE
+    ---------------------------------/-           Macquarie University
+                                                  Sydney, AUSTRALIA 2109
+
+    Email: johnh@mpce.mq.edu.au, Ph: +61 2 805 8959, Fax: +61 2 805 8983

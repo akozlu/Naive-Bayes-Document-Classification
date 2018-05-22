@@ -1,0 +1,6 @@
+
+I've had similar problems w/ other board types, and the problem is NOT a
+result of the 8/24GC board! Try Zapping the PRAM by holding down
+"Command-Option-P-R" durring startup! You will have to reset everything to
+your previous preferences (The Date & Time remain intact!), but the Video
+Board will start remembering it's previous settings!

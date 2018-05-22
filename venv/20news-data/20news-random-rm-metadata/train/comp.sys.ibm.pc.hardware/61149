@@ -1,0 +1,3 @@
+No.  The Always IN-2000, among others requires no drivers for up to 7 SCSI
+hard drives.  DOS does not have a 2 drive maximum, as I already have 3. All
+is done in hardware, there's no software drivers at all.

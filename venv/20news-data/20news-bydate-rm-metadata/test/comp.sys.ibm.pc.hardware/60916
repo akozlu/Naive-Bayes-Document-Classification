@@ -1,0 +1,21 @@
+
+
+
+I totally agree with your friend, since when the CPU is apparently idle
+it is still in fact churning away millions of instructions per second
+(checking for keyboard input for instance).  
+
+The exception to this is for CPU's used in laptops, where the CPU can
+enter an idle state where it is just preserving its current status but
+doing absolutely nothing.  In this case it needs a hardware interrupt
+to get it going again.
+
+
+--
+_____________________________________________________________________
+
+Victor Buttigieg					e-mail:	victor@uk.ac.man.ee.comms
+
+Communications Research Group
+
+University of Manchester

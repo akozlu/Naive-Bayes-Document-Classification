@@ -1,0 +1,12 @@
+
+
+
+as someone who just lived through a switch from SunOS4.x.x. to
+Solaris, i'll heartily agree with this. 
+
+ObCrypt: one of my main gripes with Solaris is its braindead mailx,
+which is -almost- enough like mail to get you hoping, but crashes
+horribly when you try to do anything useful with it. (like use pgp-
+capable sendmail replacements.)
+
+jason

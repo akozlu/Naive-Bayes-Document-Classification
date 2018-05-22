@@ -1,0 +1,7 @@
+
+
+
+The name is rather descriptive.  It's a command to the spacecraft that tells
+it "If you don't hear from Earth after 264 hours, assume something is wrong
+with your (the spacecraft) attitude, and go into a preprogrammed search mode
+in an attempt to reacquire the signal from Earth."

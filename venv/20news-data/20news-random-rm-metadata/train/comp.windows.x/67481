@@ -1,0 +1,10 @@
+
+In the list you mentioned, tgif handles everything except rotation and
+any size text.  It only supports 90 degrees rotation.  Currently, it
+supports 11 (X11R4 standard) font sizes.  However, it allows arbitrary
+scaling of the entire drawing.  Effectively, it allows any font sizes, but
+you can only have 11 different sizes per drawing.
+
+Tgif takes up 850K (compiled with -O option) on a SPARCstation.  I was told
+that it compiles under Linux, but I haven't tried it yet.  It works with
+both color and monochrome X.

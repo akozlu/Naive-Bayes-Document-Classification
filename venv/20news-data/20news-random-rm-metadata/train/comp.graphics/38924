@@ -1,0 +1,7 @@
+
+I don't know the answer the to this one, although with 8-bits I would assume
+that it was one or the other.
+
+
+According to the literature, it will do quadruple buffering so that you
+can have double buffered stereo output.

@@ -1,0 +1,25 @@
+
+I posted that document (forgot part 1/6 etc) but it was more than a summary,
+it was a complete technical description of the protocol. It can be ftped
+from simtel or from wuarchive.wustl.edu in mirrors/msdos/naplps
+
+
+Why not write a NAPLPS decoder for your choice of platform and release the
+code to the net? Then other willing souls can help port it to other platforms.
+NAPLPS was designed for this type of online interactive graphics much the
+same as X, but while X is intended for high-bandwidth network connections,
+NAPLPS was optimized for low bandwidth modem connections.
+
+I'm sure you will receive other suggestions but look at it this way. If you
+wanted to provide a full network connection to Linux over a modem would you
+use SLIP/PPP or would you invent some new way? Most people would say that
+SLIP/PPP exist and are reasonably well designed protocols, so lets just
+implement them. I see it the same way with NAPLPS. It is an existing, well
+thought out, extensible protocol for online graphics, so why not implement
+it.
+
+If you need any advice on implementation, just e-mail me. I am currently
+getting a beta version of my CorelDraw to NAPLPS converter working well
+enough to release it by May 15. If you or someone else does not get going
+on a freely available NAPLPS decoder, then I intend to do it after I get
+a my conversion program out of beta, and get a couple of other things done.

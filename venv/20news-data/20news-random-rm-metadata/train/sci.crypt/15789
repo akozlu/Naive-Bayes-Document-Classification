@@ -1,0 +1,17 @@
+
+	Have the feds shut down the people making Sound Blaster? What
+about Apple and NeXT? Apple, NeXT, Sun, and others make systems that
+can handle CD-quality audio in and out, and can perform arbitrary
+transformation on it in the process of transmitting it across a network
+or modem.
+
+	Perhaps there's a market for a portable vocoder. Not a crypto
+device, simply an RS232<->voice converter. Make it capable of recording
+speech and playing it back simultaneously. It has applications for
+multimedia, computing for the handicapped, Internet Talk Radio, IRC,
+etc, etc, etc.  It wouldn't be a cryptographic device at all - but I
+suppose someone could have it hooked to a 486 laptop with a V.32bis
+modem and some crypto software. I'd market the thing with an API for
+text-to-speech using simple phonemes and the ability to use speech
+samples. And, of course, I'd publish the interface to it so other
+folks could write any applications they wanted to talk to the thing.

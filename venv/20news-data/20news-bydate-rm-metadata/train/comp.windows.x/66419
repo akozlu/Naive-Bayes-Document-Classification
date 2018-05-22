@@ -1,0 +1,15 @@
+
+They aren't functions, they are character arrays. The standard strings
+are either defined as string constants or character pointers into
+XtShellStrings and XtStrings determined by XTSTRINGDEFINES. Your
+libraries were compiled with this defined and your application with it
+undefined so simply recompile one or the other. It is probably worth
+adding -DXTSTRINGDEFINES to your CFLAGS.
+
+-- 
+
+Michael Salmon
+
+#include	<standard.disclaimer>
+#include	<witty.saying>
+#include	<fancy.pseudo.graphics>

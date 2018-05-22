@@ -1,0 +1,8 @@
+
+
+I have had a SCSI and IDE drive working together for some years now.
+SCSI is supposedly pretty transparent to other types of drives
+(ESDI,RLL,IDE,etc) - but oftentimes you need to get the correct drivers
+to get it to work with odd environments.
+
+For information purposes, I had:

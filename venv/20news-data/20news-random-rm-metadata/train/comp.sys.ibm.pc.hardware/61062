@@ -1,0 +1,11 @@
+Depends on the FDC but generally No.  The drive at the end after the twist 
+should be set as Drive 0
+Since you're using the 5.25 as drive A: it should be at the end after the 
+twist with the resistor pack fitted.
+Yes
+
+Hope this helps.  I had exactly the same problems.  Unfortunately when
+I changed to different machine the problems started again because
+of a different FDC.  Seems (don't flame me, this is mainly guess work
+from practicle experience) that some FDC's do different things with the 
+select.

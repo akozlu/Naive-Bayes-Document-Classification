@@ -1,0 +1,5 @@
+
+I don't think FD is a problem.  Since FD is much sloooooooowwwwwwer
+than HD, the overhead of double buffering doesn't matter.
+
+Ken Nakata

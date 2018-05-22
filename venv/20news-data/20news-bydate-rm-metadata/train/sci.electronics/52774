@@ -1,0 +1,7 @@
+ 
+Yes, but in a fairly reproducible way. -40 is only a smidgen of the
+distance to absolute zero. And in any case you're going to have to
+borrow freezer space from a bio lab or someone to test/calibrate this
+darling anyway. Btw, you're probably going to want those big capacitors
+you found to fire the solenoid -- High current drain on frozen batteries
+can be an ugly thing.

@@ -1,0 +1,11 @@
+
+This is not quite right.  The differential arrival time techinique
+requires interplanetary baselines to get good positions.  The
+differential arrival at the eight detectors differ by 10's of nanoseconds.
+This is smaller than BATSE's microsecond timing capabilities.
+BATSE, Ulysses, and Mars Obsverver are used for this technique.
+
+Each BATSE detector does not have a full sky field of view.
+The sensitivity of each detector decreases with increasing 
+angle of incidence.  The burst position on the sky is determined by
+comparing the count rates in different detectors.

@@ -1,0 +1,17 @@
+
+
+I would expect the EISA board to be more than twice as fast as the ISA
+board.  Not only are you moving data on a path twice as wide (at
+least), but there is a difference in the number of clocks required for
+bus transactions between the two busses.  Most ISA boards require
+multiple clocks per bus transaction -- typically this is around 3-4.
+EISA boards are suppose to be able to 'burst' at a 1:1 rate, so I
+would expect performance to be 6x-8x that of an ISA card.  
+
+So I guess, for me, the question is unanswered still.  I would expect
+him to be able to see a 6x speed difference, and he apparently does
+not.  
+
+-- 
+"Insisting on perfect safety is for people who don't have the balls to live
+ in the real world."   -- Mary Shafer, NASA Ames Dryden

@@ -1,0 +1,9 @@
+
+xdm does XGrabServer when it's running in secure mode (so do some
+screen-locks).  There's really no simple way to tell this is the case.
+
+You can take xdm out of secure mode;  probably not too cool.
+
+You can wrap your call to XOpenDisplay in some code which solicts
+a future SIGALRM and longjmps past the XOpenDisplay from the signal
+handler.  An example of this can be seen in the xdm sources.

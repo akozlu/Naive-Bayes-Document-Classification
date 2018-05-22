@@ -1,0 +1,10 @@
+
+Sun's OpenWindows imake is broken. I suggest installing imake-pure, MIT's
+X11R5 imake. You can get it from ftp.germany.eu.net in file
+/pub/X11/misc/imake/imake-pure.tar.Z (117807 Byte).
+
+-- 
+  Dipl.-Inform. Rainer Klute      I R B :  immer richtig beraten
+  Univ. Dortmund, IRB
+  Postfach 500500         |)|/    Tel.: +49 231 755-4663
+D-W4600 Dortmund 50       |\|\    Fax : +49 231 755-2386

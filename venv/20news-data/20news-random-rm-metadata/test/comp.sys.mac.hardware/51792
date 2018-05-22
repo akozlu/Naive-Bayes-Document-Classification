@@ -1,0 +1,24 @@
+
+
+
+
+
+Their should be no difference in the drive itself between IBM-PC and Mac.
+The two main differences are the formatting of the disk itself (but with
+the correct software each can read the others) and maybe the cable
+(depends on your SCSI board on IBM-PC).
+
+If you get some Mac softawre to allow mounting of ANY IBM-formatted disk
+and the correct cable you should br able to mount and read your IBM-PC
+syquest.
+
+good luck,
+
+--Paul
+
+-- 
+  +-------------------------------------------------------------------------+
+  | Paul Hardwick  |  Technical Consulting  |  InterNet: hardwick@panix.com |
+  | P.O. Box 1482  |  for MVS (SP/XA/ESA)   |  Voice:    (212) 535-0998     |
+  | NY, NY 10274   |  and 3rd party addons  |  Fax:      (212) Pending      |
+  +-------------------------------------------------------------------------+

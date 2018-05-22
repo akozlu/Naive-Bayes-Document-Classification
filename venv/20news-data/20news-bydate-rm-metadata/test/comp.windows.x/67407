@@ -1,0 +1,4 @@
+Is there an "official extension" to X which allows the use of audio? Most
+of the X audio programs use system-specific ways to access the audio
+capabilities of the computer they run on. Is there a hardware-independent
+way to do this (like the video extension XV)? Thanks for any help.

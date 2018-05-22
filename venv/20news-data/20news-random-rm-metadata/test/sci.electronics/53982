@@ -1,0 +1,9 @@
+
+[deletions]
+
+
+Sounds like it is an SMD interface to me, not being at work now
+to actually count pins.  there are two varients, SMD  and
+SMDC (I think), only minor differences between them.  Widely used
+prior to the advent of SCSI for large drives (or all drives) on minis
+(and mainframes(?) no experience on those).

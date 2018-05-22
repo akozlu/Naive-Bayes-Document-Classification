@@ -1,0 +1,40 @@
+thus
+
+Curiously, in modern PostScript, the point in a polygon problem can
+be solved even more easily.  To wit:
+
+%!
+%%Title: Point in Polygon
+%%Creator: Allen B (ab@cc.purdue.edu)
+%%For: the amusement of comp.graphics regulars
+%%LanguageLevel: 2
+%%DocumentNeededResource: humor sense thereof
+%%EndComments
+
+% This program will test whether a point is inside a given polygon.
+% Currently it uses the even-odd rule, but that can be changed by
+% replacing ineofill with infill.  These are Level 2 operators,
+% so if you've only got Level 1 you're out of luck.
+%
+% The result will be printed on the output stream.
+%
+% Caution: only accurate to device pixels!
+% Put a huge scale in first if you aren't sure.
+
+% Point to test
+% PUT X AND Y COORDINATES HERE
+
+50 75
+
+% Vertices of polygon in counter-clockwise order
+% PUT ARRAY OF PAIRS OF COORDINATES HERE
+[
+[   0   0 ]
+[ 100   0 ]
+[ 100 100 ]
+[  67 100 ]
+[  67  50 ]
+[  33  50 ]
+[  33 100 ]
+[   0 100 ]
+]

@@ -1,0 +1,16 @@
+
+Don't be silly.
+
+Using the Sound Manager on a Quadra is very well, but using SM on
+any of the low-end machines doesn't simply work for a decent action
+game since it just steals too much time from the CPU. This is
+a fact. By writing directly to the hardware on an SE, it is
+possible to have 4 simultaneous channels of sampled sound (11kHz) for
+a cost of approx. 8000 cycles. Exactly how would you do that using
+the SM, pray tell?
+
+The correct thing to do is to use the SM on the machines that can
+carry that extra load using the SM means, and to write directly
+to the sound hardware on the machines that can't. It's not the
+politically correct thing, but from the developers' point of
+view it is.

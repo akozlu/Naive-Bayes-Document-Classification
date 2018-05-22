@@ -1,0 +1,45 @@
+
+
+
+Think about what you are saying here. The 24 bit image is quantised down to 8
+bits so many 'similar' colours are mapped onto a single palette colour. This
+colour gets modified in fairly arbitrary ways. You then want to apply these
+modifications back to the 24 bit file, so you have to find which colours mapped
+to this one palette colour. Ok you could do this by copying the 24 bit file to a
+32 bit file and using the extra 8 bits to hold the index entry. 
+Having done this, you need to do something to them ... what, exactly?
+
+Apply the difference in RGB between the original and modified palette entry to
+each colour in the group? This could generate colours with RGB outside the range
+0...255. It would also lead to discontinuities when different parts of a smooth
+colour gradient mapped to several different palette entries.
+
+You could interpolate from full modification to no modification depending how
+far each colour was from the palette entry. However I suspect this would look
+rather odd.
+
+So in summary, what I said in my previous posting still holds:
+
+
+
+In other words, to edit a 24 bit file you need software built for the job.
+Tacking mods onto xv is going to create more problems than it solves.
+
+As to the other bits - you seemed to be claiming that there were bugs in XV. If
+that was not what you meant, then:
+
+
+Yes, I probably did. I found that the collected digest format of your posting
+made it a little difficult to understand precisely what your point was. Sorry
+if I misunderstood.
+
+
+Yes again. What *is* (was?) wrong with xv?
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc

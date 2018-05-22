@@ -1,0 +1,11 @@
+
+I believe you have the correct files. I think what you'll have to
+do is go back into Setup and choose change video adapter or
+whatever it is called. Then the trick is choose the same adaptor
+you currently have. What Setup does is it actually changes the
+file WIN.COM whenever you go into it and change the video
+hardware selection. It incorporates the contents of VGALOGO.RLE
+into WIN.COM when you do this. This trick can also be used to
+change the startup logo into whatever you want it to be.
+-- 
+[.SIG ALERT]

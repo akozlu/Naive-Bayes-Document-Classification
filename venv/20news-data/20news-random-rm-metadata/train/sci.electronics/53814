@@ -1,0 +1,15 @@
+
+
+
+
+
+
+The only explanation I can think of is that two capacitors in series
+can handle twice the output voltage. Sometimes two elco's in antiseries
+(you know, positive sides facing eachother) are used to obtain a large
+capacitor that can handle positive and negative voltages as well.
+
+So there probably is no design-philosophical reason, but a production-cost
+one.
+
+Best 73's

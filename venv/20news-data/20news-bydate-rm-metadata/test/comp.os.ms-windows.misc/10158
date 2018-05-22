@@ -1,0 +1,7 @@
+
+It could also be that your shell is hogging the resources.  For example,
+open the apps with data files that cause resulting low system resources
+with ndw 2.x as shell,
+ 
+then do the same with program manager, and see if it's the shell or the
+apps.

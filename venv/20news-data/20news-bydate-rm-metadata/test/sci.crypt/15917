@@ -1,0 +1,10 @@
+
+Is the U used in the law enforcement field from the phone which placed the
+call, from the unit whose 'start secure session' button was pressed first,
+or does each phone transmit its own law enforcement field?  Even assuming
+one of the first two choices, the FBI is going to get a fresh N,U for its
+own database about every other phone call, eventually accumulating keys for
+all the phones used to connect to the line they are monitoring, not just
+the 'suspects' key.  (Assuming the ever-thrifty FBI doesn't forget each key
+after its wiretap permission has expired.)  Not quite a pyramid, but not
+bad, either.

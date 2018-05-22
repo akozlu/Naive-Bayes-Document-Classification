@@ -1,0 +1,16 @@
+
+What it has to do with your original question is this: many times 
+beginning X users (heck, experienced X users too!) write small test
+programs.  Many times they forget to draw only in response to expose
+events, and thus see unpreditable results whereby sometimes the application's
+graphics show up, and sometimes they don't.  We're just trying to
+eliminate all the "easy" explanations  for why you're not seeing your
+graphics. 
+
+That being said, why don't you try copying different planes to your
+window other than 16 (== 1 << 4).  Try 1, 1<<1, 1<<2, ..., 1<<7
+to see it you get any output.  Since you're dipslaying only a single 
+plane of your data, it's possible that all the pixel values in your
+pixmap have the same value for that color plane.
+
+	Ken

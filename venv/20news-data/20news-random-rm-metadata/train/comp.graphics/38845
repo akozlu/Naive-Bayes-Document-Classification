@@ -1,0 +1,12 @@
+
+This is almost certainly a MacBinary file which is an encoded version
+of a mac file so the Resource fork and Data fork get preserved.
+You need a program that converts this to a regular file. If this is a
+macbinary file, you may have downloaded it in Text mode and is probably
+corrupt (if you did). If you're using FTP to transfer it at any point make sure
+you type "binary" first.
+
+If you can open the file with a text editor and find
+(This file must be converted with Bin....
+at the top, it is a BinHex file and can be decoded with
+BinHex 4.0 (among other programs).

@@ -1,0 +1,20 @@
+
+Now, that indeed is possible.  A good friend of mine is running about 1 KW
+PeP from his car.  Yes, he does have a second alternator.  Yes, he calls
+the rig an "electronic brake" since the engine noticeably slows when the
+key is down.
+
+My car, unfortunately, has so much computer junk under the hood that it's
+astonishingly sensitive to RFI.  If I key a 2W HT over the engine with
+the hood open, the car loses timing due to the RF leaking into the 
+distributor pickup.  Very poor design.
+
+I will, however, point out that ham radio operators are usually quite willing
+to help when interference is detected.  Remember that any interference is
+wasted power; if I put out 1W in the TV band, that's 1W that I am not putting
+out in the band I am trying to transmit on, and 1W can often be the difference
+between a nice card hanging on the wall, and nothing.  CBers, however, are
+usually not as helpful.  Most illegal CBers, however, will stop operation
+when you inform them of a problem.  The rest of them will stop operation when
+you inform the local FCC office of the problem (in writing, and giving details
+and addresses).

@@ -1,0 +1,21 @@
+
+Well, there *is* the standards document.  From the FAQ:
+
+12) How to order standards documents.
+
+The American National Standards Institute sells ANSI standards, and also
+ISO (international) standards.  Their sales office is at 1-212-642-4900,
+mailing address is 1430 Broadway, NY NY 10018.  It helps if you have the
+complete name and number.
+
+Some useful numbers to know:
+
+CGM (Computer Graphics Metafile) is ISO 8632-4 (1987).  GKS (Graphical
+Kernel System) is ANSI X3.124-1985. ...
+
+
+You might also want to look at gplot from the folks at the Pittsburgh
+Supercomputer Center.  Fish around at calpe.psc.edu.  It is pretty
+nifty.
+
+							spl

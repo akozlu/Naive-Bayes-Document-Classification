@@ -1,0 +1,16 @@
+
+
+
+I guess he is right. Early versions of the RasterOps cards did not either,
+but they fixed it, and people with problems can get a free ROM upgrade
+from RasterOps.
+
+
+
+Very easy. If you boot without the MODE32 control panel, then it will
+disable (or rather not reinstall) the 32-bit clean patches. So when
+you run OK you must be in 24-bit adressing mode. Check About this Macintosh
+and see if you havce a 12+MB system.
+
+
+sent seperately.

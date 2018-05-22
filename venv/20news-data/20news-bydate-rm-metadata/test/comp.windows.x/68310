@@ -1,0 +1,13 @@
+X-Disclaimer: All views are my own unless expicitly stated otherwise.
+
+
+
+
+That are the authorisation files for the server.
+Depending on what type of key your X supports they contain magic cookies,
+DES based authentication or SUN DES authentication.
+
+The place is defined with the DisplayManager.authDir 
+Other things like the file name can be changed as well see XDM manual pages.
+
+

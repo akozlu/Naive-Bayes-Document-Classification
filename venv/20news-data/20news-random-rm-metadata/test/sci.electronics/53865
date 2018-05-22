@@ -1,0 +1,31 @@
+
+Look at the 4053.  This is a triple 2-to-1 transmission-gate analog
+multiplexer, with positive and negative power supplies (can be run
+from a single-ended supply as well).  With dual supplies, the logic
+inputs still range from ground (0 Volts) to VDD.
+
+This is a neat (well, I think so) design for a switchable-polarity
+amplifier:
+
+                 +-----/\/\/\-------+
+                 |                  |
+                 |    /--------\    |
+INPUT -+-/\/\/\--+----| -      |    |
+       |              |  opamp |----+------- OUTPUT
+       +-/\/\/\--+----| +      |
+                 |    \--------/
+                 |
+CONTROL	---------X (analog switch)
+                 |
+                 |
+                ---
+                GND
+
+All resistors are equal-value.  When the analog switch is closed,
+the amp is inverting-gain-of-one.  With the switch open, it is
+non-inverting-gain-of-one.  You can clean up the circuit to trim
+out input offset current if this hurts the balance (this would show
+up as carrier feed-through).
+
+For high frequencies, the slew-rate of the opamp might cause problems,
+especially if it isn't symmetrical (and it usually isn't).

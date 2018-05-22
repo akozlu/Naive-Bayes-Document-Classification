@@ -1,0 +1,36 @@
+
+The May 1993 cover of QST has a picture of three different boards without
+any solder mask (you can tell from the copper colored traces). The box
+labeled 2304 transverter has the brown teflon/glass board, while the one
+in the center has the grayish board exposed.  On the left is some 
+fiberglass board that looks green to me.  I see no reason
+for putting solder mask on circuit board used for box covers :-).
+
+I wonder if any manufacturer actually puts a solder mask on their
+low noise microwave preamps?  Often, microwave circuits have odd
+bits of wire/foil/metal attached to wherever/whatever is necessary
+to make the unit work properly (this is a commercial product?).  A
+solder mask would certainly make doing this tougher, never mind 
+the finding something that minimally degrades the circuits.  (Q dope
+for coils *does* not improve the Q--it just holds things together with
+minimal loss).
+
+Zack Lau  KH6CP/1
+
+Internet: zlau@arrl.org           "Working" on 24 GHz SSB/CW gear     
+			          Operating Interests: 10 GHz CW/SSB/FM
+US Mail: c/o ARRL Lab				       80/40/20 CW
+	225 Main Street		  Station capability: QRP, 1.8 MHz to 10 GHz
+	Newington CT  06111	               modes: CW/SSB/FM/packet
+						      amtor/baudot
+Phone (if you really have to): 203-666-1541
+
+Zack Lau  KH6CP/1
+
+Internet: zlau@arrl.org           "Working" on 24 GHz SSB/CW gear     
+			          Operating Interests: 10 GHz CW/SSB/FM
+US Mail: c/o ARRL Lab				       80/40/20 CW
+	225 Main Street		  Station capability: QRP, 1.8 MHz to 10 GHz
+	Newington CT  06111	               modes: CW/SSB/FM/packet
+						      amtor/baudot
+Phone (if you really have to): 203-666-1541

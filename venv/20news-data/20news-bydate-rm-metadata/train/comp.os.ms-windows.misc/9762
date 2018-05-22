@@ -1,0 +1,14 @@
+about 2.5Kbyte without Novell 3.11 support.
+
+No.
+
+No.
+Nearly all.
+
+We run mixed WNT beta and W4WG, no problem apart from printer sharing( beta problem)
+
+We had problems with mouse drivers using W4WG where Windows 3.1 didn't, seems to be 
+more critical about it. It was actualy a port problem with the network card running on 0x2e0, we changed it to 0x300, now everything is allright, I think it has to do with the AMI Bios as well.
+
+
+

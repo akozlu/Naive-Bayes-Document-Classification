@@ -1,0 +1,17 @@
+
+
+
+
+
+
+I contacted Lotus about this problem today.  It has been reported previously
+and there is a fix.  Apparantly the problem only occurs when TAB characters
+are used immediately preceding the equation frame.  The work around when
+equations are expected to touch the right margin is to delete at least one
+preceding TAB and use SPACE to align the frame (or use set frame where
+placed w/no text wrap around).  Unforutnately, once the page run-on has
+occured you are hosed. So the moral of the story is use only SPACE characters
+to align equation frames.
+
+Hope this helps the rest of you who have already contacted me with this 
+problem.

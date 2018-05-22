@@ -1,0 +1,10 @@
+
+COM files are limited to a total size of 64KB.  Thus, win.cfn plus vgalogo.log 
+plus your RLE file must be less than 64KB.  Thus, your RLE file should be 
+around 30KB.
+
+Rob
+
+-------------------------------------------------------------------------------
+____    ___   ____       /    \ Any resemblance between the above views and
+==================  / .clarku.edu  \ want Clarkies to think about them.

@@ -1,0 +1,9 @@
+My CB750 does it too.  The "Switch Continuity" section of the wiring diagram
+looks something like this:
+
+	HL L  H
+        x--x     Low
+        x--x--x  (N)
+        x-----x  High
+
+Dean

@@ -1,0 +1,5 @@
+
+You need to add two 256K VRAM SIMMs;  512K VRAM SIMMs will not work in any 
+of the Quadra or Centris machines.  There is already 512K of VRAM soldered 
+to the logic board.  You add the two 256K SIMMs to this to give you a 
+total of 1 MB.

@@ -1,0 +1,14 @@
+ 
+
+You would have to use something other than the AT&T black box - in other
+words, I don't think public key would work.  The session key would have 
+to be agreed upon prior to the conversation and distributed to all 
+sites beforehand.
+
+Or go out and get a STU-III ;-)
+
+-- 
+Doug Bank                       Private Systems Division
+dougb@ecs.comm.mot.com          Motorola Communications Sector
+dougb@nwu.edu                   Schaumburg, Illinois
+dougb@casbah.acns.nwu.edu       708-576-8207                    

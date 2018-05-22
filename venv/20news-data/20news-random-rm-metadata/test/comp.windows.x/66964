@@ -1,0 +1,6 @@
+The XDM on Solaris 2.1 *WAS* broke. Since two weeks, Sun distributes
+a patched release, which works fine (supports /etc/shadow and all).
+We have it up and running ever since and have not experienced any
+problems. Call your local Sun rep.
+
+Dick.

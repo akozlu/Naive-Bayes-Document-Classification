@@ -1,0 +1,18 @@
+From article <C68uBG.K2w@world.std.com>, by cfw@world.std.com (Christopher F Wroten):
+Good question.
+Answer: The EISA bus does move 32 bits rather than ISA's 8/(16?)
+        But it still moves it at about the speed as the ISA bus.
+        I think that's either 8 or 10 mhz.
+        The local bus designs also move 32 bits like the EISA, but
+        they move the data at the cpu speed, up to 40 mhz.
+        So, on a 33mhz cpu, the local bus is moving 32bit data at
+        33 mhz, and the EISA is moving 32bit data at 8 or 10 mhz.
+        So the local bus should be 3 to 4 times faster than EISA on
+        a 33 mhz cpu.  EISA should be about two (maybe 3) times as
+        fast as ISA.
+
+That's a very good question.  The EISA bus does have more advantages
+over the ISA bus than just it's width.  For example: more/better 
+interrupts and bus mastering.  But these other factors do not impact
+ a video card very much.  They have more impact on file servers with 
+multiple hard drives, full-throttle network cards, cd-roms, etc.

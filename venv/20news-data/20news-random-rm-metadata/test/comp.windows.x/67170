@@ -1,0 +1,14 @@
+
+
+The protocol has to move the whole image from process memory to server
+memory, this is the hog. The conversions in the XPutImage() are
+fast.
+
+
+Yes, by utilizing the MIT-SHM extension, that provides an XPutImage
+derivate that uses shared memory. Fine fast.
+
+
+No. You can still XPutImage all of the frames onto pixmaps (thus moving
+them to server memory) and then replay them fastest using XCopyArea()
+BUT be aware, this is a major server memory bummer !

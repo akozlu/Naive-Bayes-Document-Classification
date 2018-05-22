@@ -1,0 +1,13 @@
+
+I had the same problem with my 512 a long time ago.  Resoldering
+the joints on the motherboard (all of them) fixed it.  Turns out
+that continuous heating and cooling caused annular (ring-shaped)
+cracks to develop in the solder, effectively cutting the video
+circuitry off.  If you're not a solder-jockey you might want to
+have someone else do it -- I took mine to an electrical engineer
+buddy -- but it was a 20-minute job, tops.
+
+-Kelley-
+-- 
+-----------------------------------------------------------------
+Thomas Kelley Boylan, PowerPC, IBM Austin, kelleyb@austin.ibm.com

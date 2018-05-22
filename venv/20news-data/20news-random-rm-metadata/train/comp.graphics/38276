@@ -1,0 +1,8 @@
+
+
+Nope, this won't work for a cylinder. You can have a line arbitrarily close
+to the the cylinder backbone, and yet not intersect it. The test works for a
+pillbox, though. (a cylinder with two hemispheres attached at the ends.)
+
+
+-arun

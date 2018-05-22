@@ -1,0 +1,20 @@
+
+
+
+
+	Fortunately, wire-wrapping is a better wiring technique than
+most at high frequencies; Cray computers (up to the X-MP, at least)
+all had wirewrapped backplanes.  Wirewrap gets into trouble at
+much higher frequencies than any TTL can handle.  The 'increase'
+of wiring capacitance is not really relevant (you have to use
+transmission line techniques, and the capacitance is no problem).
+
+
+
+	Hand-powered is a terrible choice (IMHO) unless you are
+a field maintenance person who will do maybe a dozen connections
+at a time.  Your hands will cramp.  Battery-powered wire-wrap guns
+are available in the $150 range, and so are the little
+twiddle-stick manual types ($15).  For a modest project, of
+a couple hundred connections, I'd prefer to borrow a professional
+AC unit... or a pneumatic one.

@@ -1,0 +1,4 @@
+
+This may be a safety issue; the CSA is more paranoid in certain areas than
+UL and such.  Two caps in series means that you don't have a short if one
+of them shorts.

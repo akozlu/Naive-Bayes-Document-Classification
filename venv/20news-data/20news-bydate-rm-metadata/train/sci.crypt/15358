@@ -1,0 +1,6 @@
+Thus said djb@silverton.berkeley.edu (D. J. Bernstein):
+
+Given the description of the algorithm given, the only plausible
+explantion I can find is that K_P must be agreed to out of bandwidth
+in advance by the two parties; i.e. it's a standard shared symmetric
+key.

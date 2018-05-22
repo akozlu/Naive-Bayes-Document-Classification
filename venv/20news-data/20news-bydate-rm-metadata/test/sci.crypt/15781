@@ -1,0 +1,24 @@
+
+
+
+
+So, who is Mykotronx, Inc.?  It would be nice to know that they are
+not a front company used by an intelligence or other agency of the 
+U.S. government.
+
+While we are at it, the chip design(s) should be examined and verified
+against silicon to insure no trap doors or hidden protocols exist in silicon,
+regardless of the security level of the encryption algorithm.  There is
+no proof that the chip won't squeel and role over for someone with the
+proper knowledge to interrogate it via the communications link.
+
+The design examination should be done to the gate level.  Also, how does one
+verify that what you are looking at is reflected in tapeout, or masks?
+
+The silicon should be examined as well, the design in hand (a clean room
+publicly defined clipper chip) can be merged with another design later, or
+changed between completion and mask out.  There is little proof that what
+you are told is in the chip is all that is in the chip.
+
+Put the (verified) masks in escrow, and use them for chip production,
+use a third escrow party for programming the chips. 

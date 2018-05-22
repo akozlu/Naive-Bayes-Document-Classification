@@ -1,0 +1,9 @@
+I am having trouble compiling xtmenu.  I am running on a Sparc IPC
+using SunOS 4.1.1 and OpenWindows 3.  I am getting undefined references
+to arguments to XtSetArg such as XttextEdit, XttextRead, etc.  Am I
+using the wrong version of a library? missing an include file?  Any
+help would be greatly appreciated.
+
+Jeff.
+
+----------------------------------------------------------------------

@@ -1,0 +1,9 @@
+
+
+There are several public domain utilities available at your usual
+archive site that allow 'extraction' of single frames from a .gl
+file, check in the 'graphics' directories under *grasp.  The problem 
+is that the .clp files you generate cannot be decoded by any of 
+the many pd format converters I have used. Any hint welcome!
+Let me know if you have problems locating the utilities.
+Hope it helps.

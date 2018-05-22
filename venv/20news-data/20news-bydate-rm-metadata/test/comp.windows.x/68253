@@ -1,0 +1,13 @@
+
+
+
+
+
+You are stuck in a distributed system feedback loop!  What if you are on an
+Xterminal or running xterm over the net to another machine?  That is when the
+load problems occur.  If you had a machine with 20 Xterminals attached and
+they all had blinking cursors in xterm's, this could represent a considerable
+ethernet bandwidth waste.
+
+I'm not picking on you, just people keep forgetting that there is a lot of life
+out there besides distributed or singleuser "Workstations"!

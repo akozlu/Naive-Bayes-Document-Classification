@@ -1,0 +1,21 @@
+
+
+An Easy way to solve the problem is to use two op-amps to form the
+balanced low-Z output, but this solution does not provide any
+galvanic isolation between keyboard (or whatever plugged) and
+mixer. If no tight requiremets are demanded and some hum, snap,
+crackle and pop sounds (formed by ground loops) can be tolerated,
+the op-amp solution is just what you are looking for! (It is
+cheap...somewhat $10/DI-box).
+Not sure, but Craig Anderton did introduce one DI-box project
+in Guitar Player mag years ago (transformerless).....
+
+
+Hope this helps. Email, if more details wanted....
+
+
+-----------------------------------------------------------------------
+Heikki Paananen                           heke@stekt.oulu.fi
+The University of Oulu                  
+Department of electrical engineering      -Just a student
+Finland

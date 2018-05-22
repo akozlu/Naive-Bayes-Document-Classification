@@ -1,0 +1,14 @@
+
+Now there's a good idea ! All you need is 20 amps DC for a few minutes, and
+a good (wetware) memory (was I using wp or autocad or ...). I thought of the
+same idea myself a few days ago. I've got a fairly new car battery that I take
+along in my 4x4 when I go camping, and it sits around useless when I'm home.
+I wish I could get a batteryless ups to use it with, or use it with a heavy
+duty 5-volt regulator to supply the PC. But I guess you'd need -5v and -12v 
+(and +12) too (2 more batteries ?).
+
+An alternative would be to leave a 40 AMP battery charger hooked up to the battery
+and run a 12vdc to 110vac converter running all the time, and when the power
+goes out, voi-la ! the 110vac converter keeps on running off the battery ! and
+then I could take the 110vac converter and my computer on the camping trips !-)
+

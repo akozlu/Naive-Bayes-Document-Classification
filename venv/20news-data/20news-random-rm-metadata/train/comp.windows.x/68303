@@ -1,0 +1,26 @@
+
+From the FAQ:
+
+Subject:  96)! What is this link problem with libXmu on SunOS 4.1.[23]?
+
+        In SunOS 4.1.2 Sun fixed a shared-library bug in ld which conflicts
+with the way X builds the shared Xmu library, causing these symbols, notably,
+to be undefined when building some X11 clients:
+        _get_wmShellWidgetClass
+        _get_applicationShellWidgetClass
+Compiling "-Bstatic -lXmu -Bdynamic" appears to work.
+
+To solve the problem if you are using OpenWindows 3.0 (X11R4-based Xt), please
+contact your local Sun office and request the following patches:
+
+Patch i.d.      Description
+100512-02       4.1.x OpenWindows 3.0 libXt Jumbo patch
+100573-03       4.1.x OpenWindows 3.0 undefined symbols when using
+                        shared libXmu
+
+[Greg Earle, earle@Sun.COM; 7/92]
+
+A source patch for use with the MIT X11R4 libraries was developed by Conrad
+Kimball (cek@sdc.boeing.com); it retrofits into R4 some fixes made in R5 to
+get around this problem. The patch is on export in [1/93]
+        contrib/X11R4_sunos4.1.2_patch_version3.Z

@@ -1,0 +1,19 @@
+
+[Note: I just tried to figure this stuff out about a month ago myself, from
+various people on the net, so I could be wrong.]
+
+The data is only ever read once (barring mistracks and such, of course),
+and eventually gets turned into 44.1 KHz, 16 bit, two channel data.
+Oversampling takes two discrete data points, and interpolates n-1 points
+between them for n times oversampling.  When I asked, people said that the
+interpolation was not simply linear interpolation, but significantly more
+complicated.
+
+Anyway, then, the purpose of oversampling is to move the "effective"
+sampling rate up to n times 44.1 KHz, in order to use higher frequency
+antialiasing filters.  For the same quality filter, higher oversampling
+lets you build cheaper filters, whereas for the same price filter, higher
+oversamplings lets you build better filters.  So, assuming the quality of
+all other components in a CD player remained the same, oversampling should
+allow a manufacturer to produce _slightly_ better sound due to anti-alias
+filtering.

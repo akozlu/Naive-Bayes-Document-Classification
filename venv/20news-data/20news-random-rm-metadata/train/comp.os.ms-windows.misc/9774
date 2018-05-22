@@ -1,0 +1,11 @@
+
+Are you using Fastopen?  If you are, disable it.  We had a lot
+of problems with fastopen corrupting weird things (including
+the Windows permanent swap file) when we were using it.
+
+
+Indeed they are.  Advanced Personal Measure tells me they are accessed
+just before shell.dll
+
+
+I really like Spinrite and QA Plus

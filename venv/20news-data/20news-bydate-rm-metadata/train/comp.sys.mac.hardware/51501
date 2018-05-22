@@ -1,0 +1,7 @@
+The 3FGx has a maximum horizontal scan rate of 49KHz, so driving it
+at 60.24KHz to get 1024 x 768 on the Mac is WAY BEYOND the tolerance            The 4FG is spec'ed at 57KHz, so going 60.24KHz is only 5-6% above
+the minimally guaranteed figure.
+
+I too doubt if the Damark monitor would sync to a Mac at 1024 x 768.            Like most things, you get what you pay.  That's the deal.
+
+-John Rutirasiri.

@@ -1,0 +1,8 @@
+
+
+
+
+Yes, but it's broken on OW 2.0.  It does not handle multiple pages
+well.  If you don't have the proper PostScript commands it will
+draw the entire document on the same page instead of pausing after
+each page.  I haven't tried OW 3.0 yet, though.

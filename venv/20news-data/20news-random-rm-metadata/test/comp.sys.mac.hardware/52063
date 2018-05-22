@@ -1,0 +1,12 @@
+
+
+This happens intermittently to Macs in our department, ranging from IIsi's
+to a Quadra 950.
+
+I can end the slowdown immediately by unplugging the Ethernet cable from
+the Mac. It seems that something on the network puts out these packet
+storms every few days. These storms have the effect of making our Macs
+slow down to a crawl.
+
+David Gutierrez
+drg@biomath.mda.uth.tmc.edu

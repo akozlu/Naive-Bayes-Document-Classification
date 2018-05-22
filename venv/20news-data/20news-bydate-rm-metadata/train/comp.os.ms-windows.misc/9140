@@ -1,0 +1,9 @@
+On ftp.cica.indiana.edu in pub/pc/win3/misc/winadv.zip is a writeup by
+Steve Gibson of InfoWorld with winbench 3.11 and a number of other 
+benchmark results for nine isa and four VLB video cards.  This is a 
+very current upload and is likely to have any card you're currently 
+giving serious consideration.  Not in XLS format.  Latest version of
+WinBench that I know of is ver 3.11.  I believe they try to maintain
+the same rating scale between versions, and new versions are released
+to defeat the lastest coding tricks put in by driver programmers to
+beat the benchmarks.  Don't know on the last one.

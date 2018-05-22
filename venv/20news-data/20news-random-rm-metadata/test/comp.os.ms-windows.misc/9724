@@ -1,0 +1,13 @@
+
+
+While I do not speak for Peter Tattam, I am fairly sure he is planning a 
+Winsock compliant version.  While this will definitely not make the initial
+public release of WinTrumpet, it will follow on shortly thereafter.
+
+Currently WinTrumpet is in very late beta.  It looks like an excellent 
+product, with several features beyond the DOS version.
+
+WinTrumpet supports the Trumpet TCP, Novell LWP, and there is also a direct to 
+packet driver version that some people are using with the dis_pkt shim.
+
+Ashok 

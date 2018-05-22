@@ -1,0 +1,4 @@
+I "think" you should try linking to /usr/lib/libXmu.a instead of 
+-lXmu. At least that solved the problem for me!
+
+

@@ -1,0 +1,11 @@
+
+The reason they place their outside corner at the location you requested
+is because that's what the ICCCM says they should do.
+
+
+This code will almost certainly break.  Calling XMapWindow and then
+XFlush does not guarantee that the window is visible and managed by the
+window manager.  Even if this did work, there isn't a reliable way to
+find out how much decoration the window manager placed around your
+window, so you don't know how far to move it.  And what if the window
+manager refuses to move your window?

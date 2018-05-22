@@ -1,0 +1,10 @@
+
+The sensitivity is changed using the /S, /V, or /H parameter.  
+The commands do the following:
+/V - vertical sensitivity
+/H - horizontal sensitivity
+/S - both 
+
+Follow the parameter with a number from 1 to 100 (1 - slowest, 100-fastest).
+The default is 50.  You can type the command "mouse /S75" right from the
+keyboard or add it to autoexec.bat.

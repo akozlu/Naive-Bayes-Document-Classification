@@ -1,0 +1,4 @@
+
+I went back and looked at the review again.  They claim there were
+significant differences in manipulating a 27 meg test file, but with
+smaller files, the two platforms were the about the same.  David

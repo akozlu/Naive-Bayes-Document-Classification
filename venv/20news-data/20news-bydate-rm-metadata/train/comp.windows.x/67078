@@ -1,0 +1,5 @@
+
+The oclock widget was written using the SHAPE extension.
+You can do the same in your widgets.  Few current widgets
+support SHAPE, so you'll have to subclass them to add that
+functionality.

@@ -1,0 +1,7 @@
+
+Have you tried setting FILES in your config.sys file to a fairly high
+number? (I've got mine set to 100; I've seen numbers from 40 to 100 
+recommended). Also check your STACKS statement, STACKS=9,256 is a good
+starting point. Try increasing it if it's already set there (such as
+to STACKS=12,256, etc.). Both STACKS and FILES have been identified as
+_one_ cause of frequent Win3.1 crashes.

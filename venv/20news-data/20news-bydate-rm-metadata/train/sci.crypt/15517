@@ -1,0 +1,7 @@
+
+
+It depends on the algorithm used. 128-bit secret keys for RSA are
+definitively not secure enough.
+
+Regards,
+Vesselin

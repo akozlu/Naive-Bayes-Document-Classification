@@ -1,0 +1,28 @@
+
+
+Well 48 bit colour *could* be for improved resolution but 16 bits per channel
+seems like a bit excessive. I have seen a paper that quoted 10 bits per channel
+of 12 bits for computational precision. More than that would seem to be wasted.
+
+Perhaps the frame buffer uses another colourspace which needs more bits to
+represent the full range - RGB is a cube so it is a compact encoding.
+
+Most likely however is that there are two separate 24 bit (8 bits per component)
+frame buffers. This set up, called double buffering, allows a complex 3d picture
+to be built up on one buffer while the other buffer (containing the previous
+frame) is displayed. This makes for smoother animation.
+
+
+Well hey if you want to brag about numbers, the 5000 range can take a PXG Turbo+
+card with 96 bits per pixel. Full double buffering (Two 24 bit buffers), a 24
+bit Z buffer and an extra 24 bit buffer for off screen image storage.
+
+Mind you the card costs more than your workstation.
+
+--
+Chris Lilley
+----------------------------------------------------------------------------
+Technical Author, ITTI Computer Graphics and Visualisation Training Project
+Computer Graphics Unit, Manchester Computing Centre, Oxford Road, 
+Manchester, UK.  M13 9PL                        Internet: C.C.Lilley@mcc.ac.uk 
+Voice: +44 (0)61 275 6045  Fax: +44 (0)61 275 6040 Janet: C.C.Lilley@uk.ac.mcc

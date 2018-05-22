@@ -1,0 +1,4 @@
+I designed and built hardware in 1988 that would output a logic level (from
+a 567 tone detector) upon detecting a 500 microwatt LED 28 feet away.
+Used a Motorola MRD360, biased linearly  in a DC-feedback loop to servo out
+variations in sunlight (and 60Hz from lights). Used no lenses.

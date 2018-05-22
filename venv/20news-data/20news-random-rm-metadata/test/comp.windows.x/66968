@@ -1,0 +1,9 @@
+
+We've been using it for a year on Unix (Sun and HP) and Windows platforms.  In my
+opinion, it is the best toolkit on the market.  It supports a rich API to a high
+level IPC mechanism, file system abstraction, memory management, command driven
+application development, drawing, geometry management, and, oh yeah, Open Look,
+Motif, MS-Windows and Mac (at the flip of a switch).
+
+
+-- 

@@ -1,0 +1,6 @@
+
+Sorry, that's a feature.  The ICCCM specifies how the app should set its title, so the wm is obliged to do it.  If this bothers you, complain to the app writer.
+
+
+Write your own wm that doesn't support the ICCCM.  Or write an program that you give a window ID and a title.  The your program can set the windows title for the app and then if the app changes it, your program switches it back again.
+

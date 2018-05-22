@@ -1,0 +1,10 @@
+
+Or read fixes 9, 10, and 11 to the MIT distribution.  This is a known 
+problem - just apply those fixes and set SunPost411FCSLd to YES and 
+OSTeenyVersion in mit/config/sun.cf to 3.
+
+In fix-09:
+
+In fix-10:
+
+In fix-11:

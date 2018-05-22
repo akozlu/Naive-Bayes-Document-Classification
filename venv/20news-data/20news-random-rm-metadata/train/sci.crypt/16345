@@ -1,0 +1,23 @@
+I don't wish to rehash the PGP patent issue at all, but I do feel
+that some potential misconceptions in interpretting intellectual property
+laws need to be raised.
+
+
+You are correct that executing PGP would be a violation (unless the patent
+were declared invalid by the courts), but...  there is a question as
+to when, how, or if distributing PGP would be a violation.  If the person
+or company distributing PGP receives money for doing so, then it is
+clearly a sale (for example, if it were on Compuserve, they charge you
+for access so they would be selling PGP).  When there is no charge for
+PGP things get less clear, but there would still be a reasonable view
+that it is inducing an infringement.
+
+
+This is a common misconception.  The patent laws do not mention any valid
+purpose for infringing a patent.  Although it is clear that in order to
+create a new invention either based on a prior patent or to avoid infringing
+a prior patent, one must perform research on an existing patent.  To
+just say that you infringed a patent (assume we're not talking the RSA
+patent) only for research purposes (wink wink, nudge nudge) and then never
+develop any related invention (ie. only use it), would be a clear
+infringement.

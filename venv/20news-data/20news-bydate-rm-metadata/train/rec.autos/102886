@@ -1,0 +1,12 @@
+But, those chips are probably inside a custom chip, (to make it smaller and
+use less power) and the preset/data pins are not going to be available.
+It would probably not be TTL but might be CMOS 
+(wider operating voltage range), not that the tecnology would make 
+much difference.
+Plus the custom chip would probably be potted (encapsulated with epoxy).
+Good luck.
+
+-- 
+--garyl-------------------------------------------------------------------------
+		"Any shark that gets to be 11 or 12 feet long with 
+	      300 big teeth can be considered dangerous" - 'Shark Bowl '92'

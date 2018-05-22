@@ -1,0 +1,9 @@
+
+I, too, have a XC68882RC50 math coprocessor, which I installed
+succesfully in my Mega Midget Racer (clocked at 33 MHz). I have tried
+clocking my FPU at 28 to 50 MHz and it all worked just fine. I have a
+MC68030-33 CPU. I don't know why my FPU has an XC (my original 33MHz FPU
+was label MC68882-33), but it seems to work fine on my system. Maybe you
+just have a bad chip.
+
+Stefan

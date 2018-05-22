@@ -1,0 +1,24 @@
+
+
+
+Why are you fooling around with analog for this job?  A single chip
+micro and a crystal will do the job reliably and easily.  An 8748 only
+costs about $5.  That and a $1 crystal and you're in business.  Embed
+the whole thing in a foam insulated blanket, power it from a solar cell,
+use the excess power to heat the assembly during the day and rely
+on the insulation to hold the heat during darkness.  If you don't want
+to try thermal management, contact someone like ICL and have them cut
+you a special low temperature crystal.  It'll cost at most $20.
+
+If you use a single chip micro, you're looking at a parts count of 
+maybe 7.  A processor, a crystal, two caps on the crystal, a power FET
+to fire the solenoid a flyback diode and a battery.  This is fewer parts than 
+you can build an analog timer for and is infinitely more reliable.  Add
+a power zener diode (for heat) and a solar cell and the parts count
+screams up to 9.
+
+PD assemblers are available for all the common single chip micros.  This
+application is so trivial you could even look up the op codes in the 
+programmer's guide and create the binary with a hex editor.
+
+John

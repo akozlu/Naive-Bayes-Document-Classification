@@ -1,0 +1,16 @@
+
+I replied:
+
+
+You answered:
+
+
+I think it is important to clear up your first reply.  You gave the
+impression that you should not use smartdrive with stacker.   You are
+correct re: caching the compressed drive.  However, as I understand it,
+you can cache the uncompressed drive.  Thus if you have compressed your
+disk C:, you will have a C and probably a D drive under stacker.  C being
+the compressed disk (which is just a large file on D:) and D being the
+uncompressed disk.  You should only attempt to stack D:.  In fact, with
+Win 3.1 and smartdrv.exe, it seems smart enough to automatically default
+to stacking your A,B and D drives.  

@@ -1,0 +1,24 @@
+
+
+
+
+
+Danny...
+
+While working on my shareware toolbar, I found myself 'eating' resources,
+and a very wise person pointed me to the SDK, and specifically the debug
+kernel. Once you have all the SDK stuff installed, (this also comes with
+VC++), you run 'n2d' which does a 'normal-to-debug' swap. The debug kernel
+runs C O N S I D E R A B L Y slower, but you then execute the command
+DBWIN, and let it report to you what is going on. You are going to find
+out a lot more about your Apps than you cared to, and possibly about other
+peoples Apps (is that OPA?..I'm sorry). 
+
+If this doesn't make sense, repost, or e-mail me
+
+dave
+
+-- 
+------------------------------------------------------------------------------
+Dave Campbell at WynApse |                       WynApse
+  wynapse@indirect.com   |        The Shareware Custom Control Source

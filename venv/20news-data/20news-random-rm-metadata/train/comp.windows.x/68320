@@ -1,0 +1,5 @@
+
+I assume that you are literally trying to create a widget of type
+textWidgetClass. Use the AsciiText widget instead.
+
+Jim

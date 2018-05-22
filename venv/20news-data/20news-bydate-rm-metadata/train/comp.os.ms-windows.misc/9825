@@ -1,0 +1,9 @@
+: 
+: Does anyone know what the vfintd.386 device is used for in windows 3.1?
+: It's under the [386enh] section as
+: 	device=c:\dos\vfintd.386
+: 
+I know Norton Desktop for Windows includes this file and its help file 
+mentioned something about floppy-disk access.
+
+Jeroen

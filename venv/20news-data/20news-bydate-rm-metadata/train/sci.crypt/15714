@@ -1,0 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+
+Hi all..
+
+Does anyone know of a UNIX utility allowing encrypted telnet sessions using
+public-key? I'd like something so that nobody can snoop my password or
+session text while I'm logging in remotely over the network.
+
+Thanks
+
+g.
+
+- -------------------------------------------------------------------------
+PLEASE REPORT UNSIGNED (HENCE UNAUTHORISED) MESSAGES PURPORTEDLY FROM ME,
+SENT AFTER 22/04/93.                                gtf1000@cus.cam.ac.uk
+- -------------------------------------------------------------------------
+
+
+-----BEGIN PGP SIGNATURE-----
+Version: 2.2

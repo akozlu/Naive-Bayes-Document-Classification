@@ -1,0 +1,9 @@
+
+This would be tedious, but if you have the time you could get the .bdf
+file (I can email it to you if you don't have it or don't have easy access 
+to the X source), and could make your own bold font from this.  Since each
+glyph is just a bitmap, you could write a program to convert each
+glyph to a bitmap-readable file, use bitmap to make each glyph "bold", and
+convert the results back to .bdf format.  Then, use "bdftopcf" to create
+the .pcf file.  Then, stick the .pcf in /usr/lib/X11/fonts/misc (or wherever)
+and include it in fonts.dir and, voila, you'll have what you need!

@@ -1,0 +1,8 @@
+
+Even 24Bit TrueColor machines are in most cases running an emulated
+8 bit PseudoColor visual, only to get standard x clients, motif apps and
+thelike to run. I strongly suppose you to emulate at least:
+
+  should not make big misfits
+  pixel indices, conversion stuff. Furthermore, you should run your default
+  screen on this visual.

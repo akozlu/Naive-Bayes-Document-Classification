@@ -1,0 +1,13 @@
+
+
+
+It sounds like something/one may have set the 1000's separator to "." in
+Contol Panel (under International).  This makes 23,482 look like 23.482
+and File Manager is chopping off what it thinks is the decimal part of
+the file size. 3,356,345 becomes 3.356.345, and again, File Manager is
+confused by the decimal points where there should be commas, chopping
+off everything to the right of the first period.
+
+-- 
+Tony DeBari          FQDN: tonyd@ssc60.sbwk.nj.us     CI$: 73117,452
+                     UUCP: ...!uunet!ssc60!tonyd      *P*: GHRW14B

@@ -1,0 +1,11 @@
+
+
+	I am an idiot. The plaintext that's relevant is the session key.
+If you know that, you probably don't need a roomful of chips, do you?
+If you were going to brute force something interesting, that'd be the
+message stream, which is sort of approximately known by, say, a bug in
+my office. Then your roomful of chips could get the session key. Which
+I change every morning.
+
+	Really, it's just a whole lot easier for the illicit wiretappers
+to stick a bug in your phone.

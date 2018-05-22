@@ -1,0 +1,15 @@
+
+How can we resist a questions that says something like this?
+
+
+If your Expose event handler is truly intelligent about exposed
+rectangle information, then you can use XClearArea to generate an
+Expose event (assuming that your background pixel is not None) for the
+enclosing rectangle of your new item.
+
+This is still not great, since any other items contained within that
+rectangle will still be unnecessarily redrawn.
+
+If your Expose event handler simply redraws everything, you'll be
+doing much more work than just drawing the new item "on top" of the
+existing scene.

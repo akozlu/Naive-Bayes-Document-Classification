@@ -1,0 +1,4 @@
+
+The code fragment looks reasonable, but is your logic valid?
+Just because something appears in an 8 bit deep pixmap doesn't
+mean every bit plane contains data.  Did you try each plane?

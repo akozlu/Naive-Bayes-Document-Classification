@@ -1,0 +1,3 @@
+
+Am I correct in assuming that the science instruments buffer their acquired
+data in onboard RAM, which is then downloaded upon receipt of the MRO command?

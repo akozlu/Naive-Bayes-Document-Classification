@@ -1,0 +1,22 @@
+
+Sorry Ian, I haven't toyed with it in several years. I haven't seen
+the insides in quite a few years. I just saw the post lagging for
+quite a few days, and thought I'd toss in my $0.02. I assume the 6507
+was functionally similar to the 6502 (was it also made by MOS
+Technologies?). I really am more versed in the (6502 based) Atari
+computers. The 2600 came later on.
+
+
+In the Atari computers, the "CIA" chip you refer to sounds an awful
+lot like the CTIA (Color Television Interface Adapter) chip used in
+the early models. Later Atari upgraded this to the GTIA (Graphics
+...). Other colorful literature stated that the GTIA might have stood
+for "George," the developer of the chip.
+
+
+Funny, I had an old and new model. The old one was SIGNIFICANTLY heavier.
+
+
+Sorry, I am way out of line here. My first microcontroller I built was
+a MC68701 based chipset with 128 bytes onboard. That was not easy to
+work with (in addtion to a small 2K on-board EPROM).

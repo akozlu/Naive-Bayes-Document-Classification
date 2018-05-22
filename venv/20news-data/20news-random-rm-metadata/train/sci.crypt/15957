@@ -1,0 +1,17 @@
+
+As I read the current wiretap law, it would not be legal now.  On the
+other hand, assuming a legislative change, recording but not decrypting
+Clipper conversations would probably be found constitutional by the Supreme
+Court, using the same reasoning (or the lack thereof...) by which they
+permit random roadblocks to check for drunk drivers.
+
+Incidentally, if we use that as our model, the Court will likely not
+uphold selective recording.  (On the other hand, I don't think they've
+thrown out ``drug courier profiles'' yet.  Must be that exception to
+the Fourth Amendment that I can never find in my copy of the Bill of
+Rights.)
+
+A lot -- and I mean a *lot* -- will depend on exactly how Clippertaps
+(or Tipperclaps, for encrypted music?) are used.  Don Alvarez showed in
+the latest RISKS digest that it's possible to prevent the cops from
+reading traffic after their warrant expires.

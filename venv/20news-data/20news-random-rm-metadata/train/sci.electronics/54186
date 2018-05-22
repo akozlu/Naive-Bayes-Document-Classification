@@ -1,0 +1,9 @@
+
+
+Look for information about 567 tone decoder chip. It is an easy to use
+chip for detecting sound of certain frequency. You need only one
+567 and some other componets for each led you want to control.
+The chip can take the voltage levels, which the casette gives.
+Radio Shack Archer Semiconductor Reference Guide gives good information
+how to use that chip. It should be simplest way to go. The chip costs
+something like 1-2 $.

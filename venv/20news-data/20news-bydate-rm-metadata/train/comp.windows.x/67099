@@ -1,0 +1,14 @@
+
+  If you need speed, and your client can run on the same host as the X server,
+  you should use the shared memory extension to the sample X server (MIT-SHM).
+  xdpyinfo  will tell you if your server has this extension. This is certainly
+  available with the sample MIT X server running under SunOS.
+  A word of warning: make sure your kernel is configured to support shared
+  memory. And another word of warning: OpenWindows is slower than the MIT
+  server.
+  I have written an imaging tool (using XView for the GUI, by the way) which
+  yields over 10 frames per second for 512*512*8 bit images, running on a Sparc
+  IPC (half the cpu grunt of an IPX). This has proved quite sufficient for
+  animations.
+
+				Regards,

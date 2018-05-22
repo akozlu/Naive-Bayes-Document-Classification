@@ -1,0 +1,11 @@
+
+It's not true.  IDE bus uses signals which has similar name and same
+meaning to the counterpart of ISA bus but its (IDE bus) signal timing
+doesn't have to be same to ISA signal timing.  My VL-IDE bus card has
+a set of jumpers to set its transfer rate from 3.3MB/sec up to 8.3MB/
+sec (the manufacturer might have to correct these numbers as 3.3
+*milion* byte/sec and 8.3 *milion* byte/sec respectively).   You
+cannot transfer data at a rate of 8.3MB/sec on the ISA bus.
+
+
+Ken Nakata

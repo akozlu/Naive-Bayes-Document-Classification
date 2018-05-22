@@ -1,0 +1,11 @@
+
+You can find what you're looking for on hundreds of sites worldwide.  Try
+
+	anonymous ftp to nic.funet.fi (Finland)
+
+	/pub/unix/4.3bsd/net2/lib/libc/gen/crypt.c.Z
+
+This includes source code for fully-functional DES encryption and decryption.
+
+There are some who believe that public domain code is exportable, some
+who don't.  Make your own judgements, but it seems obvious to me.

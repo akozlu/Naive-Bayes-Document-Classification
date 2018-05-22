@@ -1,0 +1,5 @@
+
+
+Well, this is *only* a guess:  If it goes by the "true" meaning of "bit
+map", then it holds (x,y,c) where x pixel number in th ex-direction, y:
+pixel-number in the y-dir, c: colour.

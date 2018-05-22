@@ -1,0 +1,29 @@
+Hi!
+
+
+Sorry, it's german, but I hope you understand it.
+
+
+Uebertragung der Schaltplan-Daten (*.SCH) in die Board-Daten
+(*.JOB):
+
+PADS-LOGIC:
+         In/Out
+         Reports
+         Net List
+         Select      PADS-PCB
+Net List Output file name
+         -> filename angeben
+
+PADS-PCB:
+         In/Out
+         Ascii In
+Ascii input file name
+         -> filename angeben
+Errors aoutput file name
+         -> filename angeben, nicht CR
+
+Jetzt sind alle Bauteile auf einem Haufen und muessen mit Move
+verteilt werden.
+
+Viele Gruesse

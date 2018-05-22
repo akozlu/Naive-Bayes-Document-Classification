@@ -1,0 +1,12 @@
+
+I've done some ASIC and digital design, but not any CPU design.
+It would seem to me that on a 486, the FPU is not being used, most of
+the cache is not being accessed, the off chip buffers/drivers are idle,
+the multiplier isn't multiplying, the barrel shifters aren't shifting,
+microcode isn't microcoding, etc.  This means transistors aren't
+switching which means less power dissipated (in CMOS), which means
+less heat.\
+
+From what I understand, the Pentium shuts down those sections of the
+CPU which aren't being used in order to cut down on heat/power.
+

@@ -1,0 +1,4 @@
+
+
+    Yip, we had the same problem; the only fix we found was to link static
+some of the clients, ( btw, we used cc). :-(.

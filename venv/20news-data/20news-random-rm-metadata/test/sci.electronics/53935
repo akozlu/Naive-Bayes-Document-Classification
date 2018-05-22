@@ -1,0 +1,8 @@
+
+Are any of the inputs to the chip coming from TTL?  Standby-drain specs
+for CMOS chips typically apply only if inputs are pulled all the way down
+to zero or all the way up to Vcc.  TTL isn't good at doing the former and
+it won't do the latter at all without help from pullup resistors.  This
+sort of thing can easily multiply power consumption by a considerable
+factor, because the CMOS transistors that are supposed to be OFF aren't
+all the way hard OFF.

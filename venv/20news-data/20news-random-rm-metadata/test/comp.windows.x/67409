@@ -1,0 +1,12 @@
+: I have the following problem on X11R5 servers.
+: 
+: When a window of my is obscured by a pop up window which has
+: the Save Under attribute set, the subwindows of my window are not restored.
+: Normally, the subwindows are redrawn when the parent window gets an expose
+: event, but because the save under attribute is used for the pop up window
+: that obscured my window, no expose event is sent.
+
+We had the same problem and on most of our machines it works if we use
+Backing Store instead of Save under.
+
+Marcus

@@ -1,0 +1,5 @@
+
+
+See xwd, xpr.  Even better, grab xdump from ftp.cs.uwm.edu.  It makes use 
+of these programs as well, but has a much nicer interface (and can do more).
+You can dump to PostScript, bitmaps, etc.

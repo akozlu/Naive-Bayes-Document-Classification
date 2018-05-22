@@ -1,0 +1,26 @@
+
+You can't customize a command line interface?  Where have you been?  I
+can change the prompt, I can make aliases (so someone like me who is
+used to say, ls, can type it on my dos machine and still get a
+directory listing), and under Unix, if I don't like the command line
+interface, I throw it out and get a different one. (csh, bash, ksh,
+sh, etc...)
+
+
+This is true.
+
+
+A decent GUI for all variations of Unix? Lessee... what about Motif?
+Or the stuff from MIT? (twm comes to mind...) those are pretty
+standard. Heck, an xwindows program runs like it likes to -- all the
+end user has to really know is how to manipulate the actual windows
+with the mouse, and since it is a GUI, it's *graphical* and a bit
+easier to figure out. (Something the windows people have been pressing
+down our throats for some time now...)
+
+The thing I fear is that there will be a gap between the normal users
+running windows (all flavors) and the other "power" users running Unix
+and other more advanced OSes. At least right now, DOS is still pretty
+much king. I can bring a copy of my latest whiz-bang programming demo
+over to my friends house, and since we both run DOS, he can enjoy it
+too.

@@ -1,0 +1,7 @@
+
+Another source:  There's a poly blitter for mode y (mode x in 320x200)
+at sunee.uwaterloo.ca.  Also there is REND386, an even faster 3D
+renderer with VR extensions.
+
+
+--------------------------------------------------------------------------

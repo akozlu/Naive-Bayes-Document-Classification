@@ -1,0 +1,15 @@
+
+I have been building X11 with gcc since 2.1 and the only time I had
+trouble was when the position independant code option broke (so I
+couldn't use gcc to build Sun shared libraries). The important thing to
+do is to follow the tips given in the gcc release. Gcc generates code
+that requires libgcc2 and you should take that into account when
+deciding which compiler to use for the libraries.
+
+-- 
+
+Michael Salmon
+
+#include	<standard.disclaimer>
+#include	<witty.saying>
+#include	<fancy.pseudo.graphics>

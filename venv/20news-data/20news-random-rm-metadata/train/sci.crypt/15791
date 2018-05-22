@@ -1,0 +1,22 @@
+
+That is not true, with chosen plaintext attacks DES keys can be determined
+without the full search.
+
+
+I am not willing to take that bet.
+
+
+You can obviously shove arbitrary data through your chip......
+As for the key, it is stated that the sesion key exchange is external to
+the chip, so I can pick my keys too.
+
+
+BING BING BING BING BING, THAT EXACTLY MY POINT, SINCE WE CANT KNOW THAT
+THEY DO NOT HAVE THIS CAPABILITY, THE ONLY SAFE ASSUMPTION IS THAT THEY
+DO... i admit that most of my cryptographic complaints are probably
+unfounded, but since we cant know one way or the other, im not gonig to
+take their word for it....
+
+
+Oh come on, thats like saying you could evaluate DES without the S-box
+constants.....

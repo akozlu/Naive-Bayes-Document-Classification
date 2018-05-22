@@ -1,0 +1,20 @@
+
+If I understand your problem correctly, you want to have a way to send
+exposures to your manager widget when your app-specific code draws xlib
+graphics on the window.
+
+It sounds like you might want to send an exposure using
+XSendEvent and specifying a region. If you know the region you need to
+send the exposure, generally you have the bounding rectangle of the objects,
+you can use XCreateRegion to create a region, XUnionRectWithRegion to add the
+new object polygons to the region, and then either use the region
+to clip your GC for the redraw or use XRectInRegion to test which of your
+other objects need to be redrawn. Keeping in mind that the stacking order
+of overlapping objects affects how they look.
+
+Hope it helps
+
+-- 
+Brian Dealy                |301-572-8267| It not knowing where it's at  
+dealy@kong.gsfc.nasa.gov   |            | that's important,it's knowing
+!uunet!dftsrv!kong!dealy   |            | where it's not at...  B.Dylan

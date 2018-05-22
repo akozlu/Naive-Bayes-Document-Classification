@@ -1,0 +1,32 @@
+
+
+
+
+
+Something similar has happened to me - ages ago when we were working on PGP
+we used to send short messages about development issues or simply to test 
+new features around.  Now at this time PGP (and certainly the newer version)
+was unknown over here.  Suddenly the admin at the site I was using received
+a request that I stop sending encrypted email.  Now there is almost no way
+that some automatic scanner could have found this, since they wouldn't have
+known about PGP - they *must* have checked for unknown data types in the
+message, tried to unscramble it, found they couldn't get past the PEM
+armour part, and then contacted the sysadmin and asked me to stop.  Luckily
+the current email carriers are less picky about what goes over their
+networks :-).
+
+In case people think email scanning doesn't take place, I can assure you
+that it is done regularly by many sites - usually not by government
+agencies (or at least not that I know of), but by local administrators who,
+for reasons of their own, have decided to monitor all communications
+(I'm sure you can all think of a whole mess of reasons - stop hackers/
+terrorists/child pornographers/drug dealers/evil commies/whatever).  There
+have been several occasions when I've got people into trouble simply by
+including the traditional NSA bait in a message (I don't try it any more
+now :-).  A friend of mine was once picked up for mentioning the name of
+the UK town of Scunthorpe (hint: look for words embedded in it).  I'm sure
+there are many more examples of this happening (in fact if anyone has any
+examples I'd appreciate hearing from them - I could use them as
+ammunition during talks on privacy issues).
+
+Peter.

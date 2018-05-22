@@ -1,0 +1,27 @@
+
+He's right ya know.  I've helped to install Dos 6 on about 4 computers now,
+mine included.  On one, he bought the Stacker to Doublespace converter,
+and it worked fine (rather, he sent in the coupon for the converter).
+
+In other cases, I've run the doublespace installation without a problem
+when compressing a new drive, compressing free space, or whatever else.
+Seems to work for me.
+
+
+Well, I ran the normal SETUP thing and it worked fine for whatever that's
+worth.
+
+
+Couldn't agree more.  On my 486-50 I don't miss the speed.  It's still
+faster than a normal disk read would be.  As for the less compression,
+I've sacrificed that in favor of the convenience of having the dblspace.bin
+load before anything else.  With Stacker, any changes to your config.sys
+or autoexec.bat meant rebooting twice so it could update those.
+
+Personally, I'm waiting for Stacker 4.0 to come out and implement those
+hooks and stuff.  Plus, the DEFRAG that comes with DOS is okay, but I
+much prefer COMPRESS from PC-TOOLS for sheer bells and whistles.  Plus,
+defrag is sooooo sloooow on a dblspace drive.
+
+
+Ditto.

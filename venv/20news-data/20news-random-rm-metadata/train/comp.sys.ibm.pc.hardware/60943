@@ -1,0 +1,12 @@
+
+  close. Universal Asynchronous Receiver Transmitter.
+
+
+   Even if you are running DOS, if your CPU can't handle the speed of the
+interrupts, you will still lose characters.  I have one 286/10 machine with
+an external 9600 bps modem attached and can't drive the serial port any faster 
+than 19.2k without losing characters.
+
+
+
+                                           Rob

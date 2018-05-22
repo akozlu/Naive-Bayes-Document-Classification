@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+You do not need the SDK. What you need (and can get free) are
+
+Location: ftp.cica.indiana.edu
+index:      /pub/pc/win3/INDEX
+
+First get /pub/pc/win3/uploads/what.zip (~1.3M) This contains the help
+compiler among other things. It is free from Microsoft.
+
+Then get these (I think these are free too)
+
+dir:	/pub/pc/win3/programr
+files:  hag.zip, whag.zip wfwhlp.zip
+
+These are shareware
+
+dir:    /pub/pc/win3/util
+files:	hwab21.zip, qdhelp.zip, qdtool.zip
+
+dir:	/pub/pc/win3/winword
+files:	drhelpev.zip (macros for word 2.0 to convert doc to hlp files).
+
+--------------------------------------------------------------------
+Shiva Shenoy                              | e-mail: shenoy@iastate.edu 
+2066 Black,Dept of AEEM,ISU,Ames,IA 50010 | Office: (515)-294-0082
+-- 

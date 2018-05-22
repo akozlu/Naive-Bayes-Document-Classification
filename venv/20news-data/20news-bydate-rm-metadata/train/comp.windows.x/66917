@@ -1,0 +1,17 @@
+this */
+     */
+I tried
+how can I
+
+Does the workstation you're using have hardware cursor support?  Or does
+the server generate a software cursor.  You can generally tell the difference
+just by using it.  If the cursor blinks a lot when there's screen activity,
+it's probably a software cursor.  If it has a hardware cursor, I think you're
+probably battling a bug in HP's X server.  I'm not familiar with any hardware
+cursor chips that display cursors greater than 64x64.  It's quite possible
+that the server is just echoing your preferred cursor size without actually
+checking it.  I vaguely recall that very old MIT server revisions did just 
+that.
+
+In reality you're probably stuck with a 64x64 maximum size cursor regardless
+of what the server returns.

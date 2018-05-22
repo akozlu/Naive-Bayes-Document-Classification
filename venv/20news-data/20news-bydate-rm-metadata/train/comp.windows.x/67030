@@ -1,0 +1,12 @@
+
+code deleted...
+
+From the XmTextField man page (during discussion of resources):
+
+   XmNverifyBell
+
+      Specifies whether a bell will sound when an action is reversed
+      during a verification callback.
+
+You are setting doit to false in the callback, and Text[Field] is beeping
+as it should.  To turn off this behavior, set this boolean resource to false.

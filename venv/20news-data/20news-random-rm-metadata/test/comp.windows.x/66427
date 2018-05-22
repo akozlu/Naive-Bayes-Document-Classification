@@ -1,0 +1,12 @@
+
+
+You wanna do masking. Build a bitmap (pixmap of depth one) where all pixels
+you name "opaque" are 1 (that get copied) and the others are 0. Use this
+bitmap as the clip_mask in the gc used for XCopyArea(), and remember to
+adjust the clip_origin coordinates to the XCopyArea() blit origin.
+
+The Mouse pointer (besides from that it is driven using RAMDAC analog
+mapping on most hardwares) uses a mask, too.
+
+But be warned: blitting through a mask and especially moving around this mask
+is annoying slow on most xservers... it flickers even at 40 MIPS...

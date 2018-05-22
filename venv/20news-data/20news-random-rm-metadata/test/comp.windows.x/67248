@@ -1,0 +1,14 @@
+
+I ran in to this problem I while ago, and from what I remember you should use
+XtTranslateCoordinates etc. after realizing the main widget to calculate
+the location of the popup, then use something like XtVaSetValues on the
+popup widgets before ever using them.  Calling SetValues repeatedly (e.g.
+every time something pops up) seems to be what slows you down.  I never
+delved deep enough to figure out exactly why though...
+
+---------------------------
+Jeremy Payne
+UIUC Neuroscience program /
+College of Medicine
+jrpayne@uiuc.edu
+(217)244-4478

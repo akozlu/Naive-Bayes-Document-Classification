@@ -1,0 +1,32 @@
+
+
+
+
+I have the same problem and was about to post this....
+
+Hello duo owners (and Apple technical people :-)
+ 
+I have a new duo 230 which appears to have a problem waking up from
+sleep when running on battery power. When woken (usually for the second
+time) after sleeping, the wake fails and the screen appears with a
+corrupted image of broken horizontal lines and control can only be
+recovered with control-command-poweron or the reset key at the back of
+the machine. The problem occurs even when the system is stock standard
+(no extensions, no virtual memory, a fully charged new battery, system 7.1
+etc). I have not had the problem when the machine is plugged in to AC.
+I've checked that the battery is properly seated (it appears to be fine).
+ 
+What's going on here ? Anyone else had this problem ? Is it software or
+hardware ? 
+ 
+If you have a duo 230 and a bit of time, try repeatedly sleeping and
+waking the machine on battery power and let me know if you see the same
+behaviour (and let Apple know too !).
+ 
+Many thanks to anyone who can clear this one up for me.
+ 
+Bruce
+
+
+
+

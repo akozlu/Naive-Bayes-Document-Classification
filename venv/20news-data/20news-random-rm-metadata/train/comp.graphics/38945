@@ -1,0 +1,30 @@
+
+Never claimed it is a bug.
+
+
+
+Never claimed it is a bug.
+
+
+
+I guess I edited my note on this away from the article I posted to
+many newsgroups.
+
+I wrote something about making color modifications quickly
+with 8bit quantized images and only at the saving the image to file
+process we have to make the modifications to the 24bit image.
+This makes sense, because the main use of XV is only viewing images.
+
+Doing many changes to image, we should keep all modifications
+in a buffer; and then before making the operations to 24bit image,
+we should simplify the operation list for unnecessary operations.
+
+
+
+Never claimed it is a bug.
+I tried kept sure I don't claim that JPEG is noting else than
+a compression algorithm, because I know what the JPEG is.
+(You propably misunderstood what I wrote as you have done in many
+places so far.)
+
+You also missed what is (were) wrong with XV. However, I did wrote it.

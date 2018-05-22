@@ -1,0 +1,10 @@
+
+
+
+You can include postscript epsi files in xfig (encapsulated postscript
+info files). You can't actually edit the postscript file, but you're able
+to draw over the postscript file.
+
+There a eps to epsi converter: eps2epsi (perl program),
+
+Succes,

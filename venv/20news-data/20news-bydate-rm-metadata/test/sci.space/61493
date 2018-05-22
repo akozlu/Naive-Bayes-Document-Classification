@@ -1,0 +1,25 @@
+Forwarded from the Mars Observer Project
+
+                       MARS OBSERVER STATUS REPORT
+                             April 30, 1993
+                              11:30 AM PDT
+
+DSS-65 (Madrid 34 meter antenna) did not acquire the expected Mars Observer
+Spacecraft signal at the scheduled beginning of track yesterday morning (4/29)
+at approximately 6:00 AM.  Indications were that the spacecraft had entered a
+Fault Protection mode sometime between that time and receipt of normal
+telemetry at the end of the previous station pass (DSS-15 - Goldstone 34
+meter antenna) at approximately 8:00 PM the evening before.  Entry into
+Contingency Mode was verified when signal was reacquired and telemetry
+indicated that the spacecraft was sun coning.  After subsystem engineers
+reported all systems performing nominally, fault protection telemetry modes
+were reconfigured and memory readouts of command system Audit Queue and
+AACS (Attitude and Articulation Control Subsystem) Starex performed.  These
+readouts verified that Contingency Mode entry occurred shortly after 1:30 AM
+yesterday, 4/29/93.  Preliminary indications are that a Sun Ephemeris Check
+failure triggered fault protection.  However, the Flight Team will be
+determining the precise cause over the next few days.
+
+As of last evening, the spacecraft had been commanded back to Inertial
+Reference and was stable in that mode.  The Flight Team is planning to
+command the spacecraft back to Array Normal Spin state today.

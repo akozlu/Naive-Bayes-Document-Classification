@@ -1,0 +1,3 @@
+
+To clarify a little more: SOUND.EXE is a self-expanding archive which
+contains the driver (which is actually called SPEAKER.DRV, I think).

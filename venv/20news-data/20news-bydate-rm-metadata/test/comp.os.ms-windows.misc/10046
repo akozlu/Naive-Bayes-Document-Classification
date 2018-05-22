@@ -1,0 +1,4 @@
+
+Dos 5 never used the area $E000 - $EFFF, as well as some others. If you have 
+any cards that use this are (such as a LAN card), you might get this 
+problem.

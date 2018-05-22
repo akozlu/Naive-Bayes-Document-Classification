@@ -1,0 +1,6 @@
+From article <ardie.313.736188058@ux1.cso.uiuc.edu>, by ardie@ux1.cso.uiuc.edu (Ardie Mack):
+
+EMM386 is NOT reqired to load the DOS kernal high (or else you couldn't
+do it on a 286).  In a mail message I recommended that he remove it
+since he only runs ProcomPlus frequently in DOS, and I suspect
+EMM386 will slow down windows.

@@ -1,0 +1,5 @@
+
+How are you attempting to do that?
+
+Are you using the DIS_PKT9 program? This provides a packet driver on
+top of the NDIS driver.

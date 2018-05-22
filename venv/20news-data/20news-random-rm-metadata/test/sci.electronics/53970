@@ -1,0 +1,7 @@
+I missed the first part of this thread; are you switching line level or
+speaker level audio?
+If line level, there's a single chip 4x1 *stereo* audio switch available
+that switches 4 two-channel inputs into 1 two-channel output, and also
+has a mute function, all controllable with ttl inputs.  LM1037, I think?
+
+If speaker level, never mind.  :(

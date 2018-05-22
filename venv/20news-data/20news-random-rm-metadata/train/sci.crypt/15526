@@ -1,0 +1,13 @@
+
+	I think I should also point out that the mystical DES engines
+are known plaintext engines (unless you add a ton of really smart
+hardware?)
+
+	The 'plaintext' is digitized voice, and exists for a very short
+time, probably in a couple inches of copper, tops. It's flatly not
+available -- your bug in my office can hear my voice, and even digitize
+it, but it's going to get a different bitstream.
+
+	It is horribly naive to suppose that regular folks can figure
+out how to crack skipjack, or clipper based telephones. I'm certainly
+not devoting a great deal of thought to it.

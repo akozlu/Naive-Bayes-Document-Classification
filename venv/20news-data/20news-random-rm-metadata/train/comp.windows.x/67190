@@ -1,0 +1,9 @@
+
+	Because xterminals do not have a NeWS server.  xterminals have
+speed by nature of their limited functionality: once you add NeWS and
+everything else, you have a workstation.  There are workarounds, I've
+heard, one involving a perl script.  What we are trying to do is
+replace programs that need NeWS (like pageview) with programs that
+don't (like ghostview).
+	Maybe someone else can elaborate on the perl workaround; I
+have no personal experience with it.

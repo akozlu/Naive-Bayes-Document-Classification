@@ -1,0 +1,5 @@
+Is it possible to use WinQVT/Net on a machine that uses NDIS to connect to a
+Token Ring ? I tried it with older versions (< 3.2) but got an invalid packet
+class error or something the like...
+
+Regards,

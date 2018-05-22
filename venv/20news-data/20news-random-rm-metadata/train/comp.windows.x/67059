@@ -1,0 +1,3 @@
+
+Well, the first 2 are easy.  You need the math library.  Try adding -lm after
+-lX11.  Don't know if that's the whole problem but it's a start.

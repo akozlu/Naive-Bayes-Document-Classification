@@ -1,0 +1,4 @@
+
+I would guess that it requires X, almost certainly DV/X, which commonly
+uses the GO32 (DJGPP) setup for its programs.  If you don't have DV/X
+running, you can't get anything which requires interfacing with X.

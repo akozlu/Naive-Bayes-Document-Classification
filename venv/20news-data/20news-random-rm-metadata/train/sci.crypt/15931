@@ -1,0 +1,20 @@
+
+Don Alvarez posted a good partial solution to this problem to
+comp.risks.  I'll present my variant on it instead, since I feel it's a
+bit stronger against some likely attempts to cheat.  depends on the
+protocol that's followed for reading traffic.  Briefly, the cops get a
+wiretap warrant, and record the call.  They then notice the encryption
+and the disclosure header.  It, along with a copy of their warrant, is
+sent to the FBI, or whoever it is who holds the family key.  The
+F-holder decrypts the header, and sends the serial number N and the
+encrypted session key U[K] to the escrow agents.  They, in turn, use U1
+and U2 to recover K, and send that to the local police.
+
+Note how this solves the problem of wiretapping forever.  Neither the
+cops nor the FBI ever see U, so they can't read other traffic.  Every
+request must be validated by both the FBI and the escrow agents.  The
+cops and the FBI together can't cheat, since they don't have U.  (I
+regard that as a likely pairing of folks who might try to beat the
+system.  It's to prevent this that I modified Alvarez's scheme.)  The
+escrow agents can't read the conversation, since they don't have it;
+all they have is N and U[K].  And the police don't even see N.

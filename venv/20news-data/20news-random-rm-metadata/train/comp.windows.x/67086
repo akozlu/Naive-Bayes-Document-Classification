@@ -1,0 +1,21 @@
+
+Okay, that's good.  I'm typing this from exactly the same setup.
+(US-UNIX layout keyboard)  I did install the sunkbd patch, though.
+
+
+Make sure you're using "ssetroot", which comes with tvtwm.  When tvtwm
+starts up, it nukes the existing root window.  Use an "ssetroot" after
+tvtwm starts up.   (You could spawn off a "(sleep 10; ssetroot ...)&")
+You can also use "VirtualDesktopBackgroundPixmap filename" or just
+VirtualDesktopBackground if you just want another color besides grey.
+
+
+Did you install the sunkbd patch?  It's in the contrib directory on export.
+All the keys on my keyboard send events properly, except the following:
+The End, PageUp, PageDown on the 6-key cluster aren't recognized.
+Even the compose key works.  (Though I can't seem to get the composed
+characters in an xterm to get passed.)
+
+Anyone have a fix for the last two?
+
+--Dave

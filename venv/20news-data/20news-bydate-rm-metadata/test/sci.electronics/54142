@@ -1,0 +1,13 @@
+
+
+Tis' only a gleam in my eye at this point.  I have yet to chose a tracking 
+method.  The initial requirement was to design a system to locate a dancer
+in one of eight zones across the stage.  I did some experiments with 
+pyroelectric detectors and found them difficult to align to get a definite
+zone transition.  And dancers stand still alot, so their IR signature goes
+away.  The good thing about pryoelectrics is that their signal is proportional 
+to the size of the warm body (or body part), and the velocity of said body.
+This could be useful for detecting the intensity of a dance gesture.
+
+Dancers also really hate to wear little boxes and batteries strapped on their 
+bodies, but they really need to be emitting some kind of signal to be tracked.

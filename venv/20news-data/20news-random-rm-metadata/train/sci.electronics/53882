@@ -1,0 +1,10 @@
+
+They require two separate grounds.  One ground goes to the ground pin
+of the outlet, and the other ground wire is connected to the outlet's
+mounting tabs (and thus grounds the box and faceplate screw and metal
+faceplate, if any).
+
+The box/faceplate ground goes to the normal distribution panel ground.
+The outlet ground-pin wire is generally connected to an insulated
+busbar in the distribution panel which is, in turn, connected to
+the building-entrance main ground by its own wire.

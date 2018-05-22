@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+
+As to how many clients may be display on a server, I believe the limit
+would be how much memory is available to your server or allocated by the
+server.
+

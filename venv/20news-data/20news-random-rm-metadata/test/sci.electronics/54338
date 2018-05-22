@@ -1,0 +1,7 @@
+
+Gee, how about an (ahem) "accelerometer"! Such devices are available from
+a variety of sources (one that comes to mind is Bruel & Kjaer if you have
+a lot of money to spend). MOst of these sorts of devices output a voltage
+proportional to acceleration. You need to know what range you're talking
+about though.
+

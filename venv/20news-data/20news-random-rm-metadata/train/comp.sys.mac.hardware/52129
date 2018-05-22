@@ -1,0 +1,6 @@
+I have an external drive connected to my IIsi.  This is never
+recognized and mounted on system startup.  I can mount it with
+the SCSI control panel.  I'm running system 7.0.1,  and everything
+is properly terminated.  Would anyone have a helpful idea at to 
+the problem?  
+

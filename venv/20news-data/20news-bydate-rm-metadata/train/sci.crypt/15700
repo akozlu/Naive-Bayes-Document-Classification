@@ -1,0 +1,9 @@
+
+
+My MDC cipher (which uses any one-way hash function as a CFB-mode stream
+cipher, the current implementation uses MD5) uses a key of up to 2048 bits
+(that is, you can use a 1-bit key if you want and copy it over the entire
+2048-bit range, or you can use the entire 2048 bits).  Runtime is
+independant of key size, the system runs slightly slower than MD5 itself.
+I presume RC2 and RC4 use a similar system (or possibly they just hash an
+arbitrary-length key down to n bits, maybe 128, using something like MD5).

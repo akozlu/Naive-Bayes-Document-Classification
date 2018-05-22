@@ -1,0 +1,8 @@
+comp.windows.x
+
+	Please igore my previouse calculation mistaked. Please see the correct
+calculation. Sorry!
+ x3 = 300;
+ @ = art tan (500 - 270)/(800 - 100)) = 18.19 degrees;
+ y3 = 100 + (300 - 270)/tan(@) = 191.29 ~= 191 integer
+

@@ -1,0 +1,11 @@
+Hi.
+
+The RTrace ray tracer supports 3D text as a primitive, not collections of
+spheres, cylinders and so on...
+The 3D chars are made of lines and splines that are extruded...
+
+Please have a look at asterix.inescn.pt [192.35.246.17] in directory
+pub/RTrace.
+In pub/RTrace/tmp there are some demo images with high quality text.
+All of them are called Text?.jpg (JPEG encoded). See them first and then
+tell me what you think.

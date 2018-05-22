@@ -1,0 +1,6 @@
+As quoted from <1993May13.212321.2563@moepi.do.open.de> by bernward@moepi.do.open.de (Bernward Averwald):
++---------------
+
+The server overhead for this is mildly ridiculous, though (see also DESQview/X,
+which does this in its DOS windows).  Do you really want xterm to wake up every
+half second and whack the server into doing a bitblt?

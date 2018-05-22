@@ -1,0 +1,12 @@
+Probably won't help.  I'd be willing to bet that _every_ manufacturer
+used those little self-contained modules.  I think Sharp made them.
+Radio Shack used to sell them for a few bucks (maybe they still do.)
+
+The module had 3 leads:  power, ground and demodulated output.  It
+contained the photo-detector, amplifier, integrator and demodulator
+all in a tiny metal can.
+
+If you want to buy one, try Radio Shack, or else a TV repair shop can
+probably order one.  BTW - the carrier frequency is 40 KHz, and each
+different TV/VCR/cable box/stereo manufacturer uses a unique pulse
+scheme to perform each different function on their equipment.

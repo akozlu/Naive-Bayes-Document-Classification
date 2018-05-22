@@ -1,0 +1,7 @@
+
+
+
+Are we talking about an xterm which would accept the same escape sequences
+as that for VT340 (or colour decterm/dxterm)? I thought that was called
+colxterm (and my testing of it shows some oddities that might be bugs or
+might be my program going wrong).

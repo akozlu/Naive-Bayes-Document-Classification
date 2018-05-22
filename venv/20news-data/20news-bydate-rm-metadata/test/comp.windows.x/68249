@@ -1,0 +1,18 @@
+
+same here
+
+
+I received similar information/advice about what appears to be the same problem 
+Benjamin has (and I still have).
+NIS has all the information about the Macs
+(I even put explicit entries in /etc/hosts to no avail).
+Monitoring with 'snoop' on my Classic, the initial REXEC packet is sent to
+the the SUN, which sends something to the correct Mac, but nothing appears
+at the Mac.
+'rexecd' is number one suspect, but it's more suble than the README suggests and
+I haven't yet looked into it further.
+
+-- 
+callum.downie@brunel.ac.uk
+Faculty of Technology, Brunel University, Uxbridge, UB8 3PH, UK
++44 895 274000 x2730

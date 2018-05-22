@@ -1,0 +1,16 @@
+: I have a 486DX-33 computer with a SoundBlaster 1.0 card.  I'm running
+: Microsoft Windows v3.1.  I have the SB driver set up properly to play
+: normal sounds (.WAV files, etc.).  I want to play midi files through the
+: Media Player that is included with windows.  I know I have to set up the
+: patch maps or something in the MIDI-Mapper in the Control Panel.  I KNOW
+: NOTHING ABOUT MIDI.  (This is to be the way I'll get my feet wet.)
+
+: How do I set up Windows so that I can play MIDI files?
+If you install the Soundblaster windows drivers correctly, and have
+the latest drivers, the media player should be setup to play files
+authored to Microsoft's Multimedia midi authoring standard (General
+Midi), see the section in the back of the Voyetra manual in the
+Soundblaster midi upgrade kit.
+You'll find that midi files exist with all kinds of different
+mappings, so don't expect them to always sound correct without using
+some kind of midi file editor, such as Voyetra's Sequencer Plus.

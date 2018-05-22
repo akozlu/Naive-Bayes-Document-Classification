@@ -1,0 +1,9 @@
+
+
+As I've said before, there's no reliable way to find out the size of
+the window manager decoration.  If your window has been reparented, you
+can't assume that the window you're parented to is the window that
+holds all of the window manager decoration.  There may be several
+layers of windows.  Doing multiple XQueryTree's until you get to the
+root will work in most cases, but there's no guarantee that the outside
+decoration window is parented to the root window of the display (tvtwm).

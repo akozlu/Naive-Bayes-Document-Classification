@@ -1,0 +1,24 @@
+
+
+
+This has to be a dictionary attack.  No other attack makes sense.
+
+
+This means that whoever encrypted the file just typed some password
+which was a single dictionary word, and then Russell tried all the
+words in the dictionary.  This isn't too implausible, especially if he
+was smart and clipped the first plaintext block off the ciphertext (if
+the first block doesn't decrypt then obviously the others won't
+either).
+
+Assuming one attempt a second, it takes seven hours to try all the
+words in /usr/dict/words.   Not real tough.
+
+If you want DES to be secure, you have to use RANDOM KEYS.  You can't
+just type your wife's name and think "aha they'll never guess that
+one!"
+
+
+
+-- 
+Daniel F. Boyd -- boyd@cs.buffalo.edu 

@@ -1,0 +1,5 @@
+
+
+HPGL does not support raster primitives, so a formatter would have to 
+punt on most popular image formats.  This probably explains the lack of
+translators out there.  What do you need to plot ?

@@ -1,0 +1,40 @@
+
+
+
+
+
+
+Yes, quite a number of people it seems from discussions I've had (me
+included). I bought my machine a couple of weeks ago as well and
+started to experience these problems.
+
+Apple Australia via my dealer said that this problem has a number of
+potential causes - Faulty applications, faulty third party hardware
+(modems, memory etc), system software, PRAM corruption and power
+manager corruption, and the Duo hardware itself.
+
+None of the above are relevant in my case except the last two maybe
+(no applications were running, the system software was re-installed, I
+have no additional hardware). I have found that clearing PRAM appears
+to help for a while at least (hold down command option P and R on
+startup). Unfortunately the problem returns suggesting that PRAM is
+being corrupted by something (system software bug ? - I don't have any
+non-issue inits in my system). Apparently the Power Manager can be
+reset by "holding the reset and interrupt buttons while powering up" -
+Apple's advice - but since the Duo does not have an interrupt button
+I'm not sure what they mean in this case. This may also help if
+someone can decipher Apple's advice for me.
+
+Beyond this Apple suggest that " you should follow the technical
+procedures to check the hardware of this Duo". Since so many others
+appear to be having the same problem it would seem to me that there
+has been a system software bug introduced somewhere along the line -
+and quite recently too - since it only seems to be recent Duo 230
+purchasers who have this problem.
+
+Any more comments from others in the same boat are welcome,
+particularly Apple Duo engineers :-)
+
+cheers
+
+brucet

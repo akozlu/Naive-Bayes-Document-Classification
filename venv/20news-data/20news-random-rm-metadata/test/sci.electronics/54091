@@ -1,0 +1,6 @@
+
+
+IN ORDER to get the 15 nS response time you need, you are better off 
+going to an ECL slicer which can run off a single +5 or -5.2 V supply, 
+you just need to bias or do some level shifting perhaps to get it in the 
+range. Check out the ECL 10K books for a simple cheap solution.

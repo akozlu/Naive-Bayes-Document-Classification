@@ -1,0 +1,10 @@
+
+Yeah, Corel Draw and WordPerfect Presentations pretty limited here, too.
+	Since there's no (not really) such thing as a decent raster to
+vector conversion program, this "tracing" technique is about it.  Simple
+stuff, like b&w logos, etc. do pretty well, while more complicated stuff
+goes haywire.  I suspect (even though I don't write code) that a good
+bitmapped to vector conversion program would probably be as big as most
+of these application softwares we're using -- but even so, how come one
+hasn't been written? (to my knowledge).  I mean, even Hijaak, one of the
+commercial industry standards of file conversion, hasn't attempted it yet.

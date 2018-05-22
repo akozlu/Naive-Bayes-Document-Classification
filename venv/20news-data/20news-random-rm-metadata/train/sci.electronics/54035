@@ -1,0 +1,79 @@
+sure the
+way is
+on
+different
+
+Okay, so what do you do if some part of the machine (presumably the part  
+on which the code number or whatever that the program has fixated itself  
+upon goes bad, you replace that part, and now your program won't run  
+because it's on a "different" computer???
+
+This is, of course, assuming that the program uses something in ROM (like  
+the BIOS serial number, maybe?) and not a disk-based code number.   
+Obviously if the drive goes bad you'll be reinstalling the stuff anyway.
+
+I work in a computer lab which is part of the university microlab system.   
+We have the wonderfully fun task of maintaining well over a hundred  
+machines, both PC and Macintosh, as well as administering a network of  
+over 50 NeXT machines.  I personally am concerned only with a small lab  
+with ten PC's and ten Mac's.  (I'm not the manager, but help him with  
+admin often).  IMHO, copy-protection schemes of ANY sort are nothing more  
+than a major headache for the legitimate user.  Anyone who wants a copy of  
+your program and doesn't care about legality will get a copy.  Period.   
+"Pirate board" or no pirate board.  I too have "friends" who blatantly and  
+quite successfuly "hack" copy protection schemes practically in their  
+sleep.
+
+Let's consider what goes on in our lab.  Almost daily we have at least one  
+machine down, sometimes several, due to some goofball screwing up some  
+setting or other on a piece of software.  Admittedly, we (being students,  
+mostly) are not the world's most efficient and effective network  
+administrators, but we try.  Keeping even the twenty machines that are  
+(partly) my responsibility even vaguely looking and "acting" similar to  
+the average user, and maintaining "behind-the-scenes" consistency is a  
+real headache, but not so bad a headache as trying to remember twenty  
+different folder locations of Norton Utilities when some guy trashes his  
+disk.
+
+Often we have hardware problems at peak "business" times and have to do  
+some parts-swapping to get stuff working temporarily. . . .
+
+Well, I'll cut to the chase and quit boring y'all . . ..
+
+The point is, often we have to re-install software and copy configuration  
+files etc. from machine to machine.  By far the easiest way we have found  
+to do this is to get ONE machine working EXACTLY the way we want to, then  
+COPY the complete setup of this machine to the other nine (of that  
+machine's type).  This ensures us that (for at least ten minutes) we have  
+ten IDENTICAL machines to work with.  Having them networked simplifies  
+this considerably, as our major packages (WordPerfect, Windows, etc.) are  
+all network versions and thus only one copy to mess with.
+
+Often, however, we need to install a package requested by some instructor  
+to one, some, or all of the machines for a special project.  This is  
+usually a hand-written or shareware,etc. program similar to what I believe  
+the original poster was asking about.  The few we have had with "copy  
+protection" schemes have caused nothing but NIGHTMARES for us to maintain  
+ . .
+
+In short, don't waste your time with a copy protection scheme.  It's sort  
+of like outlawing guns.  The criminals will get your program anyway, and  
+you will only be hurting the legitimate, honest user.  Write a good user's  
+guide and tech manual, whatever else for your program (PLEASE do this  
+REGARDLESS of whether you copy protect the thing!!!), and only distribute  
+the manual to LICENSED users.  Jack the price to cut your losses, but  
+please take a cue from the major companies (who can admittedly afford the  
+costs of illegal copies far better than you) and don't burden the  
+legitimate user with a "copy protection" scheme!
+
+
+Sorry for the tirade, but it's been a long day here . . .. :-)
+
+
+Mark S. Underwood
+EE Student, University of Kentucky
+Lab Assistant, Boyd Hall Microlab 
+	(a tiny little division of UK Library Microlabs)
+E-Mail:  msunde01@mik.uky.edu
+
+

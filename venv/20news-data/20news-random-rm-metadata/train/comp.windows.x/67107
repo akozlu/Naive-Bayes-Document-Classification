@@ -1,0 +1,60 @@
+Hello!
+
+
+This isn't of much help! Especially when doing Phigs (PEX) via the libphigs as
+supplied by MIT, I have much trouble together with PEX-terminals that don't
+have enough memory!
+
+Performing the following:
+
+   visual.visualid = CopyFromParent;
+
+   bg_pix = WhitePixel( grafik_display, DefaultScreen( grafik_display ) );
+   
+   xswa.backing_store      = NotUseful;
+   xswa.event_mask         = ExposureMask | StructureNotifyMask;
+   xswa.background_pixel   = bg_pix;
+
+   graphic_window =
+         XCreateWindow( graphic_display,
+                       RootWindow( graphic_display,
+                                  DefaultScreen( graphic_display ) ),
+                       0,
+                       0,
+                       DisplayWidth(graphic_display, 
+                                  DefaultScreen( graphic_display ) ),
+                       DisplayHeight(graphic_display, 
+                                  DefaultScreen( graphic_display ) ),
+                       (unsigned int)0,
+                       8,
+                       InputOutput,
+                       &visual,
+                       CWEventMask | CWBackingStore | CWBackPixel,
+                       &xswa );
+   XMapWindow( graphic_display, graphic_window );
+   
+   /** sync and wait for exposure event **/
+   XSync( graphic_display, False );
+   XWindowEvent( graphic_display, graphic_window, ExposureMask, &exposureEvent );
+
+   conn.display     = graphic_display;
+   conn.drawable_id = graphic_window;
+
+   xinfo.display = graphic_display;
+   xinfo.flags.no_monitor = 0;      /* False -> Monitor is running! */
+   xinfo.flags.force_client_SS = 0; /* False! */
+
+   popen_xphigs( NULL, 0, PXPHIGS_INFO_FLAGS_NO_MON |
+                          PXPHIGS_INFO_FLAGS_CLIENT_SS |
+                          PXPHIGS_INFO_DISPLAY, &xinfo );
+
+   popen_ws( 1, (Pconnid)(&conn), phigs_ws_type_x_drawable );
+
+I get core dumps in the popen_ws call! (No BadAlloc, etc.! Simply a core
+dump!) So I need some way of getting info about the maximal available memory
+to the Xserver!
+
+But thanks!
+
+Sincerly,
+        Matthias

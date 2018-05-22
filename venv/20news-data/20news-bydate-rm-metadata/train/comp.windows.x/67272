@@ -1,0 +1,3 @@
+Xcursor version 4.1 is now on export as xcursor4.1.tar.Z. I've added 
+a new option to determine if a requested cursor size is OK. Of course,
+your server may lie!

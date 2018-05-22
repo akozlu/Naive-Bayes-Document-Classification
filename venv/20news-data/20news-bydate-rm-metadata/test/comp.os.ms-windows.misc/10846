@@ -1,0 +1,14 @@
+
+Using the software you're using, I agree with you there.  What I did:
+I installed DOS, Windows and CPBackup (functionally the same
+as your Norton, for the purposes of this discussion), and used the 
+DOS "backup" command on just that much.  To restore, I boot to the 
+"system" diskette, and use DOS "restore" to read in that much, then
+boot to windows and restore my full backups using CPB (Norton, in your
+case), overwriting what I've just restored.  That allows me to keep
+this skeletal Windows essentially unchanged, with all my customization
+on the "real" copy done using the 3rd-party backup utility.
+
+
+Seems possible, if you can put skeletal versions of DOS and your backup
+utility on a "system" floppy.  Then you could restore it all on one "go".

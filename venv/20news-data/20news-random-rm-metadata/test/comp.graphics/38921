@@ -1,0 +1,27 @@
+
+
+We here at IBM have the same problem with our workstations.  I was also
+shocked when I first realized that you have to offset lines from fills by
+about 16 bits (assuming 24 bit z buffer).  This seems huge, but is only
+1/256 of the dynamic range.  In those terms it doesn't seem so bad.  What
+is happening is that the interpolation in z is not totally linear, due
+mainly to roundoff, I believe.  So the polygon is not planar in z, but is
+more like a Ruffles potato chip.  Ditto with lines.  When you start/end at
+different x/y values, the "ridges" are out of phase, resulting in the
+stitch effect.  You have the same problem if you try to draw 1 polygon
+right on top of another, but with different vertices.  You will likely see
+a smeared effect where they overlap.
+  Example:
+  Try Polygon 1: (100,100,100) (100,200,100) (200,200,100) (200,100,100)
+      Polygon 2: (125,125,100) (125,175,100) (175,175,100) (175,125,100)
+
+Your implementation is correct.  In fact, we do a similar trick when
+rendering primitives that have lines and polygons - such as NURBS surfaces
+with isoparametric lines.  Without the trick, the lines appear stitched, as
+you say.  When the application draws lines/polygons independently, the
+system does not have the smarts to automatically do the z shifting, so the
+application must do it.  This is what you have discovered and are doing.
+Bravo!
+
+(Note to IBM'ers:  The information given here has been previously disclosed
+through proper channels so I'm not giving away any new unpublished info.)

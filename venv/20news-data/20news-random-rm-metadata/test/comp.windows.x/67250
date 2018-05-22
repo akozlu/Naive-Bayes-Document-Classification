@@ -1,0 +1,13 @@
+
+I *think* this is correct behavior.  Remember the default
+colormapFocusPolicy is keyboard (meaning the cmap focus follows the
+keyboard focus).  Since the dialog is modal, mwm won't allow keyboard
+focus onto your main shell, and so it won't allow cmap focus either.
+
+Since it sounds as though you have keyboardFocusPolicy:pointer, I
+suggest you set colormapFocusPolicy:pointer also.  That way, the cmap
+focus won't slavishly follow keyboard focus, but will beat its own path.
+
+(if you have keyboardFocusPolicy: explicit, you can set cmap focus
+explicit also, but you then need a binding to f.focus_color, probably on
+MB1).

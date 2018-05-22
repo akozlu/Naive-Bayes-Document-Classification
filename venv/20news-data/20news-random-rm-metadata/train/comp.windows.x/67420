@@ -1,0 +1,6 @@
+
+You have to do the same sorts of things that Xt does with its main loop.
+That is, you have to rig up a timer queue, and you have to put a 
+select(2) or poll(2) call in your main loop.  You can obtain the 
+file descriptor of the X display connection using 
+    fd = ConnectionNumber (display);

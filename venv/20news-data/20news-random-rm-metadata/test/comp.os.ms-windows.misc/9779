@@ -1,0 +1,9 @@
+
+WFWG does use NDIS but it cooperates well with the NDIS shim for ODI.
+(I've heard that it is as fast as NDIS direct)
+                            
+
+The additional TSR load is minimal.  I think I eat another  20K total.
+This is worth it to me since it allows me to get to my Windows NT 
+box.  Novell hasn't released a decent NT Novell client yet so I share
+through my WFWG box.         

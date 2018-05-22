@@ -1,0 +1,19 @@
+
+
+
+    To display Millions of colors on a 16" monitor you need 2MB of VRAM
+in the Q950.
+
+
+    Correct. This is the amount of on-board VRAM that the Q800 comes
+with.
+
+
+    Yes this is possible. Technically, you only need to take out 2 of
+the VRAM SIMMs but leaving in the other two will not get you anything
+because the 950 cannot really do anything with 1.5MB of VRAM. It only
+knows 1MB and 2MB.
+
+
+    Yes, this is correct. You get to 1MB by putting 2 256k VRAM SIMMs
+into the VRAM SIMM slots on the Q800's motherboard.

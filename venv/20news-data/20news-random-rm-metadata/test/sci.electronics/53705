@@ -1,0 +1,12 @@
+
+
+
+
+We're looking at a series of chips by WSI, the PSD3xx series. They have
+_mega_ address decoding logic on them, various ROM sizes (upto 1Mbit),
+various RAM sizes (upto 16 K), and 19 I/O ports which can be chip select
+lines, I/O or the buffered address lines.
+
+Cute chip, 44 pin PLCC package.
+
+Second sourcing may be a problem though :-(

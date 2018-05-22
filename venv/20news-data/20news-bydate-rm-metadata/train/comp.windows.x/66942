@@ -1,0 +1,10 @@
+Could some one please send me (or tell me where to ftp from) the patches required
+ for xrolo so that  I can compile-in the SPARCStation phone-dialing feature?
+
+I am using SunOS  4.1.1, and therefore don't have "multimedia/libaudio.h" or 
+"multimedia/audio_device.h" and associated functions.
+
+Just in case, our mail gateway only accepts msgs < 45Kb.
+
+Thanks in advance,
+Shash.

@@ -1,0 +1,14 @@
+es:
+
+A couple other problems with the 486DX/50:
+
+1.)  System manufacturers had MAJOR problems solving the electromagnetic 
+interference problems with 486DX/50 systems.  Getting an FCC-B (home use) 
+certification required additional shielding in the system.
+
+2.)  HEAT...a lot of people seem to be installing heat sinks and/or cooling 
+fans on their 486DX2/66 chips.  I would guess that the 486DX/50 ran 
+temperatures inside the case even hotter.  And heat is the enemy of system 
+reliability.
+
+Ed

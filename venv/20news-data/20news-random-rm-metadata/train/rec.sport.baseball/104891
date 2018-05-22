@@ -1,0 +1,48 @@
+[some deletions]
+
+Well, we agree on the last part.:-)  One of the basic things you need to 
+have in a statistic to be able to predict a player's performance on it
+in the future is for there to be a correlation from year to year.  A 
+player's batting average is correlated fairly well from year to year.
+A player's ability to walk or infielder's Defensive Average are correlated
+better.  That is to say, given their past performance in those statistics
+we can have a pretty good handle on how they'll do next year.  Put in 
+some simple information about aging and you can do even better.  One of 
+the basic problems with something like "clutch" batting average - overall
+batting average is that the correlation from year to year is almost zero. 
+Adding to the sample size doesn't seem to help much.  As a counterexample to 
+what you showed, consider the following two players from 1984-1987:
+
+               Non-Clutch                      Clutch
+               AB      H       BA              AB      H       BA
+ 
+Maldonado      1060    260     .245            254     78      .307
+Lemon          1643    457     .278            256     57      .223
+
+If you had had these two players in 1988, by your logic, in those "clutch"
+situations, you'd bat Maldonado for Lemon in a blink of an eye.  Well, in 
+1988, Maldonado hit .267 in "non-clutch" and .190 in "clutch", while Lemon
+hit .254 in "non-clutch" and .313 in "clutch".  Before you accuse me of 
+completely cooking the data, there were 96 players who had 25+ "clutch"
+at bats every year from 1984-1988 (according to Elias).  As a simple
+measure of clutchness, let's just look at clutch BA-non-clutch BA. If you use 
+'84-'87 to predict '88 for those 96 players, you'd find that 27 of the
+96 were below league average in that measure both in '84-87 and in '88,
+26 were above league average in both periods and the other 43 were 
+above in one and below in the other.  If you were just flipping coins,
+you'd expect to get 24 above/below in both and 48 that switched.  The
+difference between the observed results and the coin flip experiment
+is not statisically significant.
+
+BTW, correlating players' _overall_ batting average from '84-'87 with
+'88 gives a correlation coefficient of 0.59, which is significant at
+something better than the 99.9% confidence level.  Correlating their
+(clutch-non-clutch BA) for the same period gives a correlation of 
+0.088, significant at no level of any interest.
+
+
+Actually, it's technically incorrect to say that we can't predict future
+clutch performance.  It's more correct to say that we can't predict
+future clutch performance with any skill.
+
+Harold

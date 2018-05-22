@@ -1,0 +1,5 @@
+Why don't you just run one LED at 60 KHz and use a flip flop at the receiving
+end to divide by 2 and give you a good square 30KHz signal.
+Just a thought.
+LORI
+ 

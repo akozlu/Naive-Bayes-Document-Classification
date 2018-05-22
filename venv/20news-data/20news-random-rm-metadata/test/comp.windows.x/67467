@@ -1,0 +1,5 @@
+
+The problem was that TextField was improperly walking the string; it used
+the character count instead of the byte count... a significan "Oops". 
+The problem has been fixed and the patch is included in the latest periodic
+patch from HP support services.

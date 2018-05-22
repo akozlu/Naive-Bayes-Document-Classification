@@ -1,0 +1,17 @@
+
+Think!
+
+It's the SCSI card doing the DMA transfers NOT the disks...
+
+The SCSI card can do DMA transfers containing data from any of the SCSI devices
+it is attached when it wants to.
+
+An important feature of SCSI is the ability to detach a device. This frees the
+SCSI bus for other devices. This is typically used in a multi-tasking OS to
+start transfers on several devices. While each device is seeking the data the
+bus is free for other commands and data transfers. When the devices are
+ready to transfer the data they can aquire the bus and send the data.
+
+On an IDE bus when you start a transfer the bus is busy until the disk has seeked
+the data and transfered it. This is typically a 10-20ms second lock out for other
+processes wanting the bus irrespective of transfer time.

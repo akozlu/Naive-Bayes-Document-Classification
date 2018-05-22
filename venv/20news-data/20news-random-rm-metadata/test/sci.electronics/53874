@@ -1,0 +1,12 @@
+
+
+Are you sure that he needs a two way converter? If he wants only
+RS232->TTL I would suggest the MC1489, its very cheap (0.80 DM in
+Germany). This chip needs only +5V. The MC1488 TTL->RS232-Converter
+uses +12V and -12V.
+
+BTW... The MAX232 and compatibles seem to be expensive in the USA...
+I paid 2.95 DM for a ITS80272 (made by Harris), its absolutely
+compatible with the MAX232 or the ICL232.
+
+Gerrit

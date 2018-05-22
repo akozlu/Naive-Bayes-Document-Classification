@@ -1,0 +1,18 @@
+
+G'day Brian,
+
+I'll be blunt about this. The ONLY reasonable explanation of Roberts
+algorithm is in
+
+Procedural Elements for Computer Graphics
+Rogers
+McGraw-Hill Book Co. 1985
+
+Go to the library and look at this.
+
+There is also a somewhat muddled explanation in the first edition
+of Newman and Sproull.
+
+The algorithm described in PECG runs in near linear time.
+
+Luck,

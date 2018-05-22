@@ -1,0 +1,11 @@
+
+Actually, the iAPX86 family has a HALT instruction that causes the CPU to
+cease processing instructions.  The CPU resumes processing either by being
+reset or by receiving an external (hardware) interrupt.  This is different
+from the power management facilities Victor mentions.  Of course, whether an
+operating system's idle loop uses the HALT instruction is another matter
+entirely.
+-- 
+Kenneth R. Ballou				VOICE:		 (617) 494-0990
+Oberon Software, Inc.				FAX:		 (617) 494-0414
+One Memorial Drive, Cambridge, MA  02142	Internet:     ballou@oberon.com

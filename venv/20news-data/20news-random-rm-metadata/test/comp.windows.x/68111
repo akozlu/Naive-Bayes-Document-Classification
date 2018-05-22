@@ -1,0 +1,12 @@
+
+
+
+It's actually a bug in the Solaris 2.1 kernel. We could add a workaround to
+xterm. open should never return EINVAL, but it does :-(
+
+I didn't have time to update the R5.SunOS5 patch lately, but non
+of the existing problems seem to warrant a new set of patches.
+
+
+XDM coulda also keep the XDM environment variable. It should have inherited
+it from the environment.

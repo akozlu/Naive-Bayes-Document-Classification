@@ -1,0 +1,9 @@
+
+
+Many spreadsheets do regression analysis.  The topic is also well covered
+in most undergraduate statistic books.  Cubic Splines are usually well
+covered in any undergraduate computer science numerical analysis text.
+I am sure ge/mm has a well stocked library.
+
+I have never used mathematica, but I would be surprised if it could not do a 
+spline.

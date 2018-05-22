@@ -1,0 +1,12 @@
+
+Having thought about this, why don't you project the 2 lines onto the 2d
+plane formed by the lines.  Do an intersection calculation in the plane in
+2D, where you're guaranteed a unique solution (unless they're parallel which
+won't happen in this case), and then use parametric distance along the lines
+from the circle centres to determine the exact point of interest.  This
+bypasses the messy error propogation required to do the calculation in 3d.
+
+Hope I haven't put my foot in it again!
+
+steve
+---

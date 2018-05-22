@@ -1,0 +1,5 @@
+
+Without real technical details, it's hard to answer this question. But
+suppose they already *are* XORing the two 40-bit parts to produce only
+40 bits of real key material? Maybe they're using the exportable version
+of RC2...? :-)

@@ -1,0 +1,9 @@
+
+
+Hi, I've come across a fast triangle fill-draw routine for mode 13h.  By
+calling this routine enough times, you have a fast polygon drawing routine.
+
+I think I ftp'ed from wuarchive.wustl.edu:/pub/MSDOS_UPLOADS/programming.
+I have a copy of it so I reupload it there.  The triangle.txt file has this
+to say :
+

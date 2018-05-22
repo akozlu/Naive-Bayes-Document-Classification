@@ -1,0 +1,8 @@
+
+     You  should  try  having  a  .xsession  script in $HOME to do these
+things.  xdm will  start  up  your  process  using  the  system  version
+(usually /usr/lib/X11/xdm/Xsession), which should check whether you have
+your won and change to that if you do.  (Take a copy of the  system  one
+and edit it). 
+
+     Note, that this file requires "x" access to be set.

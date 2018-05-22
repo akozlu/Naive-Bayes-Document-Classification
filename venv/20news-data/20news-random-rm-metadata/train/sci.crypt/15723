@@ -1,0 +1,7 @@
+I am testing IDEA block cipher implementations for correctness
+and needs some golden test vectors.  I've looked through
+the postscript IDEA chapter but the single example gives me
+zero degrees of freedom.  I'll contact the inventor if necessary
+but since we are NOT paying him money for use of his invention,
+I'd like to offload this from him.  Anybody got vectors?
+(No disease vectors, please).

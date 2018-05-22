@@ -1,0 +1,39 @@
+I've just installed a 5.25" tape backup in my C610; lot of the issues
+are the same.  So, to answer your questions...
+
+
+
+You probably want to hard-wire the SCSI ID with shorting jumpers.  Put
+it at a convenient number like "1".  You *could* cut a hole in the
+back of the machine to route the ID switch, but why go through the
+hassle?  You probably won't be needing to frequently change the ID of
+your internal drive.
+
+
+Yeah, when I first installed the tape drive I was a little concerned
+too.  But it's no problem, the device is designed to fit just fine
+with the overhang.  It shouldn't reach back beyond the ROM/RAM/VRAM
+SIMMs, though.
+
+
+You can special-order parts to mount the device from your local Apple
+dealer.  The relevant parts are:
+
+  922-0358  blank bezel faceplate
+  922-0850  CD-ROM carrier [i.e., generic 5.25" device mounting bracket]
+
+Note Apple's unfortunate choice of name for the slide-in bracket to
+mount a 5.25" device.  The service techs I talked to said, "Oh sure,
+we stock those."  Of course they were thinking of the CD caddies to
+hold a CD disk when you stick it in the drive.
+
+As far as I can tell, Apple does not sell a bezel faceplate already
+cut out for a standard 5.25" device.  (Why not?  They advertise
+these machines as being able to accept any standard device in the
+5.25" bay, why not provide the faceplate?)   They do sell a cutout for
+their CD-ROM drive (of course), but that's of no use.
+
+I'm going to hack up the extra bezel I ordered to make a cutout for my
+tape drive, which is a standard 5.25" device.
+
+Good luck with your SyQuest.

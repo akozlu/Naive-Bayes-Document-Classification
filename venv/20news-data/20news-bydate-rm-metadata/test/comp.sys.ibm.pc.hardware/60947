@@ -1,0 +1,7 @@
+
+Well, I have a different story to recount.  I attempted to low-level format a
+WD 43MB disk about a year ago.  When I understood my error, I contacted WD.
+They told me that I hadn't hurt the drive and that I should just run FDISK and
+FORMAT/S on it.  It was fine.  Also, I understand that Western Digital's BBS
+may have some low-level formatting routines specifically available for IDE
+drives.  You probably need to talk to them and get the straight scoop.

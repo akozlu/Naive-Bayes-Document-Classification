@@ -1,0 +1,6 @@
+
+
+It fixed a problem for us of getting Divide Errors that were
+caused by the GW BIOS overwriting some interapplication 
+memory area. Our problem was with Clarion Database programs,
+but I also heard that it fixed the same problem with Brief

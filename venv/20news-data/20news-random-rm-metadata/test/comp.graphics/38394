@@ -1,0 +1,14 @@
+
+Tommy Frandsen's VGAlib (which is probably what you're talking about)
+will do the standard VGA modes, some tweaked modes and then the Tseng
+ET4000 Super VGA modes. I have an ET4000 and I'm viewing GIF's at
+640x480/256 (I have a lousy/small monitor) with dpg-view on Linux. I
+think I had to change some constants in the dpg-view sources to make it
+use the ET4k modes.
+
+VGAlib's sources seem to be designed for easy addition of new Super VGA
+support; each mode is an array of register values and there's a program
+that dumps an array declaration of this kind describing the current
+mode. Haven't tried it though...
+
+(Btw, my version of VGAlib is 1.2.)

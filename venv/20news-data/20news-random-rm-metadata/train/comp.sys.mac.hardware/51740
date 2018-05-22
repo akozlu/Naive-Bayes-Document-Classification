@@ -1,0 +1,14 @@
+
+To boorishly reply to myself, I found I did have the Instrutech information
+already. The specs (to use the term loosely) are as follows:
+
+A/D: 16 bit converter, with 14 bit accuracy to 100 kHz, 12 bit accuracy to
+200 kHz. No specs for S/N, monotonicity, linearity. There are 8 multiplexed
+inputs sharing the single A/D, so that all inputs are not samples at the
+same time, and in the above conversion specs the all-channel sample rate
+must be used. Thus, for two channels, you only have 14 unknown quality bits
+at 50 kHz per channel. This is poorer quality than the national
+Instruments, at the same sample rate.
+
+D/A: 16 bit converter. No specs for S/N, monotonicity, linearity. Each of
+the 4 output channels has its own converter.

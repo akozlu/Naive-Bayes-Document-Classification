@@ -1,0 +1,10 @@
+
+Thanks for docs info. It turns out that if I leave out colormap updates between
+frames and use tvtwm, my tests with 100 400x400x8 frames on an IPX using the
+server-resident pixmap method give an astonishing *50* frames per second! And
+VERY smooth. I think I've found the best solution (thanks to the generous help
+on this group!) However, I may have colormap questions later.....
+
+Derek
+
+-----------------------------------------------------------

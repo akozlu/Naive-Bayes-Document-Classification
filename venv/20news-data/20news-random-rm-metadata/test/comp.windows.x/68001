@@ -1,0 +1,11 @@
+
+   >I'm trying to locate the Type1 rasterizer that IBM donated to The X
+   >consortium. I've found patches to it but not the original source.
+
+   It's on the R5 "contrib" tape.
+
+   -Mike Glendinning, Ingres UK (mikeg@ingres.co.uk).
+
+Yes I found it there. Thanks everyone.
+
+Thomas

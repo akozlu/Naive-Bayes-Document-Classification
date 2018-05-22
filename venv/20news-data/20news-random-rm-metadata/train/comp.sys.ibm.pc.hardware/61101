@@ -1,0 +1,5 @@
+This isn't quite true - depending on the number of local bus slots, and
+whether or not the device is integrated into the mother board, it is
+possible to run local bus at up to 40 and 50 mhz. I've also spoken to a few 
+people who run standard local bus video cards at 50 mhz without trouble
+(and a couple of people who couldn't get a lb card to work at that speed).

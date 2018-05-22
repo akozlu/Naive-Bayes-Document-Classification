@@ -1,0 +1,28 @@
+
+
+
+Ok It is for a game that is 3d and you have listed the characteristics 
+that you are looking for. I think you may have left out a few 
+important parameters. 
+The polygons are all convex. 
+They have less than N sides. (you are drawing meshes walls doors etc.)
+
+I believe that the algorithms you can get that will only draw convex
+polygons can be much more efficient than those that can draw
+concave / self intersecting polygons. 
+This efficiency can largely be attributed to the fact that 
+simple convex polygons only have a left and a right edge on each scan line.
+Complex (figure 8 type polygons) can be a bit trickier.
+
+The less than N sides specification especially if it is a very small 
+number like 3 or 4 allow othe optimisations to be made.
+
+Thus for a high speed game application I think you are looking for
+code that exploits and is hence limited to drawing simple convex
+polygons.  
+
+
+It may have been that they were very general purpose algorithms.
+If you limit yourself to 3 or four sided simple convex polygons
+I think you might be suprised how fast a c algorithm with a 
+asm block move to fill each scan line might actually be.

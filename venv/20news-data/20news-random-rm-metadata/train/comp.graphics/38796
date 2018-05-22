@@ -1,0 +1,11 @@
+
+
+I've tried compiling it on several SPARCstations with gcc 2.22.  After
+fixing up a few bugs (3 missing constant definitions plus a couple of
+other things) I got it to compile & link, but after starting client
+& server I just get a black window; sometimes the client core dumps,
+sometimes the server, sometimes I get a broken pipe, sometimes it
+just sits there doing nothing although I occassionally get the
+cursor to become a cross-hair in dog-fight, but that's it.  I've
+sent word to the author plus what I did to fix it last week, but
+no reply as yet.

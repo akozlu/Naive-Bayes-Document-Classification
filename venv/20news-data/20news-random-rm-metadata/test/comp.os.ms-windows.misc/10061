@@ -1,0 +1,5 @@
+We are researching what support there is on various platforms for applications
+to use multi-byte characters (e.g., Japanese Kanji).  We know that Unix
+and X Windows can contain support for the i18N standard (depending on level
+and platform).  What support for i18N or wide characters exists on the Mac, 
+Windows 3.1 and Windows NT?

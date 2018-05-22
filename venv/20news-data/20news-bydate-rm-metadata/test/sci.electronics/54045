@@ -1,0 +1,12 @@
+
+I am not a battery expert, but from recent reading, a lead acid battery
+will self discharge at a relatively high rate, and if stored in a discharged
+state, will develop a condition I think is called sulfation.  In storage,
+either the electrolyte should be removed and replaced for use (fat chance
+I'd ever do that at home), or the battery should be stored on a trickle
+charge.  I have also (I think) read that the condition may be reversable
+if hooked up to a current limited charging circuit fro a LONG period of time.
+The refernce I remember is to use C/50 (where C is the amp hours) as the
+charging circuit, and leave it hooked up for weeks.  Some of this may
+only apply to Gel type cells, but I suspect the same applies to the liquid
+type.

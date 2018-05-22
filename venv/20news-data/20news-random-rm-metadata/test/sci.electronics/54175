@@ -1,0 +1,27 @@
+
+That's kind of extra work that one cannot expect the store people to do.
+IMHO it would be easier if companies sell their software as cheaply as
+possible AND to sell the customers detail manuals (for the brain-deads)
+, quick reference books, how to do books and videos, paid support hot line
+(1-900 :).  For the registered purchasers, these can be part of their package.
+I have seen many books to teach people how to use DOS, WP and other software.  I
+I suspect either users can't read the manuals or they don't have manuals.
+Either way, there is $$$ to be made.   BTW books are quite a bit more
+expensive to reproduce than a $1 disk.
+
+
+With the popularity of Multitasking and pseudo multitasking systems
+(eg. OS0.5, Windoze, Mack System 7), it is pretty easy to run a debugger
+and figure out the protection schemes by disassembling/tracing/trapping
+the application during run time.  Schemes like compressed software/
+special loaders would be easy pray even to beginner hackers.
+
+Hardware keys (unless well designed and *TOTALLY* transparent) is a
+pain in the b*t.  We having using a piece of software under Windoze
+that uses a hardware key.  The key interfers with the printer stuff
+with other programs and often has to be unplugged for those software
+to work properly.
+
+
+All the hacker has to do is to remove/modify code that communicate with
+the port.

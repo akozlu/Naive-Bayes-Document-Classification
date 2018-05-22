@@ -1,0 +1,5 @@
+Does anyone know exactly how Digital Eclipse does their upgrades?  Someone was
+suggesting to me that some chips may not be able to perform at 33MHz.  Is this
+true, and if so, how does DESI deal with that?
+
+-David

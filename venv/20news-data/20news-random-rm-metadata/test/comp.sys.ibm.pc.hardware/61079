@@ -1,0 +1,7 @@
+
+I recall reading a review article in PC Computing wherein they reported
+a reduction in the loading time for lengthy programs using Stacker 3.0.
+This was not due to the compression algorithm per se, but to the fact
+that fewer fetches were required during the sequential file access. Does
+anyone have any actual performance numbers relating to speeds of Stacker
+and Dblspace?

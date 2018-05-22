@@ -1,0 +1,7 @@
+
+
+Yes, you can use a stream cipher chip to hash data with only slight 
+modification. See:
+
+`A fast cryptographic checksum algorithm based on stream ciphers', X Lai,
+RA Rueppel, J Woolven, Auscrypt 92 pp 8-7 to 8-11.

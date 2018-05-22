@@ -1,0 +1,19 @@
+
+
+
+
+
+
+See if Radio Shack has a National Semiconductor Adjustable Voltage 
+Regulator, (National) part number: LM350T or LM350K.  These devices are 
+rated for an input to output differential of up to 35 Volts @ 3 Amps.
+
+Digi-Key Corp. has these parts, as well as several other useful regulators.
+If you don't have their catalog, their phone number is: 1-800-344-4539.
+
+I can only guess that you may intend to recharge a 7.5 VDC nicad battery 
+with this device, and if I'm right, you may want to look through some of the 
+hobbiest books to get various ideas for battery charging circuits, first.
+
+If you get stuck, e-mail me your FAX number, if you have one, and I'll send 
+you some suggestions or schematics.

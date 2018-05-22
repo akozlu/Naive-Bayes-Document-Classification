@@ -1,0 +1,5 @@
+It is correct that VC++ is NOT considered an upgrade for C7. C7 is
+basically a DOS product, VC++ is a Windows product. As Windows is not
+an upgrade for DOS, it is a separate operating system product line, its
+utilities cannot be upgrades for DOS utilities. However, I have also
+been told that it is NOT an upgrade for QCWIN, which it should be!

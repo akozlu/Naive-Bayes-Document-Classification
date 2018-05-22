@@ -1,0 +1,9 @@
+
+First of all, the chip doesn't do that.  It runs at 16 megabits/second,
+which is far beyond what you need for voice.  It's obviously intended
+for data as well, and on high-speed lines at that.
+
+Second -- what advantage is there to doing the processing in the phone?
+I don't care how fancy that chip is; it's not as fancy as the roomful
+of analyzers at Fort Meade running the program they'll have 5 years from
+now.  They can't update every Clipper chip that's out there.

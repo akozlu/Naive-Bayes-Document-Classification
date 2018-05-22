@@ -1,0 +1,20 @@
+
+There are 3 alternatives:
+1. You can try to write a small C program something like:
+
+   int my_int_var;
+   my_int_var = system("command");
+
+   and display my_int_var value (which is the exit code of the command).
+
+2. Or use 4dos.com instead of command.com (it has built in move command)
+   you can also get any program exist code by using the exec function
+   of 4dos:
+
+   c:\>echo %@exec[command]
+
+   will display the exit code of the command.
+
+3. Get DOS 6, not worth buying if you already have QEMM/PCTools/Norton,
+   and you only need the move utility.
+

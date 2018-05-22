@@ -1,0 +1,21 @@
+
+
+Not quite. 66MHz Pentium - 65 SPECint92, 57 SPECfp92 .
+	   66MHz MC98601 - 50 SPECint92, 80 SPECfp92 .
+
+Note that SPECint is more important for most real world applications.
+
+
+As far as the 486DX2-66 goes - 32 SPECint92, 16 SPECfp92 .
+
+
+
+Intel chips have traditionally been faster than their Motorola "equivalents"
+although the significance of chip speed in real world application performance
+is something that is highly debatable.
+
+
+
+-- 
+Ravikumar Venkateswar
+rvenkate@uiuc.edu

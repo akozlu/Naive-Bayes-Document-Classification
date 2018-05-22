@@ -1,0 +1,9 @@
+
+Oddly enough, you don't, at least according to the wiring FAQ that
+is regularly posted on misc.consumers.house.
+
+A GFCI senses discrepancies between the live and neutral wire currents,
+and cuts them both off if a discrepancy is found.  No ground connection
+is needed for it to function.
+
+

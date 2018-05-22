@@ -1,0 +1,15 @@
+
+
+GEC/Plessey specify a series of FM demodulators (SL1454 etc) for use in
+satellite TV receivers : 150 or 600MHz in, 10MHz of baseband video out.
+I think there's also a related data slicer / clock recovery circuit intended
+for use in DMAC decoders, though that isn't used in the most common 
+implementation - it may not be in volume production.
+
+The most easily available components probably vary with local satellite
+standards, and I think the european systems vary rather widely from those
+in the US - so it may be worth investigating locally-available receiver
+designs to find out what's in common use.
+
+-adrian
+

@@ -1,0 +1,13 @@
+
+I'm having exactly the same problem.  Again, it's fine when I switch to 16
+colors or a smaller monitor.  My configuration is:
+
+Model: Centris 610 with 4 MB/80 HD, 512 VRAM, no cards
+Monitor: MAG MX15F with 16" monitor adaptor (for resolution of 832*624)
+
+I just discovered the problem a little while ago after plugging in my
+new MAG monitor.  It seems to appear either when scrolling through a
+window or when using Alpha or Word and I enter <return>.
+
+My guess is bad VRAMs as well.  I really hope it isn't a design flaw.  Is
+anyone at Apple listening?

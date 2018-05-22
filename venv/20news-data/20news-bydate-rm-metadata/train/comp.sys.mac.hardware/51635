@@ -1,0 +1,11 @@
+
+The audio will simply select the CD audio when the microphone is removed. 
+I don't believe the button un-dims, since there's nothing to select.  I
+haven't tracked down a Centris to check this on though.
+
+
+Yup, I made the same mistake several months ago when this issue came up
+before :-)
+
+
+noah

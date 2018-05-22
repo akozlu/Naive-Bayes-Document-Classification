@@ -1,0 +1,5 @@
+
+
+DEC does this only for their PX and PXG servers, known as 3D accelerators.
+This boards have local offscreen memory which is limited and slow to
+handle, thus they set this limit.

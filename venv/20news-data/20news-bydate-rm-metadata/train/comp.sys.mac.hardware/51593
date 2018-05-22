@@ -1,0 +1,16 @@
+
+
+The problem is that the pins in the ADB connector 
+are close to each other, and if you happen to bend the
+cable a little while inserting it, you short the ADB
+port. If you take it to an Apple Repair Centre, that
+means a new motherboard (though a component replace IS
+physically possible)
+
+Same goes for serial ports (LocalTalk as well)
+
+Cheers,
+
+					/ h+
+-- 
+ -- Jon W{tte, h+@nada.kth.se, Mac Hacker Deluxe --

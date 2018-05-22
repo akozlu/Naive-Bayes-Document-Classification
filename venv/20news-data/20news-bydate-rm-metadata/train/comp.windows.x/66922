@@ -1,0 +1,5 @@
+
+"return_place" is probably incorrect.  It should be a pointer, not an
+integer.  XGetWindowProperty() allocates memory, copies the data there,
+and returns a pointer to the memory.  You should free the memory when
+you're done.

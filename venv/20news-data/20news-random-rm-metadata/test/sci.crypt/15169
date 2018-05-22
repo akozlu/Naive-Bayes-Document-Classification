@@ -1,0 +1,13 @@
+
+For a good discussion of cryptographically "good" random number
+generators, check out the draft-ietf-security-randomness-00.txt
+Internet Draft, available at your local friendly internet drafts
+repository. 
+
+A reasonably source of randomness is the output of a cryptographic
+hash function (e.g., MD5), when fed with a large amount of
+more-or-less random data. For example, running MD5 on /dev/mem is a
+slow, but random enough, source of random bits; there are bound to be
+128 bits of entropy in the tens (or hundreds) of megabytes of data in
+a modern workstation's memory, as a fair amount of them are system
+timers, i/o buffers, etc.

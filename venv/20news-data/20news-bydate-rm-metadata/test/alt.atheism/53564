@@ -1,0 +1,235 @@
+Sorry about the delay in responding, due to conference paper deadline panic.
+
+
+[Alarming amounts of agreement deleted :-)]
+
+
+That ("complicated") isn't in fact where P(H) > P(HG) comes from; it's more
+the other way around. It's from
+
+  P(H)  =  P(HG) +  P(HG')  where G' is the complement of G
+
+and by axiom, P(anything) >= 0, so P(HG') >= 0, so P(H) >= P(HG).
+
+In a sense, HG is necessarily more "complicated" than H for any H and G,
+so I may be splitting hairs, but what I'm trying to say is that irrespective
+of subjective impressions of how complicated something is, P(H) >= P(HG)
+holds, with equality if and only if P(HG') = 0.
+
+
+Well, "P(x | A) = P(x | B)" means that x is as likely to be observed if A is
+operative as it is if B is operative. This implies that observing x does not
+provide any useful information which might allow us to discriminate between
+the respective possibilities that A and B are operative; the difference
+reduces to the difference between the (unknown and unhelpful) prior
+probabilities P(A) and P(B):
+
+  P(x | A) = P(x | B)  ==>
+
+    P(A | x)  =  k P(A),   and   P(B | x)  =  k P(B)
+
+where k  =  P(x | A) / P(x)  =  P(x | B) / P(x).
+
+So A and B are "equally consistent with the data" in that observing x
+doesn't give any pointers as to which of A or B is operative.
+
+In the particular case where A = H and B = HG, however, we know that their
+prior probabilities are ordered by P(H) >= P(HG), although we don't know
+the actual values, and it's this which allows us to deploy the Razor to
+throw out any such HG.
+
+
+That's certainly true, but the particular point here was whether or
+not a `divine component' actually underlies the prevalence of religion
+in addition to the memetic transmission component, which even the religious
+implicitly acknowledge to be operative when they talk of `spreading the word'.
+
+Now it seems to me, as I've said, that the observed variance in religious
+belief is well accounted for by the memetic transmission model, but rather
+*less* well if one proposes a `divine component' in addition, since I would
+expect the latter to conspire *against* wide variance and even mutual
+exclusion among beliefs. Thus my *personal* feeling is that P(x | HG) isn't
+even equal to P(x | H) in this case, but is smaller (H is memetic transmission,
+G is `divine component', x is the variance among beliefs). But I happily
+acknowledge that this is a subjective impression.
+
+
+Not that I'm a statistician as such either, but:
+
+The idea is that both theism and atheism are compatible with all of
+the (read `my') observations to date. However, theism (of the type with
+which I am concerned) *also* suggests that, for instance, prayer may be
+answered, people may be miraculously healed (both are in principle amenable
+to statistical verification) and that god/s may generally intervene in
+measurable ways.
+
+This means that these regions of the space of possible observations, 
+which I loosely termed "appearances of god/s", have some nonzero
+probability under the theistic hypothesis and zero under the atheistic.
+
+Since there is only so much probability available for each hypothesis to
+scatter around over the observation space, the probability which theism
+expends on making "appearances of god/s" possible must come from somewhere
+else (i.e. other possible observations).
+
+All else being equal, this means that an observation which *isn't* an
+"appearance of god/s" must have a slightly higher probability under
+atheism than under theism. The Bayesian stuff implies that such
+observations must cause my running estimate for the probability of
+the atheistic hypothesis to increase, with a corresponding decrease
+in my running estimate for the probability of the theistic hypothesis.
+
+Sorry if that's still a bit jargonesque, but it's rather difficult to
+put it any other way, since it does depend intimately on the properties
+of conditional probability densities, and particularly that the total
+area under them is always unity.
+
+An analogy may (or may not :-) be helpful. Say that hypothesis A is "the
+coin is fair", and that B is "the coin is unfair (two-headed)". (I've
+used A and B to avoid confusion with H[heads] and T[tails].)
+
+Then
+
+  P(H | A) = 0.5  }  total 1
+  P(T | A) = 0.5  }
+
+  P(H | B) = 1    }  total 1
+  P(T | B) = 0    }
+
+The observations are a string of heads, with no tails. This is compatible
+with both a fair coin (A) and a two-headed coin (B). However, the probability
+expended by A on making possible the appearance of tails (even though they
+don't actually appear) must come from somewhere else, since the total must
+be unity, and it comes in this case from the probability of the appearance
+of heads.
+
+Say our running estimates at time n-1 are e[n-1](A) and e[n-1](B). The
+observation x[n] at time n is another head, x[n] = H. The estimates are
+modified according to
+
+                            P(H | A)
+  e[n](A)   =   e[n-1](A) * --------   =   e[n-1](A) * m
+                              P(H)
+
+and
+
+                            P(H | B)
+  e[n](B)   =   e[n-1](B) * --------   =   e[n-1](B) * 2m
+                              P(H)
+
+Now we don't know P(H), the *actual* prior probability of a head, but
+the multiplier for e(A) is half that for e(B). This is true every time
+the coin is tossed and a head is observed.
+
+Thus whatever the initial values of the estimates, after n heads, we have
+
+                 n
+  e[n](A)   =   m  e[0](A)
+
+and
+                    n
+  e[n](B)   =   (2m)  e[0](B),
+
+and since e[k](A) + e[k](B) = 1 at any time k, you can show that 0.5 < m < 1
+and thus 1 < 2m < 2. Hence the estimate for the fair-coin hypothesis A must
+decrease at each trial and that for the two-headed coin hypothesis B must
+increase, even though both hypotheses are compatible with a string of heads.
+
+The loose analogy is between "unfair coin" and atheism, and between "fair
+coin" and theism, with observations consistent with both. A tail, which
+would falsify "unfair coin", is analogous to an "appearance of god/s",
+which would falsify atheism. I am *not* claiming that the analogy extends
+to the numerical values of the various probabilities, just that the principle
+is the same.
+
+
+
+Quite so, but this type of theism is what I might call "the G in the HG",
+in terms of our Ockham's Razor discussion, and I'd bin it on those grounds.
+
+
+The hypotheses don't have to be falsifiable, and indeed in my `model',
+the theism isn't falsifiable.
+
+
+
+You don't have to. We don't need, in the above analogy, to know *any*
+prior probabilities to deduce that the updating multiplier for the
+fair-coin hypothesis is less than unity, and that the corresponding
+multiplier for the two-headed coin hypothesis is greater than unity.
+You don't need to know the initial values of the running estimates
+either. It's clear that after a large number of observations, P(fair-coin)
+approaches zero and P(two-headed-coin) approaches unity.
+
+All you need to know is whether P(x | Ha) is larger than P(x | Ht) for
+observed x, and this follows from the assumptions that there are certain
+events rendered *possible* (not necessary) under Ht which are not possible
+under Ha, and all else is equal.
+
+
+Any observations you like; it really doesn't matter, nor affect the
+reasoning, provided that there are some possible observations which
+would count as "appearances of god/s". Examples of this might be
+a demonstration of the efficacy of prayer, or of the veracity of
+revelation.
+
+
+
+OK, we'll downgrade "*does* interact" to "*may* interact", which would
+actually be better since "does interact" implies a falsifiability which
+we both agree is misplaced.
+
+
+I'll explain, but bear in mind that this isn't central; all I require of
+a theism is that it *not* make the prediction "Appearances of god/s will
+never happen", as does atheism. (Before somebody points out that quantum
+mechanics doesn't make this prediction either, the difference is that
+QM and atheism do not form a partition.)
+
+Predictions include such statements as "Prayer is efficacious" (implying
+"If you do the stats, you will find that Prayer is efficacious"), or "Prayer
+is *not* efficacious", or "Verily I say unto you, This generation shall not
+pass, till all these things be fulfilled." I don't think we have any problems
+of misunderstanding here.
+
+
+
+That's fine; I don't claim that theism is false, merely that the [finite
+number of] observations available to me so far suggest that it is, and
+that as I continue to observe, the suggestion looks better and better.
+
+
+
+
+I think you are; an "appearance of god/s" is sufficient to falsify
+atheism, whereas in general the corresponding theism is unfalsifiable.
+
+
+No: by way of a counterexample, let X = "the coin is fair", or more
+accurately (so that not(X) makes sense) "the two sides of the coin are
+different". This is unfalsifiable by tossing the coin; even a string of
+heads is consistent with a fair coin, and you have to go to an infinite
+number of tosses to falsify X in the limit. Its converse is falsifiable,
+and is falsified when at least one head and at least one tail have appeared.
+
+
+
+
+Oops. Sorry. Mea culpa.
+
+
+We agree here.
+
+
+"The Rapture will not happen on October 28 1992." Said Rapture would have
+falsified atheism to my satisfaction had it happened, although its failure
+to happen does not, of course, falsify any theisms other than those which
+specifically predicted it.
+
+"No phenomenon which requires the existence of one or more gods for its
+explanation will ever be observed." That about sums the whole thing up.
+
+
+Cheers
+
+Simon

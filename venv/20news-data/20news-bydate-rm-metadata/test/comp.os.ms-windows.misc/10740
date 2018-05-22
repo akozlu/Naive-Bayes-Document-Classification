@@ -1,0 +1,9 @@
+--- other stuff delete...
+If you happen to be running the new msdos 6, you could use multi-
+setup to provide a menu with a menu choice for each person using
+the machine ... power up, select your name,  the menu will use your
+personal sections of config.sys and autoexec.bat thus setting up the
+path, then running your windows copy!  
+Ron
+------------ Temp at Intel, views are my own -----------------------
+

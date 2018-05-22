@@ -1,0 +1,13 @@
+
+It just occurred to me why the algorithm is secret.  If it were
+published, one could then build physically identical clone versions
+of the chip that would interoperate with official Clipper chips.  But
+the cloner wouldn't provide the keys to the escrow houses.  Hmmn.
+
+Or is there a technical hack that I've missed?  E.g. how about if the
+chips were made unprogrammed but serialized, and then shipped to the
+two escrow houses who programmed in their halves of the keys, but
+in a way that requires that secret keys known only to the escrow houses
+be installed as well, without which clone versions wouldn't
+interoperate?  This is getting awfully complicated, but that's
+crypto for you.

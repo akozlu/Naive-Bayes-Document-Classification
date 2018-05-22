@@ -1,0 +1,9 @@
+
+
+
+What is happening is this:
+1) You turn the TV on.
+2) The horizontal output begins normal operation.  This powers up the
+   high voltage and most of the rest of the circuitry.
+3) A problem is sensed and the horizontal oscillator shuts down.
+4) After it powers down the cycle repeats.

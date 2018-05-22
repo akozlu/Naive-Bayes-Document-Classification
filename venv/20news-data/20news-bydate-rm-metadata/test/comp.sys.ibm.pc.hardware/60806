@@ -1,0 +1,5 @@
+
+Interesting.  Would you care to explain to me then, how my SoundBlaster
+Pro card and my printer card are sharing IRQ 7 successfully?  I assure
+you that they are both set to IRQ 7 and that I have no problem.  My
+computer is a DTK 286-12 IBM clone.

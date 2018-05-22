@@ -1,0 +1,24 @@
+
+Given that certain archival methods have certain key(cleartext) in a file I
+used a programatic dictionary attack.  I used the DES library provided with the
+system that I was using.  What is to keep anyone from being lucky with a key?
+ 
+
+My previous employment has nothing to do with my current address, other than
+the fact that the fastest machine in the office was an IBM RISC System/6000 
+model 530, with 16 meg of memory.(not a super-computer)
+ 
+
+I really think this more of a statement of the limitations placed on the key
+by the interface(ascii char/no padding), and most programs don't bother to
+clear off the archival front and backend ID's.
+
+
+Yes any moderatly bright programmer with a little idle machine time, can
+crack most of todays real world encryption.  I sure that you or I could
+select a key, and prepare the data inorder that the decryption will become a 
+worst case.  but that is not the real world, and I'm sure that is how any 
+agency would start an attack on a message, as you pointed out, there are some 
+very good recognition algorithms availible, I'm just not familiar with them.
+
+A.G.

@@ -1,0 +1,15 @@
+
+Judging by your .sig you are trying to make some kind of game cartridge.
+Information of how to build an EEPROM cartidge for the vectrex is available
+via anonymous ftp at 'csus.edu'.
+
+Since you've chosen the 27C512 you are probably trying to make a 'multicart'.
+To do this simply:
+1. Load the game images into the EEPROM at $2000, $4000, etc. (Your EEPROM
+burner software may allow this or you will have to assemble the images into
+one file yourself with suitable gaps.)
+2. Wire up the cartridge with the lower address bits going to the game
+console, and the high bits going to switches to choose between games.
+
+To directly answer your question above, the pin that 'kicks up the address'
+is simply another address line.

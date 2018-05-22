@@ -1,0 +1,20 @@
+
+
+
+  I had the same problem.  At first, I thought it was the video driver and 
+  made sure I had the most current drivers, because the problem was most
+  evident at SVGA resolution modes.  It didn't help and after a bit of
+  experimentation, determined that the problem existed in standard VGA
+  resolution mode. It was just much less noticeable.
+  
+  My mouse was an older MS serial version I bought second hand in 1990. It
+  worked just fine in DOS and DOS based graphic applications.  On the 
+  guess that the problem was with the resolution of the mouse, I borrowed
+  a new mouse (a MS bus model) and tried it.  That solved the problem.
+  So, if your mouse is old, you may want to try replacing it for a newer
+  one.
+  
+
+
+-- 
+signoff

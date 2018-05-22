@@ -1,0 +1,9 @@
+ -----------------------------------------------------------
+
+
+
+Animation is most frequently done by copying the the client resident XImages into 
+server resident Pixmap(s) using XPutImage.  Once this is done, the original XImages
+can be deleted and the animation loop can be performed using XCopyArea from the Pixmaps to the windows drawable.
+
+Hope this is helpfull.

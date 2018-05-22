@@ -1,0 +1,6 @@
+
+  What you need is a hardware router such as EtherRoute/TCP made by
+Compatable Systems ($1400).  This will allow you to connect your Localtalk
+network (4 Macs) to your Ethernet network (NeXT and Ethernet Mac).  It will
+route TCP/IP protocol between the two networks.  Software routers are also
+available for less money, but I'm not sure if they work with TCP/IP.

@@ -1,0 +1,16 @@
+
+I would suggest skipping olwm and getting olvwm instead. This version of the
+olwm window manager implements a virtual desktop that I find really handy even
+on large monitors. 
+
+This version is also available at export.lcs.mit.edu:/contrib/olvwm3.tar.Z.
+The README file also suggest getting the files in /contrib/xview3.
+
+In my case, I built the X Server first, Xview second, then olvwm. All of these
+were installed into /usr/X5. Once I verified the server worked correctly,
+I happily issued "rm -rf /usr/openwin/*".
+
+Using gcc 2.3.3 to build all of the above resulted in a windowing system that 
+is, for all intents and purposes, identical to OpenWindows 3.0 and that is     
+incredibly faster. There is a bit of tweaking you will have to do if you want
+things to work _exactly_ like OpenWindows, but not much. 

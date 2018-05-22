@@ -1,0 +1,18 @@
+
+Khufu and Khafre are both patented (#5003597).  Biham and Shamir showed
+that differential cryptanalysis can break 16-round Khafre with a chosen-
+plaintext attack using 1500 different encryptions.  Khafre with 24 rounds
+can be broken with the same attack using 2^53 different encryptions.
+(There are probably more efficient differential cryptanalytic attacks, if
+someone wants to take the time to look.)
+
+Khufu has key-dependent S-boxes, and is immune to differential cryptanalysis.
+Source code for this algorithm (and Khafre) are in the patent.
+
+Snefru is a public-domain one-way hash function.  The version of Snefru
+that produces a 128-bit hash is vulnerable to differential cryptanalysis
+(vulnerable means that the attack is more efficient that brute force) for
+four passes or less.  Given that, SHA and MD5 are much more efficient.
+
+Oh yes, anyone interested in licensing the patent should contact Dave Petre,
+Director of Patent Licencing for Xerox, (203) 986-3231.

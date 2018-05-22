@@ -1,0 +1,9 @@
+
+
+..
+
+	I think the -traditional option to gcc would help.
+	personally I used -traditional -O2 -funroll-loops to compile it
+	on SUN4.1.1.
+
+	hope this helps...

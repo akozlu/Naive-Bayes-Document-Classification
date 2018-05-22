@@ -1,0 +1,20 @@
+
+
+
+
+
+
+Well, I dived in feet first and reverse engineered the .PRJ file as much
+as I needed to - extracted the mapping icon information - which is
+when it dawned on me that 3D Studio is useless for my needs. I need
+a mapping icon per applied texture.  I want to use a special purpose
+graphics computer for rendering the 3DS models and it requires a texture
+rule/plane to be specified in 3Space, i.e. position/orientation of the
+mapping rule.  Since only one mapping icon is used in 3DS to apply
+textures to ALL objects/faces, it renders (no pun intended) 3DS totally
+unsuitable for my needs.
+
+Anyone got a contact for Alias Upfront or any other good modeller for a
+PC?  I must be able to specify texture rules (one per texture) and this
+must be saved in a file which I can read.  I haven't found any info on Alias
+in the copy of the faq that I have.

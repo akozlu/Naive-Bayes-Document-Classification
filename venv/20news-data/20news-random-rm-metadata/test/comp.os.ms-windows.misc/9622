@@ -1,0 +1,28 @@
+
+I hope this will clear it up :
+
+(Taken from one of my lecture notes)
+
+ " ...  The alternative approach (to CISC),
+ which has been adopted by many in
+ recent years, has come to be known as "RISC": the Reduced
+ Instruction Set Computer.  This can be characterised simply as
+ "Simpler is Faster"; by simplifying the design (e.g.  by reducing
+ the variety of instructions & addressing modes), the hardware can be
+ designed to run faster.  Even at the cost of needing more
+ instructions, the same task can be done more quickly by the simpler,
+ faster design.
+
+ A typical RISC processor will:
+
+    o provide a large number of registers (e.g.  32);
+
+    o perform all data operations on registers;
+
+    o provide few addressing modes (e.g. immediate or 'register + offset');
+
+    o only allow load & store operations to access memory;
+
+    o only use a few instruction formats;
+
+    o only support a few data types (e.g. integer, unsigned, floating).

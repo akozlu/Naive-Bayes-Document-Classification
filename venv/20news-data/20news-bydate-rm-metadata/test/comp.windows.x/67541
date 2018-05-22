@@ -1,0 +1,27 @@
+
+
+I have done this before, but I'm not sure I used the best approach (although
+I tried several methods...).
+
+You have to run up the window heirarchy (using XQueryTree()) until you get
+to the root window.  Now, this is not so simple because some window managers
+slap a window over the root window that is the same size as the root window,
+so be sure to take that into account for further calculations.
+
+Calculate the position and width/height offsets for each window using
+XGetGeometry().  BE SURE TO TAKE THE BORDER_WIDTH INTO CONSIDERATION.
+Remember a windows border_width IS ON THE OUTSIDE of a window, so the
+windows x,y,width,height must be adjusted accordingly.
+
+All of this should give you pretty good numbers for how much space the
+window-manager is using.
+
+Now, to place the new window, you have to use the same numbers to calculate 
+where you want to place it, because the window-manager will re-parent it on
+the OUTSIDE of where you place your window (if I remember correctly).
+
+DISCLAIMER: All of this is from memory, and I no longer have the code.  But
+I did get it working under several window managers correctly.  Feel free to
+call or e-mail for further info.
+
+              -McGary

@@ -1,0 +1,14 @@
+
+One usual suggestion is to put everything into your every-time shell rc-file
+instead of your login-only one, which is fair enough if you only have a few
+users who know what they're doing.  If you have several hundred users who do
+what the books tell them, though, then it's confusing at best.  Another is to
+have your xterms run login shells, but that still leaves the window manager
+and the things that get started from its menus with the wrong environment.
+
+Our alternative is that instead of having xdm run the client startup scripts,
+it runs the user's favourite shell as a login shell, and has *it* then run the
+rest of the startup scripts.  That way the user's usual environment gets set
+up as normal and inherited by everything.  You can find an almost-current copy
+of our scripts and things in contrib/edinburgh-environment.tar.Z, available
+from the usual places. 

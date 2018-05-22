@@ -1,0 +1,13 @@
+Yes, it's easy to use. It's just like an ordinary controller.
+You don't have to change the bios config.
+
+It's transparent. It works with any drive. If you change the
+drive you only need to change the bios config. as usual.
+
+Yes, no problem.
+
+That depends. You will get a little better performance
+if you use smartdrive and buffers in addition. That's
+because access to the card through the ISA bus is slower
+than access to system RAM. I don't use smartdrive myself,
+but I have a few buffers.

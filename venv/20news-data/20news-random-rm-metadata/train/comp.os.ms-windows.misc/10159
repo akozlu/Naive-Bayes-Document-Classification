@@ -1,0 +1,7 @@
+Has anyone else observed this behaviour and if so, what have you
+done to cure it?
+
+One workstation in a WfW network goes deaf to any form of communication from
+other workstations until it goes out on the network itself. From then on other
+workstatons can interact with it until some time later when it goes deaf 
+again. 

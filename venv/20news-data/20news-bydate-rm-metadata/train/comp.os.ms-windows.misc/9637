@@ -1,0 +1,22 @@
+
+There are some things you might be interested to know about today's RISC
+processors.  It is true that there are fewer instructions, but what is 
+not commonly known is that this causes the size of your executables to
+swell, so that in some cases performance is similar for larger applications.
+As a compromise, many RISC processors today are actually a cross between
+a Reduced Instructions Set, and a Complex one.
+
+This is not to say that there is no future in CISC processors, Intel has 
+certainly proved that.
+
+What I want to know, is what does this have to do with this group?
+
+-dave
+
+
+
+Subject: Re: WP-PCF, Linux, RISC?
+Newsgroups: comp.unix.dos-under-unix,comp.sys.ibm.pc.misc,comp.sys.ibm.pc.net,comp.os.ms-windows.apps,comp.os.ms-windows.misc,alt.uu.comp.os.linux.questions,comp.apps.spreadsheets,comp.misc,alt.os.linux,comp.os.linux,man.linux
+References: <1qu8ud$2hd@sunb.ocs.mq.edu.au>
+
+From article <1qu8ud$2hd@sunb.ocs.mq.edu.au>, by eugene@mpce.mq.edu.au:

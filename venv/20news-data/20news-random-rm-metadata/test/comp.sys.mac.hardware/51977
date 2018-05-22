@@ -1,0 +1,4 @@
+
+I think I found what your looking for on ftp.apple.com in the
+/dts/mac/sys.soft/video directory and is called "Virtual Monitor Switch
+1.0".  Hope this helps.

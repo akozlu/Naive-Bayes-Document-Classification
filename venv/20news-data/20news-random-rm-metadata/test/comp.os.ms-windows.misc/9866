@@ -1,0 +1,6 @@
+...
+
+Open up the .PIF file with the PIF Editor, click on the "Advanced" button,
+and then reserve the PrtSc key for the application.  Any keys that you
+select in this section will be passed along to the application rather than
+being processed by Windows.

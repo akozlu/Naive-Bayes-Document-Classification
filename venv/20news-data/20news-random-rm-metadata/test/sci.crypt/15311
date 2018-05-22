@@ -1,0 +1,10 @@
+
+This way to detect pre-encryption may be defeated ; one can do  
+transformation of the spectrum of encrypted signal just by adding some 
+pre-arranged (in the beginning of communication) function.
+I think so. Say, you can do FFT of your encrypted signal.
+Just thinking ... 
+
+-- 
+--------------------------------------------------------------------------------
+      For PGP2.1 public key finger mkagalen@lynx.dac.northeastern.edu

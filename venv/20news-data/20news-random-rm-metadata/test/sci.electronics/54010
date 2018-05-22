@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+
+
+One of the most popular methods of course is the password check where they ask
+you for a word from page x, line y, and word z, but this is pitifully simple to
+remove unless you throw some checksums into the main part of your program, and
+some self-rewriting code to confuse some people.  Also, make sure that your
+program can not be run out a debugger.
+
+Another method of course is to not even make bad sectors on the original disk,
+just write a certain key to a certain unallocated sector.   To help you here,
+you also must do the code protection schemes mentioned in the first paragraph.
+Make sure you also fill the rest of the unallocated parts of the disk with
+garbage as well, or they (wanna be crackers) can just look for the junk in
+some random sector.
+
+Like you mentioned, there are the laser holed disks and hardware keys, but they
+are both expensive and a pain in the butt for the end-user, which you is the
+opposite of what you want.
+
+Another configuration that can be used is to save the configuration of the
+machine that it is being installed to in the most undecipherable format you can
+think of.  If the program does not find that this is the same system, it
+requests being installed by the original disk again.  The original disk should
+be encrypted, compacted, have many sectors that should be checked, and anything
+else you can think of to make sure that the original cannot be copied.  Once
+again, you MUST put code-encryption, self-rewriting code, and multiple CRC
+checks in the program to make sure that it does not get changed.  Among other
+things, this also protects your program from virii.  If the program detects a
+change in its code, tell the user that a virus has been detected in the
+program.  Tell them the program is "VIRUS SECURE", and remember, you have
+helped the world kill some pirating and kill some viruses.  Feel good.
+
+I hope that I have helped.  Have fun.  Knock some cracking out (well, you can't
+do it, everything that can be written can be cracked, but you'll piss'em off in
+the process!). Goodbye.
+
+What is the program that will be sold?
+--
+-------------------------------------------------------------------------------
+George Gruschow                                Death do you gronk.
+ag625@yfn.ysu.edu                              ggruscho@nyx.cs.du.edu

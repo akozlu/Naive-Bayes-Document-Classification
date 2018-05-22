@@ -1,0 +1,6 @@
+It probably won't work with any other LC.  The ones I have for the LC II
+are Rev. D.  No, it won't work in the IIsi's PDS slot since it's a 68030
+PDS, while the LC has the 68020 PDS.  The IIsi and SE/30 share the same
+kind of card.
+
+That's the 10BaseT ethernet connector.

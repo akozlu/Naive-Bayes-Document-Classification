@@ -1,0 +1,9 @@
+
+  :
+  :
+
+
+
+   Try change the GXxor to GXequiv.  I have to do this for programs that
+   are to run on NCD terminals (on Sun terminals I have to change it
+   back to GXxor)...
